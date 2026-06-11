@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>WC ANG — Leaderboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title">WC ANG</h1>
+      <p class="site-tagline">World Cup 2026 Prediction League</p>
+      <p class="last-updated" id="last-updated" aria-live="polite">Loading…</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="board" aria-labelledby="board-title">
+      <h2 id="board-title" class="board-title">Standings</h2>
+
+      <div class="board-status" id="board-status" role="status">Loading leaderboard…</div>
+
+      <div class="table-wrap" id="table-wrap" hidden>
+        <table class="board-table">
+          <thead>
+            <tr>
+              <th scope="col" class="col-rank">#</th>
+              <th scope="col" class="col-name">Manager</th>
+              <th scope="col" class="col-total">Total</th>
+              <th scope="col" class="col-sub">Group</th>
+              <th scope="col" class="col-sub">Knockout</th>
+              <th scope="col" class="col-sub">Futures</th>
+              <th scope="col" class="col-sub">Teams</th>
+              <th scope="col" class="col-sub">Players</th>
+            </tr>
+          </thead>
+          <tbody id="board-body"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Source: <span id="source-name">Google Sheets · Landing_CSV</span></p>
+    </div>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

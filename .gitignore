@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Editor crud
+.vscode/
+.idea/
+*.swp
+
+# Excel temp files
+~$*.xlsx
+~$*.docx
+
+# Python
+__pycache__/
+*.pyc
