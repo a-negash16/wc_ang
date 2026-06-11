@@ -3,51 +3,33 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>WC ANG — Leaderboard</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Private league</title>
+  <style>
+    html, body { margin: 0; padding: 0; height: 100%; }
+    body {
+      display: grid;
+      place-items: center;
+      background: #fdfcf6;
+      color: #2c3447;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      text-align: center;
+      padding: 2rem;
+    }
+    h1 {
+      font-weight: 700;
+      letter-spacing: 0.03em;
+      font-size: 1.4rem;
+      margin: 0 0 0.5rem;
+      color: #0b1d3a;
+    }
+    p { margin: 0; color: #6b7280; font-size: 0.95rem; }
+  </style>
 </head>
 <body>
-  <header class="site-header">
-    <div class="container">
-      <h1 class="site-title">WC ANG</h1>
-      <p class="site-tagline">World Cup 2026 Prediction League</p>
-      <p class="last-updated" id="last-updated" aria-live="polite">Loading…</p>
-    </div>
-  </header>
-
-  <main class="container">
-    <section class="board" aria-labelledby="board-title">
-      <h2 id="board-title" class="board-title">Standings</h2>
-
-      <div class="board-status" id="board-status" role="status">Loading leaderboard…</div>
-
-      <div class="table-wrap" id="table-wrap" hidden>
-        <table class="board-table">
-          <thead>
-            <tr>
-              <th scope="col" class="col-rank">#</th>
-              <th scope="col" class="col-name">Manager</th>
-              <th scope="col" class="col-total">Total</th>
-              <th scope="col" class="col-sub">Group</th>
-              <th scope="col" class="col-sub">Knockout</th>
-              <th scope="col" class="col-sub">Futures</th>
-              <th scope="col" class="col-sub">Teams</th>
-              <th scope="col" class="col-sub">Players</th>
-            </tr>
-          </thead>
-          <tbody id="board-body"></tbody>
-        </table>
-      </div>
-    </section>
+  <main>
+    <h1>This page is private.</h1>
+    <p>If you're a league member, use the direct link your commissioner shared.</p>
   </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <p>Source: <span id="source-name">Google Sheets · Landing_CSV</span></p>
-    </div>
-  </footer>
-
-  <script src="config.js"></script>
-  <script src="app.js"></script>
 </body>
 </html>

@@ -13,6 +13,14 @@
 # Scoring spreadsheet stays local + Google Drive only, never published in repo
 *.xlsx
 
+# Internal docs — kept on commissioner machine only
+WC_ANG_TRD.md
+WC_ANG_TRD.docx
+COMMISSIONER.md
+
+# Local helper file for manually setting up the Recent_Results_CSV tab
+recent_results_paste.tsv
+
 # Python
 __pycache__/
 *.pyc
