@@ -1,0 +1,2620 @@
+{
+ "matches": [
+  {
+   "id": "400021443",
+   "n": 1,
+   "stage": "group",
+   "group": "A",
+   "date": "2026-06-11T19:00:00Z",
+   "venueId": "400222084",
+   "status": "finished",
+   "time": "98'",
+   "home": {
+    "code": "MEX",
+    "score": 2,
+    "pen": null
+   },
+   "away": {
+    "code": "RSA",
+    "score": 0,
+    "pen": null
+   },
+   "phA": "A1",
+   "phB": "A2",
+   "winner": "MEX",
+   "attendance": "80824",
+   "officials": [
+    {
+     "id": "361561",
+     "country": "BRA",
+     "role": "referee",
+     "name": {
+      "en": "Wilton SAMPAIO",
+      "fr": "Wilton SAMPAIO",
+      "zh": "Wilton SAMPAIO",
+      "ar": "Wilton SAMPAIO",
+      "es": "Wilton SAMPAIO",
+      "de": "Wilton SAMPAIO",
+      "pt": "Wilton SAMPAIO",
+      "it": "Wilton SAMPAIO",
+      "ja": "Wilton SAMPAIO",
+      "ko": "Wilton SAMPAIO",
+      "id": "Wilton SAMPAIO",
+      "ru": "Wilton SAMPAIO"
+     },
+     "typeName": {
+      "en": "Referee",
+      "fr": "Arbitre",
+      "zh": "裁判员",
+      "ar": "الحَكم",
+      "es": "Árbitro/a",
+      "de": "Schiedsrichter",
+      "pt": "Árbitro",
+      "it": "Arbitro",
+      "ja": "主審",
+      "ko": "주심",
+      "id": "Wasit",
+      "ru": "Главный судья"
+     }
+    }
+   ]
+  },
+  {
+   "id": "400021441",
+   "n": 2,
+   "stage": "group",
+   "group": "A",
+   "date": "2026-06-12T02:00:00Z",
+   "venueId": "400252150",
+   "status": "finished",
+   "time": "97'",
+   "home": {
+    "code": "KOR",
+    "score": 2,
+    "pen": null
+   },
+   "away": {
+    "code": "CZE",
+    "score": 1,
+    "pen": null
+   },
+   "phA": "A3",
+   "phB": "A4",
+   "winner": "KOR",
+   "attendance": "44985",
+   "officials": [
+    {
+     "id": "392013",
+     "country": "EGY",
+     "role": "referee",
+     "name": {
+      "en": "Amin MOHAMED",
+      "fr": "Amin MOHAMED",
+      "zh": "Amin MOHAMED",
+      "ar": "Amin MOHAMED",
+      "es": "Amin MOHAMED",
+      "de": "Amin MOHAMED",
+      "pt": "Amin MOHAMED",
+      "it": "Amin MOHAMED",
+      "ja": "Amin MOHAMED",
+      "ko": "Amin MOHAMED",
+      "id": "Amin MOHAMED",
+      "ru": "Amin MOHAMED"
+     },
+     "typeName": {
+      "en": "Referee",
+      "fr": "Arbitre",
+      "zh": "裁判员",
+      "ar": "الحَكم",
+      "es": "Árbitro/a",
+      "de": "Schiedsrichter",
+      "pt": "Árbitro",
+      "it": "Arbitro",
+      "ja": "主審",
+      "ko": "주심",
+      "id": "Wasit",
+      "ru": "Главный судья"
+     }
+    }
+   ]
+  },
+  {
+   "id": "400021449",
+   "n": 3,
+   "stage": "group",
+   "group": "B",
+   "date": "2026-06-12T19:00:00Z",
+   "venueId": "400242032",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "CAN",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "BIH",
+    "score": null,
+    "pen": null
+   },
+   "phA": "B1",
+   "phB": "B2",
+   "winner": null,
+   "attendance": null,
+   "officials": [
+    {
+     "id": "416165",
+     "country": "ARG",
+     "role": "referee",
+     "name": {
+      "en": "Facundo TELLO",
+      "fr": "Facundo TELLO",
+      "zh": "Facundo TELLO",
+      "ar": "Facundo TELLO",
+      "es": "Facundo TELLO",
+      "de": "Facundo TELLO",
+      "pt": "Facundo TELLO",
+      "it": "Facundo TELLO",
+      "ja": "Facundo TELLO",
+      "ko": "Facundo TELLO",
+      "id": "Facundo TELLO",
+      "ru": "Facundo TELLO"
+     },
+     "typeName": {
+      "en": "Referee",
+      "fr": "Arbitre",
+      "zh": "裁判员",
+      "ar": "الحَكم",
+      "es": "Árbitro/a",
+      "de": "Schiedsrichter",
+      "pt": "Árbitro",
+      "it": "Arbitro",
+      "ja": "主審",
+      "ko": "주심",
+      "id": "Wasit",
+      "ru": "Главный судья"
+     }
+    }
+   ]
+  },
+  {
+   "id": "400021458",
+   "n": 4,
+   "stage": "group",
+   "group": "D",
+   "date": "2026-06-13T01:00:00Z",
+   "venueId": "400017978",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "USA",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "PAR",
+    "score": null,
+    "pen": null
+   },
+   "phA": "D1",
+   "phB": "D2",
+   "winner": null,
+   "attendance": null,
+   "officials": [
+    {
+     "id": "327159",
+     "country": "NED",
+     "role": "referee",
+     "name": {
+      "en": "Danny MAKKELIE",
+      "fr": "Danny MAKKELIE",
+      "zh": "Danny MAKKELIE",
+      "ar": "Danny MAKKELIE",
+      "es": "Danny MAKKELIE",
+      "de": "Danny MAKKELIE",
+      "pt": "Danny MAKKELIE",
+      "it": "Danny MAKKELIE",
+      "ja": "Danny MAKKELIE",
+      "ko": "Danny MAKKELIE",
+      "id": "Danny MAKKELIE",
+      "ru": "Danny MAKKELIE"
+     },
+     "typeName": {
+      "en": "Referee",
+      "fr": "Arbitre",
+      "zh": "裁判员",
+      "ar": "الحَكم",
+      "es": "Árbitro/a",
+      "de": "Schiedsrichter",
+      "pt": "Árbitro",
+      "it": "Arbitro",
+      "ja": "主審",
+      "ko": "주심",
+      "id": "Wasit",
+      "ru": "Главный судья"
+     }
+    }
+   ]
+  },
+  {
+   "id": "400021453",
+   "n": 5,
+   "stage": "group",
+   "group": "C",
+   "date": "2026-06-14T01:00:00Z",
+   "venueId": "400248623",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "HAI",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "SCO",
+    "score": null,
+    "pen": null
+   },
+   "phA": "C3",
+   "phB": "C4",
+   "winner": null,
+   "attendance": null,
+   "officials": [
+    {
+     "id": "375306",
+     "country": "ALG",
+     "role": "referee",
+     "name": {
+      "en": "Mustapha GHORBAL",
+      "fr": "Mustapha GHORBAL",
+      "zh": "Mustapha GHORBAL",
+      "ar": "Mustapha GHORBAL",
+      "es": "Mustapha GHORBAL",
+      "de": "Mustapha GHORBAL",
+      "pt": "Mustapha GHORBAL",
+      "it": "Mustapha GHORBAL",
+      "ja": "Mustapha GHORBAL",
+      "ko": "Mustapha GHORBAL",
+      "id": "Mustapha GHORBAL",
+      "ru": "Mustapha GHORBAL"
+     },
+     "typeName": {
+      "en": "Referee",
+      "fr": "Arbitre",
+      "zh": "裁判员",
+      "ar": "الحَكم",
+      "es": "Árbitro/a",
+      "de": "Schiedsrichter",
+      "pt": "Árbitro",
+      "it": "Arbitro",
+      "ja": "主審",
+      "ko": "주심",
+      "id": "Wasit",
+      "ru": "Главный судья"
+     }
+    }
+   ]
+  },
+  {
+   "id": "400021463",
+   "n": 6,
+   "stage": "group",
+   "group": "D",
+   "date": "2026-06-14T04:00:00Z",
+   "venueId": "400248370",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "AUS",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "TUR",
+    "score": null,
+    "pen": null
+   },
+   "phA": "D3",
+   "phB": "D4",
+   "winner": null,
+   "attendance": null,
+   "officials": [
+    {
+     "id": "360305",
+     "country": "VEN",
+     "role": "referee",
+     "name": {
+      "en": "Jesus VALENZUELA",
+      "fr": "Jesus VALENZUELA",
+      "zh": "Jesus VALENZUELA",
+      "ar": "Jesus VALENZUELA",
+      "es": "Jesus VALENZUELA",
+      "de": "Jesus VALENZUELA",
+      "pt": "Jesus VALENZUELA",
+      "it": "Jesus VALENZUELA",
+      "ja": "Jesus VALENZUELA",
+      "ko": "Jesus VALENZUELA",
+      "id": "Jesus VALENZUELA",
+      "ru": "Jesus VALENZUELA"
+     },
+     "typeName": {
+      "en": "Referee",
+      "fr": "Arbitre",
+      "zh": "裁判员",
+      "ar": "الحَكم",
+      "es": "Árbitro/a",
+      "de": "Schiedsrichter",
+      "pt": "Árbitro",
+      "it": "Arbitro",
+      "ja": "主審",
+      "ko": "주심",
+      "id": "Wasit",
+      "ru": "Главный судья"
+     }
+    }
+   ]
+  },
+  {
+   "id": "400021456",
+   "n": 7,
+   "stage": "group",
+   "group": "C",
+   "date": "2026-06-13T22:00:00Z",
+   "venueId": "400257536",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "BRA",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "MAR",
+    "score": null,
+    "pen": null
+   },
+   "phA": "C1",
+   "phB": "C2",
+   "winner": null,
+   "attendance": null,
+   "officials": [
+    {
+     "id": "315008",
+     "country": "SVN",
+     "role": "referee",
+     "name": {
+      "en": "Slavko VINCIC",
+      "fr": "Slavko VINCIC",
+      "zh": "Slavko VINCIC",
+      "ar": "Slavko VINCIC",
+      "es": "Slavko VINCIC",
+      "de": "Slavko VINCIC",
+      "pt": "Slavko VINCIC",
+      "it": "Slavko VINCIC",
+      "ja": "Slavko VINCIC",
+      "ko": "Slavko VINCIC",
+      "id": "Slavko VINCIC",
+      "ru": "Slavko VINCIC"
+     },
+     "typeName": {
+      "en": "Referee",
+      "fr": "Arbitre",
+      "zh": "裁判员",
+      "ar": "الحَكم",
+      "es": "Árbitro/a",
+      "de": "Schiedsrichter",
+      "pt": "Árbitro",
+      "it": "Arbitro",
+      "ja": "主審",
+      "ko": "주심",
+      "id": "Wasit",
+      "ru": "Главный судья"
+     }
+    }
+   ]
+  },
+  {
+   "id": "400021447",
+   "n": 8,
+   "stage": "group",
+   "group": "B",
+   "date": "2026-06-13T19:00:00Z",
+   "venueId": "400257521",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "QAT",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "SUI",
+    "score": null,
+    "pen": null
+   },
+   "phA": "B3",
+   "phB": "B4",
+   "winner": null,
+   "attendance": null,
+   "officials": [
+    {
+     "id": "400191",
+     "country": "HON",
+     "role": "referee",
+     "name": {
+      "en": "Said MARTINEZ",
+      "fr": "Said MARTINEZ",
+      "zh": "Said MARTINEZ",
+      "ar": "Said MARTINEZ",
+      "es": "Said MARTINEZ",
+      "de": "Said MARTINEZ",
+      "pt": "Said MARTINEZ",
+      "it": "Said MARTINEZ",
+      "ja": "Said MARTINEZ",
+      "ko": "Said MARTINEZ",
+      "id": "Said MARTINEZ",
+      "ru": "Said MARTINEZ"
+     },
+     "typeName": {
+      "en": "Referee",
+      "fr": "Arbitre",
+      "zh": "裁判员",
+      "ar": "الحَكم",
+      "es": "Árbitro/a",
+      "de": "Schiedsrichter",
+      "pt": "Árbitro",
+      "it": "Arbitro",
+      "ja": "主審",
+      "ko": "주심",
+      "id": "Wasit",
+      "ru": "Главный судья"
+     }
+    }
+   ]
+  },
+  {
+   "id": "400021467",
+   "n": 9,
+   "stage": "group",
+   "group": "E",
+   "date": "2026-06-14T23:00:00Z",
+   "venueId": "400248622",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "CIV",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "ECU",
+    "score": null,
+    "pen": null
+   },
+   "phA": "E3",
+   "phB": "E4",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021464",
+   "n": 10,
+   "stage": "group",
+   "group": "E",
+   "date": "2026-06-14T17:00:00Z",
+   "venueId": "400249385",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "GER",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "CUW",
+    "score": null,
+    "pen": null
+   },
+   "phA": "E1",
+   "phB": "E2",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021470",
+   "n": 11,
+   "stage": "group",
+   "group": "F",
+   "date": "2026-06-14T20:00:00Z",
+   "venueId": "400257526",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "NED",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "JPN",
+    "score": null,
+    "pen": null
+   },
+   "phA": "F1",
+   "phB": "F2",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021474",
+   "n": 12,
+   "stage": "group",
+   "group": "F",
+   "date": "2026-06-15T02:00:00Z",
+   "venueId": "400238450",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "SWE",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "TUN",
+    "score": null,
+    "pen": null
+   },
+   "phA": "F3",
+   "phB": "F4",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021486",
+   "n": 13,
+   "stage": "group",
+   "group": "H",
+   "date": "2026-06-15T22:00:00Z",
+   "venueId": "400257525",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "KSA",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "URU",
+    "score": null,
+    "pen": null
+   },
+   "phA": "H3",
+   "phB": "H4",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021482",
+   "n": 14,
+   "stage": "group",
+   "group": "H",
+   "date": "2026-06-15T16:00:00Z",
+   "venueId": "400098290",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "ESP",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "CPV",
+    "score": null,
+    "pen": null
+   },
+   "phA": "H1",
+   "phB": "H2",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021476",
+   "n": 15,
+   "stage": "group",
+   "group": "G",
+   "date": "2026-06-16T01:00:00Z",
+   "venueId": "400017978",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "IRN",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "NZL",
+    "score": null,
+    "pen": null
+   },
+   "phA": "G3",
+   "phB": "G4",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021478",
+   "n": 16,
+   "stage": "group",
+   "group": "G",
+   "date": "2026-06-15T19:00:00Z",
+   "venueId": "400216606",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "BEL",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "EGY",
+    "score": null,
+    "pen": null
+   },
+   "phA": "G1",
+   "phB": "G2",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021490",
+   "n": 17,
+   "stage": "group",
+   "group": "I",
+   "date": "2026-06-16T19:00:00Z",
+   "venueId": "400257536",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "FRA",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "SEN",
+    "score": null,
+    "pen": null
+   },
+   "phA": "I1",
+   "phB": "I2",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021488",
+   "n": 18,
+   "stage": "group",
+   "group": "I",
+   "date": "2026-06-16T22:00:00Z",
+   "venueId": "400248623",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "IRQ",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "NOR",
+    "score": null,
+    "pen": null
+   },
+   "phA": "I3",
+   "phB": "I4",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021496",
+   "n": 19,
+   "stage": "group",
+   "group": "J",
+   "date": "2026-06-17T01:00:00Z",
+   "venueId": "400254717",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "ARG",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "ALG",
+    "score": null,
+    "pen": null
+   },
+   "phA": "J1",
+   "phB": "J2",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021498",
+   "n": 20,
+   "stage": "group",
+   "group": "J",
+   "date": "2026-06-17T04:00:00Z",
+   "venueId": "400257521",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "AUT",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "JOR",
+    "score": null,
+    "pen": null
+   },
+   "phA": "J3",
+   "phB": "J4",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021510",
+   "n": 21,
+   "stage": "group",
+   "group": "L",
+   "date": "2026-06-17T23:00:00Z",
+   "venueId": "400242032",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "GHA",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "PAN",
+    "score": null,
+    "pen": null
+   },
+   "phA": "L3",
+   "phB": "L4",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021507",
+   "n": 22,
+   "stage": "group",
+   "group": "L",
+   "date": "2026-06-17T20:00:00Z",
+   "venueId": "400257526",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "ENG",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "CRO",
+    "score": null,
+    "pen": null
+   },
+   "phA": "L1",
+   "phB": "L2",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021502",
+   "n": 23,
+   "stage": "group",
+   "group": "K",
+   "date": "2026-06-17T17:00:00Z",
+   "venueId": "400249385",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "POR",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "COD",
+    "score": null,
+    "pen": null
+   },
+   "phA": "K1",
+   "phB": "K2",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021504",
+   "n": 24,
+   "stage": "group",
+   "group": "K",
+   "date": "2026-06-18T02:00:00Z",
+   "venueId": "400222084",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "UZB",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "COL",
+    "score": null,
+    "pen": null
+   },
+   "phA": "K3",
+   "phB": "K4",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021440",
+   "n": 25,
+   "stage": "group",
+   "group": "A",
+   "date": "2026-06-18T16:00:00Z",
+   "venueId": "400098290",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "CZE",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "RSA",
+    "score": null,
+    "pen": null
+   },
+   "phA": "A4",
+   "phB": "A2",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021446",
+   "n": 26,
+   "stage": "group",
+   "group": "B",
+   "date": "2026-06-18T19:00:00Z",
+   "venueId": "400017978",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "SUI",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "BIH",
+    "score": null,
+    "pen": null
+   },
+   "phA": "B4",
+   "phB": "B2",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021450",
+   "n": 27,
+   "stage": "group",
+   "group": "B",
+   "date": "2026-06-18T22:00:00Z",
+   "venueId": "400248370",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "CAN",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "QAT",
+    "score": null,
+    "pen": null
+   },
+   "phA": "B1",
+   "phB": "B3",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021442",
+   "n": 28,
+   "stage": "group",
+   "group": "A",
+   "date": "2026-06-19T01:00:00Z",
+   "venueId": "400252150",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "MEX",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "KOR",
+    "score": null,
+    "pen": null
+   },
+   "phA": "A1",
+   "phB": "A3",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021457",
+   "n": 29,
+   "stage": "group",
+   "group": "C",
+   "date": "2026-06-20T00:30:00Z",
+   "venueId": "400248622",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "BRA",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "HAI",
+    "score": null,
+    "pen": null
+   },
+   "phA": "C1",
+   "phB": "C3",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021454",
+   "n": 30,
+   "stage": "group",
+   "group": "C",
+   "date": "2026-06-19T22:00:00Z",
+   "venueId": "400248623",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "SCO",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "MAR",
+    "score": null,
+    "pen": null
+   },
+   "phA": "C4",
+   "phB": "C2",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021460",
+   "n": 31,
+   "stage": "group",
+   "group": "D",
+   "date": "2026-06-20T03:00:00Z",
+   "venueId": "400257521",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "TUR",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "PAR",
+    "score": null,
+    "pen": null
+   },
+   "phA": "D4",
+   "phB": "D2",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021462",
+   "n": 32,
+   "stage": "group",
+   "group": "D",
+   "date": "2026-06-19T19:00:00Z",
+   "venueId": "400216606",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "USA",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "AUS",
+    "score": null,
+    "pen": null
+   },
+   "phA": "D1",
+   "phB": "D3",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021469",
+   "n": 33,
+   "stage": "group",
+   "group": "E",
+   "date": "2026-06-20T20:00:00Z",
+   "venueId": "400242032",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "GER",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "CIV",
+    "score": null,
+    "pen": null
+   },
+   "phA": "E1",
+   "phB": "E3",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021465",
+   "n": 34,
+   "stage": "group",
+   "group": "E",
+   "date": "2026-06-21T00:00:00Z",
+   "venueId": "400254717",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "ECU",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "CUW",
+    "score": null,
+    "pen": null
+   },
+   "phA": "E4",
+   "phB": "E2",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021472",
+   "n": 35,
+   "stage": "group",
+   "group": "F",
+   "date": "2026-06-20T17:00:00Z",
+   "venueId": "400249385",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "NED",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "SWE",
+    "score": null,
+    "pen": null
+   },
+   "phA": "F1",
+   "phB": "F3",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021475",
+   "n": 36,
+   "stage": "group",
+   "group": "F",
+   "date": "2026-06-21T04:00:00Z",
+   "venueId": "400238450",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "TUN",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "JPN",
+    "score": null,
+    "pen": null
+   },
+   "phA": "F4",
+   "phB": "F2",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021487",
+   "n": 37,
+   "stage": "group",
+   "group": "H",
+   "date": "2026-06-21T22:00:00Z",
+   "venueId": "400257525",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "URU",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "CPV",
+    "score": null,
+    "pen": null
+   },
+   "phA": "H4",
+   "phB": "H2",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021483",
+   "n": 38,
+   "stage": "group",
+   "group": "H",
+   "date": "2026-06-21T16:00:00Z",
+   "venueId": "400098290",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "ESP",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "KSA",
+    "score": null,
+    "pen": null
+   },
+   "phA": "H1",
+   "phB": "H3",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021477",
+   "n": 39,
+   "stage": "group",
+   "group": "G",
+   "date": "2026-06-21T19:00:00Z",
+   "venueId": "400017978",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "BEL",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "IRN",
+    "score": null,
+    "pen": null
+   },
+   "phA": "G1",
+   "phB": "G3",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021480",
+   "n": 40,
+   "stage": "group",
+   "group": "G",
+   "date": "2026-06-22T01:00:00Z",
+   "venueId": "400248370",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "NZL",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "EGY",
+    "score": null,
+    "pen": null
+   },
+   "phA": "G4",
+   "phB": "G2",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021491",
+   "n": 41,
+   "stage": "group",
+   "group": "I",
+   "date": "2026-06-23T00:00:00Z",
+   "venueId": "400257536",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "NOR",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "SEN",
+    "score": null,
+    "pen": null
+   },
+   "phA": "I4",
+   "phB": "I2",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021492",
+   "n": 42,
+   "stage": "group",
+   "group": "I",
+   "date": "2026-06-22T21:00:00Z",
+   "venueId": "400248622",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "FRA",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "IRQ",
+    "score": null,
+    "pen": null
+   },
+   "phA": "I1",
+   "phB": "I3",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021494",
+   "n": 43,
+   "stage": "group",
+   "group": "J",
+   "date": "2026-06-22T17:00:00Z",
+   "venueId": "400257526",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "ARG",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "AUT",
+    "score": null,
+    "pen": null
+   },
+   "phA": "J1",
+   "phB": "J3",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021499",
+   "n": 44,
+   "stage": "group",
+   "group": "J",
+   "date": "2026-06-23T03:00:00Z",
+   "venueId": "400257521",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "JOR",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "ALG",
+    "score": null,
+    "pen": null
+   },
+   "phA": "J4",
+   "phB": "J2",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021506",
+   "n": 45,
+   "stage": "group",
+   "group": "L",
+   "date": "2026-06-23T20:00:00Z",
+   "venueId": "400248623",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "ENG",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "GHA",
+    "score": null,
+    "pen": null
+   },
+   "phA": "L1",
+   "phB": "L3",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021511",
+   "n": 46,
+   "stage": "group",
+   "group": "L",
+   "date": "2026-06-23T23:00:00Z",
+   "venueId": "400242032",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "PAN",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "CRO",
+    "score": null,
+    "pen": null
+   },
+   "phA": "L4",
+   "phB": "L2",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021503",
+   "n": 47,
+   "stage": "group",
+   "group": "K",
+   "date": "2026-06-23T17:00:00Z",
+   "venueId": "400249385",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "POR",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "UZB",
+    "score": null,
+    "pen": null
+   },
+   "phA": "K1",
+   "phB": "K3",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021501",
+   "n": 48,
+   "stage": "group",
+   "group": "K",
+   "date": "2026-06-24T02:00:00Z",
+   "venueId": "400252150",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "COL",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "COD",
+    "score": null,
+    "pen": null
+   },
+   "phA": "K4",
+   "phB": "K2",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021455",
+   "n": 49,
+   "stage": "group",
+   "group": "C",
+   "date": "2026-06-24T22:00:00Z",
+   "venueId": "400257525",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "SCO",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "BRA",
+    "score": null,
+    "pen": null
+   },
+   "phA": "C4",
+   "phB": "C1",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021452",
+   "n": 50,
+   "stage": "group",
+   "group": "C",
+   "date": "2026-06-24T22:00:00Z",
+   "venueId": "400098290",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "MAR",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "HAI",
+    "score": null,
+    "pen": null
+   },
+   "phA": "C2",
+   "phB": "C3",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021451",
+   "n": 51,
+   "stage": "group",
+   "group": "B",
+   "date": "2026-06-24T19:00:00Z",
+   "venueId": "400248370",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "SUI",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "CAN",
+    "score": null,
+    "pen": null
+   },
+   "phA": "B4",
+   "phB": "B1",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021448",
+   "n": 52,
+   "stage": "group",
+   "group": "B",
+   "date": "2026-06-24T19:00:00Z",
+   "venueId": "400216606",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "BIH",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "QAT",
+    "score": null,
+    "pen": null
+   },
+   "phA": "B2",
+   "phB": "B3",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021444",
+   "n": 53,
+   "stage": "group",
+   "group": "A",
+   "date": "2026-06-25T01:00:00Z",
+   "venueId": "400222084",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "CZE",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "MEX",
+    "score": null,
+    "pen": null
+   },
+   "phA": "A4",
+   "phB": "A1",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021445",
+   "n": 54,
+   "stage": "group",
+   "group": "A",
+   "date": "2026-06-25T01:00:00Z",
+   "venueId": "400238450",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "RSA",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "KOR",
+    "score": null,
+    "pen": null
+   },
+   "phA": "A2",
+   "phB": "A3",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021468",
+   "n": 55,
+   "stage": "group",
+   "group": "E",
+   "date": "2026-06-25T20:00:00Z",
+   "venueId": "400248622",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "CUW",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "CIV",
+    "score": null,
+    "pen": null
+   },
+   "phA": "E2",
+   "phB": "E3",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021466",
+   "n": 56,
+   "stage": "group",
+   "group": "E",
+   "date": "2026-06-25T20:00:00Z",
+   "venueId": "400257536",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "ECU",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "GER",
+    "score": null,
+    "pen": null
+   },
+   "phA": "E4",
+   "phB": "E1",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021471",
+   "n": 57,
+   "stage": "group",
+   "group": "F",
+   "date": "2026-06-25T23:00:00Z",
+   "venueId": "400257526",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "JPN",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "SWE",
+    "score": null,
+    "pen": null
+   },
+   "phA": "F2",
+   "phB": "F3",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021473",
+   "n": 58,
+   "stage": "group",
+   "group": "F",
+   "date": "2026-06-25T23:00:00Z",
+   "venueId": "400254717",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "TUN",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "NED",
+    "score": null,
+    "pen": null
+   },
+   "phA": "F4",
+   "phB": "F1",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021459",
+   "n": 59,
+   "stage": "group",
+   "group": "D",
+   "date": "2026-06-26T02:00:00Z",
+   "venueId": "400017978",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "TUR",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "USA",
+    "score": null,
+    "pen": null
+   },
+   "phA": "D4",
+   "phB": "D1",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021461",
+   "n": 60,
+   "stage": "group",
+   "group": "D",
+   "date": "2026-06-26T02:00:00Z",
+   "venueId": "400257521",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "PAR",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "AUS",
+    "score": null,
+    "pen": null
+   },
+   "phA": "D2",
+   "phB": "D3",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021489",
+   "n": 61,
+   "stage": "group",
+   "group": "I",
+   "date": "2026-06-26T19:00:00Z",
+   "venueId": "400248623",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "NOR",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "FRA",
+    "score": null,
+    "pen": null
+   },
+   "phA": "I4",
+   "phB": "I1",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021493",
+   "n": 62,
+   "stage": "group",
+   "group": "I",
+   "date": "2026-06-26T19:00:00Z",
+   "venueId": "400242032",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "SEN",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "IRQ",
+    "score": null,
+    "pen": null
+   },
+   "phA": "I2",
+   "phB": "I3",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021479",
+   "n": 63,
+   "stage": "group",
+   "group": "G",
+   "date": "2026-06-27T03:00:00Z",
+   "venueId": "400216606",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "EGY",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "IRN",
+    "score": null,
+    "pen": null
+   },
+   "phA": "G2",
+   "phB": "G3",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021481",
+   "n": 64,
+   "stage": "group",
+   "group": "G",
+   "date": "2026-06-27T03:00:00Z",
+   "venueId": "400248370",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "NZL",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "BEL",
+    "score": null,
+    "pen": null
+   },
+   "phA": "G4",
+   "phB": "G1",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021485",
+   "n": 65,
+   "stage": "group",
+   "group": "H",
+   "date": "2026-06-27T00:00:00Z",
+   "venueId": "400249385",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "CPV",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "KSA",
+    "score": null,
+    "pen": null
+   },
+   "phA": "H2",
+   "phB": "H3",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021484",
+   "n": 66,
+   "stage": "group",
+   "group": "H",
+   "date": "2026-06-27T00:00:00Z",
+   "venueId": "400252150",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "URU",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "ESP",
+    "score": null,
+    "pen": null
+   },
+   "phA": "H4",
+   "phB": "H1",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021508",
+   "n": 67,
+   "stage": "group",
+   "group": "L",
+   "date": "2026-06-27T21:00:00Z",
+   "venueId": "400257536",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "PAN",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "ENG",
+    "score": null,
+    "pen": null
+   },
+   "phA": "L4",
+   "phB": "L1",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021509",
+   "n": 68,
+   "stage": "group",
+   "group": "L",
+   "date": "2026-06-27T21:00:00Z",
+   "venueId": "400248622",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "CRO",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "GHA",
+    "score": null,
+    "pen": null
+   },
+   "phA": "L2",
+   "phB": "L3",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021497",
+   "n": 69,
+   "stage": "group",
+   "group": "J",
+   "date": "2026-06-28T02:00:00Z",
+   "venueId": "400254717",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "ALG",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "AUT",
+    "score": null,
+    "pen": null
+   },
+   "phA": "J2",
+   "phB": "J3",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021495",
+   "n": 70,
+   "stage": "group",
+   "group": "J",
+   "date": "2026-06-28T02:00:00Z",
+   "venueId": "400257526",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "JOR",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "ARG",
+    "score": null,
+    "pen": null
+   },
+   "phA": "J4",
+   "phB": "J1",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021505",
+   "n": 71,
+   "stage": "group",
+   "group": "K",
+   "date": "2026-06-27T23:30:00Z",
+   "venueId": "400257525",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "COL",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "POR",
+    "score": null,
+    "pen": null
+   },
+   "phA": "K4",
+   "phB": "K1",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021500",
+   "n": 72,
+   "stage": "group",
+   "group": "K",
+   "date": "2026-06-27T23:30:00Z",
+   "venueId": "400098290",
+   "status": "scheduled",
+   "time": null,
+   "home": {
+    "code": "COD",
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": "UZB",
+    "score": null,
+    "pen": null
+   },
+   "phA": "K2",
+   "phB": "K3",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021518",
+   "n": 73,
+   "stage": "r32",
+   "group": null,
+   "date": "2026-06-28T19:00:00Z",
+   "venueId": "400017978",
+   "status": "scheduled",
+   "time": null,
+   "home": null,
+   "away": null,
+   "phA": "2A",
+   "phB": "2B",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021513",
+   "n": 74,
+   "stage": "r32",
+   "group": null,
+   "date": "2026-06-29T20:30:00Z",
+   "venueId": "400248623",
+   "status": "scheduled",
+   "time": null,
+   "home": null,
+   "away": null,
+   "phA": "1E",
+   "phB": "3ABCDF",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021522",
+   "n": 75,
+   "stage": "r32",
+   "group": null,
+   "date": "2026-06-30T01:00:00Z",
+   "venueId": "400238450",
+   "status": "scheduled",
+   "time": null,
+   "home": null,
+   "away": null,
+   "phA": "1F",
+   "phB": "2C",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021516",
+   "n": 76,
+   "stage": "r32",
+   "group": null,
+   "date": "2026-06-29T17:00:00Z",
+   "venueId": "400249385",
+   "status": "scheduled",
+   "time": null,
+   "home": null,
+   "away": null,
+   "phA": "1C",
+   "phB": "2F",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021523",
+   "n": 77,
+   "stage": "r32",
+   "group": null,
+   "date": "2026-06-30T21:00:00Z",
+   "venueId": "400257536",
+   "status": "scheduled",
+   "time": null,
+   "home": null,
+   "away": null,
+   "phA": "1I",
+   "phB": "3CDFGH",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021514",
+   "n": 78,
+   "stage": "r32",
+   "group": null,
+   "date": "2026-06-30T17:00:00Z",
+   "venueId": "400257526",
+   "status": "scheduled",
+   "time": null,
+   "home": null,
+   "away": null,
+   "phA": "2E",
+   "phB": "2I",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021520",
+   "n": 79,
+   "stage": "r32",
+   "group": null,
+   "date": "2026-07-01T01:00:00Z",
+   "venueId": "400222084",
+   "status": "scheduled",
+   "time": null,
+   "home": null,
+   "away": null,
+   "phA": "1A",
+   "phB": "3CEFHI",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021512",
+   "n": 80,
+   "stage": "r32",
+   "group": null,
+   "date": "2026-07-01T16:00:00Z",
+   "venueId": "400098290",
+   "status": "scheduled",
+   "time": null,
+   "home": null,
+   "away": null,
+   "phA": "1L",
+   "phB": "3EHIJK",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021524",
+   "n": 81,
+   "stage": "r32",
+   "group": null,
+   "date": "2026-07-02T00:00:00Z",
+   "venueId": "400257521",
+   "status": "scheduled",
+   "time": null,
+   "home": null,
+   "away": null,
+   "phA": "1D",
+   "phB": "3BEFIJ",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021525",
+   "n": 82,
+   "stage": "r32",
+   "group": null,
+   "date": "2026-07-01T20:00:00Z",
+   "venueId": "400216606",
+   "status": "scheduled",
+   "time": null,
+   "home": null,
+   "away": null,
+   "phA": "1G",
+   "phB": "3AEHIJ",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021526",
+   "n": 83,
+   "stage": "r32",
+   "group": null,
+   "date": "2026-07-02T23:00:00Z",
+   "venueId": "400242032",
+   "status": "scheduled",
+   "time": null,
+   "home": null,
+   "away": null,
+   "phA": "2K",
+   "phB": "2L",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021519",
+   "n": 84,
+   "stage": "r32",
+   "group": null,
+   "date": "2026-07-02T19:00:00Z",
+   "venueId": "400017978",
+   "status": "scheduled",
+   "time": null,
+   "home": null,
+   "away": null,
+   "phA": "1H",
+   "phB": "2J",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021527",
+   "n": 85,
+   "stage": "r32",
+   "group": null,
+   "date": "2026-07-03T03:00:00Z",
+   "venueId": "400248370",
+   "status": "scheduled",
+   "time": null,
+   "home": null,
+   "away": null,
+   "phA": "1B",
+   "phB": "3EFGIJ",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021521",
+   "n": 86,
+   "stage": "r32",
+   "group": null,
+   "date": "2026-07-03T22:00:00Z",
+   "venueId": "400257525",
+   "status": "scheduled",
+   "time": null,
+   "home": null,
+   "away": null,
+   "phA": "1J",
+   "phB": "2H",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021517",
+   "n": 87,
+   "stage": "r32",
+   "group": null,
+   "date": "2026-07-04T01:30:00Z",
+   "venueId": "400254717",
+   "status": "scheduled",
+   "time": null,
+   "home": null,
+   "away": null,
+   "phA": "1K",
+   "phB": "3DEIJL",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021515",
+   "n": 88,
+   "stage": "r32",
+   "group": null,
+   "date": "2026-07-03T18:00:00Z",
+   "venueId": "400257526",
+   "status": "scheduled",
+   "time": null,
+   "home": null,
+   "away": null,
+   "phA": "2D",
+   "phB": "2G",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021533",
+   "n": 89,
+   "stage": "r16",
+   "group": null,
+   "date": "2026-07-04T21:00:00Z",
+   "venueId": "400248622",
+   "status": "scheduled",
+   "time": null,
+   "home": null,
+   "away": null,
+   "phA": "W74",
+   "phB": "W77",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021530",
+   "n": 90,
+   "stage": "r16",
+   "group": null,
+   "date": "2026-07-04T17:00:00Z",
+   "venueId": "400249385",
+   "status": "scheduled",
+   "time": null,
+   "home": null,
+   "away": null,
+   "phA": "W73",
+   "phB": "W75",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021532",
+   "n": 91,
+   "stage": "r16",
+   "group": null,
+   "date": "2026-07-05T20:00:00Z",
+   "venueId": "400257536",
+   "status": "scheduled",
+   "time": null,
+   "home": null,
+   "away": null,
+   "phA": "W76",
+   "phB": "W78",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021531",
+   "n": 92,
+   "stage": "r16",
+   "group": null,
+   "date": "2026-07-06T00:00:00Z",
+   "venueId": "400222084",
+   "status": "scheduled",
+   "time": null,
+   "home": null,
+   "away": null,
+   "phA": "W79",
+   "phB": "W80",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021529",
+   "n": 93,
+   "stage": "r16",
+   "group": null,
+   "date": "2026-07-06T19:00:00Z",
+   "venueId": "400257526",
+   "status": "scheduled",
+   "time": null,
+   "home": null,
+   "away": null,
+   "phA": "W83",
+   "phB": "W84",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021534",
+   "n": 94,
+   "stage": "r16",
+   "group": null,
+   "date": "2026-07-07T00:00:00Z",
+   "venueId": "400216606",
+   "status": "scheduled",
+   "time": null,
+   "home": null,
+   "away": null,
+   "phA": "W81",
+   "phB": "W82",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021528",
+   "n": 95,
+   "stage": "r16",
+   "group": null,
+   "date": "2026-07-07T16:00:00Z",
+   "venueId": "400098290",
+   "status": "scheduled",
+   "time": null,
+   "home": null,
+   "away": null,
+   "phA": "W86",
+   "phB": "W88",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021535",
+   "n": 96,
+   "stage": "r16",
+   "group": null,
+   "date": "2026-07-07T20:00:00Z",
+   "venueId": "400248370",
+   "status": "scheduled",
+   "time": null,
+   "home": null,
+   "away": null,
+   "phA": "W85",
+   "phB": "W87",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021536",
+   "n": 97,
+   "stage": "qf",
+   "group": null,
+   "date": "2026-07-09T20:00:00Z",
+   "venueId": "400248623",
+   "status": "scheduled",
+   "time": null,
+   "home": null,
+   "away": null,
+   "phA": "W89",
+   "phB": "W90",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021538",
+   "n": 98,
+   "stage": "qf",
+   "group": null,
+   "date": "2026-07-10T19:00:00Z",
+   "venueId": "400017978",
+   "status": "scheduled",
+   "time": null,
+   "home": null,
+   "away": null,
+   "phA": "W93",
+   "phB": "W94",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021539",
+   "n": 99,
+   "stage": "qf",
+   "group": null,
+   "date": "2026-07-11T21:00:00Z",
+   "venueId": "400257525",
+   "status": "scheduled",
+   "time": null,
+   "home": null,
+   "away": null,
+   "phA": "W91",
+   "phB": "W92",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021537",
+   "n": 100,
+   "stage": "qf",
+   "group": null,
+   "date": "2026-07-12T01:00:00Z",
+   "venueId": "400254717",
+   "status": "scheduled",
+   "time": null,
+   "home": null,
+   "away": null,
+   "phA": "W95",
+   "phB": "W96",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021541",
+   "n": 101,
+   "stage": "sf",
+   "group": null,
+   "date": "2026-07-14T19:00:00Z",
+   "venueId": "400257526",
+   "status": "scheduled",
+   "time": null,
+   "home": null,
+   "away": null,
+   "phA": "W97",
+   "phB": "W98",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021540",
+   "n": 102,
+   "stage": "sf",
+   "group": null,
+   "date": "2026-07-15T19:00:00Z",
+   "venueId": "400098290",
+   "status": "scheduled",
+   "time": null,
+   "home": null,
+   "away": null,
+   "phA": "W99",
+   "phB": "W100",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021542",
+   "n": 103,
+   "stage": "third",
+   "group": null,
+   "date": "2026-07-18T21:00:00Z",
+   "venueId": "400257525",
+   "status": "scheduled",
+   "time": null,
+   "home": null,
+   "away": null,
+   "phA": "RU101",
+   "phB": "RU102",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  },
+  {
+   "id": "400021543",
+   "n": 104,
+   "stage": "final",
+   "group": null,
+   "date": "2026-07-19T19:00:00Z",
+   "venueId": "400257536",
+   "status": "scheduled",
+   "time": null,
+   "home": null,
+   "away": null,
+   "phA": "W101",
+   "phB": "W102",
+   "winner": null,
+   "attendance": null,
+   "officials": []
+  }
+ ]
+}

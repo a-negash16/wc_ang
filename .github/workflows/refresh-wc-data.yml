@@ -1,0 +1,47 @@
+name: Refresh World Cup Data
+
+on:
+  schedule:
+    - cron: "30 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Download published data
+        shell: bash
+        run: |
+          set -euo pipefail
+          base_url="https://26worldcup.github.io/data"
+          out_dir="assets/wc2026/data"
+          mkdir -p "$out_dir"
+
+          for file in matches.json teams.json venues.json weather.json meta.json; do
+            curl -fL --retry 3 --retry-delay 2 \
+              "$base_url/$file" \
+              -o "$out_dir/$file"
+            jq -e 'length > 0' "$out_dir/$file" > /dev/null
+          done
+
+      - name: Commit refreshed data
+        shell: bash
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- assets/wc2026/data/*.json; then
+            echo "No World Cup data changes."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/wc2026/data/*.json
+          git commit -m "Refresh World Cup data"
+          git push
