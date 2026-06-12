@@ -20,7 +20,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          base_url="https://26worldcup.github.io/data"
+          base_url="https://a-negash16.github.io/wc_ang/data"
           out_dir="assets/wc2026/data"
           mkdir -p "$out_dir"
 
