@@ -3,6 +3,7 @@ import { requireElement, setHidden, setStatus } from "./dom.js";
 import { renderLeagueLayout } from "./layout.js";
 import { loadLeaderboard } from "./leaderboard.js";
 import { loadResults } from "./results.js";
+import { renderWcResultsStrip } from "../wc2026/wc-results-strip.js";
 
 bootstrap();
 
@@ -21,6 +22,7 @@ function bootstrap() {
 
     loadLeaderboard(config, elements);
     loadResults(config, elements);
+    loadWcResultsStrip();
   } catch (error) {
     showFatalError(error);
   }
@@ -37,6 +39,17 @@ function getRequiredElements() {
     resultsGrid: requireElement("results-grid"),
     resultsEmpty: requireElement("results-empty"),
   };
+}
+
+function loadWcResultsStrip() {
+  try {
+    const mountEl = requireElement("wc-strip");
+    renderWcResultsStrip(mountEl).catch((error) => {
+      console.error("Could not render World Cup results strip:", error);
+    });
+  } catch (error) {
+    console.error("Could not start World Cup results strip:", error);
+  }
 }
 
 function showConfigurationError(missingConfig, elements) {

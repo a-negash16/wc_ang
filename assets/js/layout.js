@@ -99,6 +99,20 @@ export function renderLeagueLayout(config) {
       </div>
     </section>
 
+    <section class="section section-dark" id="wc-results">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow eyebrow-light">Live from the tournament</p>
+          <h2 class="section-title section-title-light">World Cup — Recent Results</h2>
+          <p class="section-sub section-sub-light">
+            Completed World Cup matches, newest first, with scores and venues.
+          </p>
+        </div>
+
+        <div class="wc-strip" id="wc-strip"></div>
+      </div>
+    </section>
+
     <section class="section section-light" id="rules">
       <div class="container">
         <div class="section-head">
