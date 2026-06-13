@@ -29,32 +29,10 @@
      "country": "BRA",
      "role": "referee",
      "name": {
-      "en": "Wilton SAMPAIO",
-      "fr": "Wilton SAMPAIO",
-      "zh": "Wilton SAMPAIO",
-      "ar": "Wilton SAMPAIO",
-      "es": "Wilton SAMPAIO",
-      "de": "Wilton SAMPAIO",
-      "pt": "Wilton SAMPAIO",
-      "it": "Wilton SAMPAIO",
-      "ja": "Wilton SAMPAIO",
-      "ko": "Wilton SAMPAIO",
-      "id": "Wilton SAMPAIO",
-      "ru": "Wilton SAMPAIO"
+      "en": "Wilton SAMPAIO"
      },
      "typeName": {
-      "en": "Referee",
-      "fr": "Arbitre",
-      "zh": "裁判员",
-      "ar": "الحَكم",
-      "es": "Árbitro/a",
-      "de": "Schiedsrichter",
-      "pt": "Árbitro",
-      "it": "Arbitro",
-      "ja": "主審",
-      "ko": "주심",
-      "id": "Wasit",
-      "ru": "Главный судья"
+      "en": "Referee"
      }
     }
    ]
@@ -88,32 +66,10 @@
      "country": "EGY",
      "role": "referee",
      "name": {
-      "en": "Amin MOHAMED",
-      "fr": "Amin MOHAMED",
-      "zh": "Amin MOHAMED",
-      "ar": "Amin MOHAMED",
-      "es": "Amin MOHAMED",
-      "de": "Amin MOHAMED",
-      "pt": "Amin MOHAMED",
-      "it": "Amin MOHAMED",
-      "ja": "Amin MOHAMED",
-      "ko": "Amin MOHAMED",
-      "id": "Amin MOHAMED",
-      "ru": "Amin MOHAMED"
+      "en": "Amin MOHAMED"
      },
      "typeName": {
-      "en": "Referee",
-      "fr": "Arbitre",
-      "zh": "裁判员",
-      "ar": "الحَكم",
-      "es": "Árbitro/a",
-      "de": "Schiedsrichter",
-      "pt": "Árbitro",
-      "it": "Arbitro",
-      "ja": "主審",
-      "ko": "주심",
-      "id": "Wasit",
-      "ru": "Главный судья"
+      "en": "Referee"
      }
     }
    ]
@@ -125,54 +81,32 @@
    "group": "B",
    "date": "2026-06-12T19:00:00Z",
    "venueId": "400242032",
-   "status": "scheduled",
-   "time": null,
+   "status": "finished",
+   "time": "97'",
    "home": {
     "code": "CAN",
-    "score": null,
+    "score": 1,
     "pen": null
    },
    "away": {
     "code": "BIH",
-    "score": null,
+    "score": 1,
     "pen": null
    },
    "phA": "B1",
    "phB": "B2",
    "winner": null,
-   "attendance": null,
+   "attendance": "43002",
    "officials": [
     {
      "id": "416165",
      "country": "ARG",
      "role": "referee",
      "name": {
-      "en": "Facundo TELLO",
-      "fr": "Facundo TELLO",
-      "zh": "Facundo TELLO",
-      "ar": "Facundo TELLO",
-      "es": "Facundo TELLO",
-      "de": "Facundo TELLO",
-      "pt": "Facundo TELLO",
-      "it": "Facundo TELLO",
-      "ja": "Facundo TELLO",
-      "ko": "Facundo TELLO",
-      "id": "Facundo TELLO",
-      "ru": "Facundo TELLO"
+      "en": "Facundo TELLO"
      },
      "typeName": {
-      "en": "Referee",
-      "fr": "Arbitre",
-      "zh": "裁判员",
-      "ar": "الحَكم",
-      "es": "Árbitro/a",
-      "de": "Schiedsrichter",
-      "pt": "Árbitro",
-      "it": "Arbitro",
-      "ja": "主審",
-      "ko": "주심",
-      "id": "Wasit",
-      "ru": "Главный судья"
+      "en": "Referee"
      }
     }
    ]
@@ -184,54 +118,32 @@
    "group": "D",
    "date": "2026-06-13T01:00:00Z",
    "venueId": "400017978",
-   "status": "scheduled",
-   "time": null,
+   "status": "finished",
+   "time": "99'",
    "home": {
     "code": "USA",
-    "score": null,
+    "score": 4,
     "pen": null
    },
    "away": {
     "code": "PAR",
-    "score": null,
+    "score": 1,
     "pen": null
    },
    "phA": "D1",
    "phB": "D2",
-   "winner": null,
-   "attendance": null,
+   "winner": "USA",
+   "attendance": "70492",
    "officials": [
     {
      "id": "327159",
      "country": "NED",
      "role": "referee",
      "name": {
-      "en": "Danny MAKKELIE",
-      "fr": "Danny MAKKELIE",
-      "zh": "Danny MAKKELIE",
-      "ar": "Danny MAKKELIE",
-      "es": "Danny MAKKELIE",
-      "de": "Danny MAKKELIE",
-      "pt": "Danny MAKKELIE",
-      "it": "Danny MAKKELIE",
-      "ja": "Danny MAKKELIE",
-      "ko": "Danny MAKKELIE",
-      "id": "Danny MAKKELIE",
-      "ru": "Danny MAKKELIE"
+      "en": "Danny MAKKELIE"
      },
      "typeName": {
-      "en": "Referee",
-      "fr": "Arbitre",
-      "zh": "裁判员",
-      "ar": "الحَكم",
-      "es": "Árbitro/a",
-      "de": "Schiedsrichter",
-      "pt": "Árbitro",
-      "it": "Arbitro",
-      "ja": "主審",
-      "ko": "주심",
-      "id": "Wasit",
-      "ru": "Главный судья"
+      "en": "Referee"
      }
     }
    ]
@@ -244,7 +156,7 @@
    "date": "2026-06-14T01:00:00Z",
    "venueId": "400248623",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "HAI",
     "score": null,
@@ -265,32 +177,10 @@
      "country": "ALG",
      "role": "referee",
      "name": {
-      "en": "Mustapha GHORBAL",
-      "fr": "Mustapha GHORBAL",
-      "zh": "Mustapha GHORBAL",
-      "ar": "Mustapha GHORBAL",
-      "es": "Mustapha GHORBAL",
-      "de": "Mustapha GHORBAL",
-      "pt": "Mustapha GHORBAL",
-      "it": "Mustapha GHORBAL",
-      "ja": "Mustapha GHORBAL",
-      "ko": "Mustapha GHORBAL",
-      "id": "Mustapha GHORBAL",
-      "ru": "Mustapha GHORBAL"
+      "en": "Mustapha GHORBAL"
      },
      "typeName": {
-      "en": "Referee",
-      "fr": "Arbitre",
-      "zh": "裁判员",
-      "ar": "الحَكم",
-      "es": "Árbitro/a",
-      "de": "Schiedsrichter",
-      "pt": "Árbitro",
-      "it": "Arbitro",
-      "ja": "主審",
-      "ko": "주심",
-      "id": "Wasit",
-      "ru": "Главный судья"
+      "en": "Referee"
      }
     }
    ]
@@ -303,7 +193,7 @@
    "date": "2026-06-14T04:00:00Z",
    "venueId": "400248370",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "AUS",
     "score": null,
@@ -324,32 +214,10 @@
      "country": "VEN",
      "role": "referee",
      "name": {
-      "en": "Jesus VALENZUELA",
-      "fr": "Jesus VALENZUELA",
-      "zh": "Jesus VALENZUELA",
-      "ar": "Jesus VALENZUELA",
-      "es": "Jesus VALENZUELA",
-      "de": "Jesus VALENZUELA",
-      "pt": "Jesus VALENZUELA",
-      "it": "Jesus VALENZUELA",
-      "ja": "Jesus VALENZUELA",
-      "ko": "Jesus VALENZUELA",
-      "id": "Jesus VALENZUELA",
-      "ru": "Jesus VALENZUELA"
+      "en": "Jesus VALENZUELA"
      },
      "typeName": {
-      "en": "Referee",
-      "fr": "Arbitre",
-      "zh": "裁判员",
-      "ar": "الحَكم",
-      "es": "Árbitro/a",
-      "de": "Schiedsrichter",
-      "pt": "Árbitro",
-      "it": "Arbitro",
-      "ja": "主審",
-      "ko": "주심",
-      "id": "Wasit",
-      "ru": "Главный судья"
+      "en": "Referee"
      }
     }
    ]
@@ -362,7 +230,7 @@
    "date": "2026-06-13T22:00:00Z",
    "venueId": "400257536",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "BRA",
     "score": null,
@@ -383,32 +251,10 @@
      "country": "SVN",
      "role": "referee",
      "name": {
-      "en": "Slavko VINCIC",
-      "fr": "Slavko VINCIC",
-      "zh": "Slavko VINCIC",
-      "ar": "Slavko VINCIC",
-      "es": "Slavko VINCIC",
-      "de": "Slavko VINCIC",
-      "pt": "Slavko VINCIC",
-      "it": "Slavko VINCIC",
-      "ja": "Slavko VINCIC",
-      "ko": "Slavko VINCIC",
-      "id": "Slavko VINCIC",
-      "ru": "Slavko VINCIC"
+      "en": "Slavko VINCIC"
      },
      "typeName": {
-      "en": "Referee",
-      "fr": "Arbitre",
-      "zh": "裁判员",
-      "ar": "الحَكم",
-      "es": "Árbitro/a",
-      "de": "Schiedsrichter",
-      "pt": "Árbitro",
-      "it": "Arbitro",
-      "ja": "主審",
-      "ko": "주심",
-      "id": "Wasit",
-      "ru": "Главный судья"
+      "en": "Referee"
      }
     }
    ]
@@ -421,7 +267,7 @@
    "date": "2026-06-13T19:00:00Z",
    "venueId": "400257521",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "QAT",
     "score": null,
@@ -442,32 +288,10 @@
      "country": "HON",
      "role": "referee",
      "name": {
-      "en": "Said MARTINEZ",
-      "fr": "Said MARTINEZ",
-      "zh": "Said MARTINEZ",
-      "ar": "Said MARTINEZ",
-      "es": "Said MARTINEZ",
-      "de": "Said MARTINEZ",
-      "pt": "Said MARTINEZ",
-      "it": "Said MARTINEZ",
-      "ja": "Said MARTINEZ",
-      "ko": "Said MARTINEZ",
-      "id": "Said MARTINEZ",
-      "ru": "Said MARTINEZ"
+      "en": "Said MARTINEZ"
      },
      "typeName": {
-      "en": "Referee",
-      "fr": "Arbitre",
-      "zh": "裁判员",
-      "ar": "الحَكم",
-      "es": "Árbitro/a",
-      "de": "Schiedsrichter",
-      "pt": "Árbitro",
-      "it": "Arbitro",
-      "ja": "主審",
-      "ko": "주심",
-      "id": "Wasit",
-      "ru": "Главный судья"
+      "en": "Referee"
      }
     }
    ]
@@ -480,7 +304,7 @@
    "date": "2026-06-14T23:00:00Z",
    "venueId": "400248622",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "CIV",
     "score": null,
@@ -495,7 +319,19 @@
    "phB": "E4",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "399029",
+     "country": "FRA",
+     "role": "referee",
+     "name": {
+      "en": "Francois LETEXIER"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    }
+   ]
   },
   {
    "id": "400021464",
@@ -505,7 +341,7 @@
    "date": "2026-06-14T17:00:00Z",
    "venueId": "400249385",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "GER",
     "score": null,
@@ -520,7 +356,19 @@
    "phB": "E2",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "416524",
+     "country": "MAR",
+     "role": "referee",
+     "name": {
+      "en": "Jalal JAYED"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    }
+   ]
   },
   {
    "id": "400021470",
@@ -530,7 +378,7 @@
    "date": "2026-06-14T20:00:00Z",
    "venueId": "400257526",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "NED",
     "score": null,
@@ -545,7 +393,19 @@
    "phB": "F2",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "392406",
+     "country": "USA",
+     "role": "referee",
+     "name": {
+      "en": "Ismail ELFATH"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    }
+   ]
   },
   {
    "id": "400021474",
@@ -555,7 +415,7 @@
    "date": "2026-06-15T02:00:00Z",
    "venueId": "400238450",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "SWE",
     "score": null,
@@ -570,7 +430,19 @@
    "phB": "F4",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "434995",
+     "country": "ARG",
+     "role": "referee",
+     "name": {
+      "en": "Yael FALCON PEREZ"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    }
+   ]
   },
   {
    "id": "400021486",
@@ -580,7 +452,7 @@
    "date": "2026-06-15T22:00:00Z",
    "venueId": "400257525",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "KSA",
     "score": null,
@@ -595,7 +467,19 @@
    "phB": "H4",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "415965",
+     "country": "ITA",
+     "role": "referee",
+     "name": {
+      "en": "Maurizio MARIANI"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    }
+   ]
   },
   {
    "id": "400021482",
@@ -605,7 +489,7 @@
    "date": "2026-06-15T16:00:00Z",
    "venueId": "400098290",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "ESP",
     "score": null,
@@ -620,7 +504,19 @@
    "phB": "H2",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "361034",
+     "country": "JOR",
+     "role": "referee",
+     "name": {
+      "en": "Adham MAKHADMEH"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    }
+   ]
   },
   {
    "id": "400021476",
@@ -630,7 +526,7 @@
    "date": "2026-06-16T01:00:00Z",
    "venueId": "400017978",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "IRN",
     "score": null,
@@ -645,7 +541,19 @@
    "phB": "G4",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "374810",
+     "country": "MEX",
+     "role": "referee",
+     "name": {
+      "en": "Cesar RAMOS"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    }
+   ]
   },
   {
    "id": "400021478",
@@ -655,7 +563,7 @@
    "date": "2026-06-15T19:00:00Z",
    "venueId": "400216606",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "BEL",
     "score": null,
@@ -670,7 +578,19 @@
    "phB": "G2",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "446932",
+     "country": "BRA",
+     "role": "referee",
+     "name": {
+      "en": "Ramon ABATTI"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    }
+   ]
   },
   {
    "id": "400021490",
@@ -680,7 +600,7 @@
    "date": "2026-06-16T19:00:00Z",
    "venueId": "400257536",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "FRA",
     "score": null,
@@ -705,7 +625,7 @@
    "date": "2026-06-16T22:00:00Z",
    "venueId": "400248623",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "IRQ",
     "score": null,
@@ -730,7 +650,7 @@
    "date": "2026-06-17T01:00:00Z",
    "venueId": "400254717",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "ARG",
     "score": null,
@@ -755,7 +675,7 @@
    "date": "2026-06-17T04:00:00Z",
    "venueId": "400257521",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "AUT",
     "score": null,
@@ -780,7 +700,7 @@
    "date": "2026-06-17T23:00:00Z",
    "venueId": "400242032",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "GHA",
     "score": null,
@@ -805,7 +725,7 @@
    "date": "2026-06-17T20:00:00Z",
    "venueId": "400257526",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "ENG",
     "score": null,
@@ -830,7 +750,7 @@
    "date": "2026-06-17T17:00:00Z",
    "venueId": "400249385",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "POR",
     "score": null,
@@ -855,7 +775,7 @@
    "date": "2026-06-18T02:00:00Z",
    "venueId": "400222084",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "UZB",
     "score": null,
@@ -880,7 +800,7 @@
    "date": "2026-06-18T16:00:00Z",
    "venueId": "400098290",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "CZE",
     "score": null,
@@ -905,7 +825,7 @@
    "date": "2026-06-18T19:00:00Z",
    "venueId": "400017978",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "SUI",
     "score": null,
@@ -930,7 +850,7 @@
    "date": "2026-06-18T22:00:00Z",
    "venueId": "400248370",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "CAN",
     "score": null,
@@ -955,7 +875,7 @@
    "date": "2026-06-19T01:00:00Z",
    "venueId": "400252150",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "MEX",
     "score": null,
@@ -980,7 +900,7 @@
    "date": "2026-06-20T00:30:00Z",
    "venueId": "400248622",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "BRA",
     "score": null,
@@ -1005,7 +925,7 @@
    "date": "2026-06-19T22:00:00Z",
    "venueId": "400248623",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "SCO",
     "score": null,
@@ -1030,7 +950,7 @@
    "date": "2026-06-20T03:00:00Z",
    "venueId": "400257521",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "TUR",
     "score": null,
@@ -1055,7 +975,7 @@
    "date": "2026-06-19T19:00:00Z",
    "venueId": "400216606",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "USA",
     "score": null,
@@ -1080,7 +1000,7 @@
    "date": "2026-06-20T20:00:00Z",
    "venueId": "400242032",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "GER",
     "score": null,
@@ -1105,7 +1025,7 @@
    "date": "2026-06-21T00:00:00Z",
    "venueId": "400254717",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "ECU",
     "score": null,
@@ -1130,7 +1050,7 @@
    "date": "2026-06-20T17:00:00Z",
    "venueId": "400249385",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "NED",
     "score": null,
@@ -1155,7 +1075,7 @@
    "date": "2026-06-21T04:00:00Z",
    "venueId": "400238450",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "TUN",
     "score": null,
@@ -1180,7 +1100,7 @@
    "date": "2026-06-21T22:00:00Z",
    "venueId": "400257525",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "URU",
     "score": null,
@@ -1205,7 +1125,7 @@
    "date": "2026-06-21T16:00:00Z",
    "venueId": "400098290",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "ESP",
     "score": null,
@@ -1230,7 +1150,7 @@
    "date": "2026-06-21T19:00:00Z",
    "venueId": "400017978",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "BEL",
     "score": null,
@@ -1255,7 +1175,7 @@
    "date": "2026-06-22T01:00:00Z",
    "venueId": "400248370",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "NZL",
     "score": null,
@@ -1280,7 +1200,7 @@
    "date": "2026-06-23T00:00:00Z",
    "venueId": "400257536",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "NOR",
     "score": null,
@@ -1305,7 +1225,7 @@
    "date": "2026-06-22T21:00:00Z",
    "venueId": "400248622",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "FRA",
     "score": null,
@@ -1330,7 +1250,7 @@
    "date": "2026-06-22T17:00:00Z",
    "venueId": "400257526",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "ARG",
     "score": null,
@@ -1355,7 +1275,7 @@
    "date": "2026-06-23T03:00:00Z",
    "venueId": "400257521",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "JOR",
     "score": null,
@@ -1380,7 +1300,7 @@
    "date": "2026-06-23T20:00:00Z",
    "venueId": "400248623",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "ENG",
     "score": null,
@@ -1405,7 +1325,7 @@
    "date": "2026-06-23T23:00:00Z",
    "venueId": "400242032",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "PAN",
     "score": null,
@@ -1430,7 +1350,7 @@
    "date": "2026-06-23T17:00:00Z",
    "venueId": "400249385",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "POR",
     "score": null,
@@ -1455,7 +1375,7 @@
    "date": "2026-06-24T02:00:00Z",
    "venueId": "400252150",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "COL",
     "score": null,
@@ -1480,7 +1400,7 @@
    "date": "2026-06-24T22:00:00Z",
    "venueId": "400257525",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "SCO",
     "score": null,
@@ -1505,7 +1425,7 @@
    "date": "2026-06-24T22:00:00Z",
    "venueId": "400098290",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "MAR",
     "score": null,
@@ -1530,7 +1450,7 @@
    "date": "2026-06-24T19:00:00Z",
    "venueId": "400248370",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "SUI",
     "score": null,
@@ -1555,7 +1475,7 @@
    "date": "2026-06-24T19:00:00Z",
    "venueId": "400216606",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "BIH",
     "score": null,
@@ -1580,7 +1500,7 @@
    "date": "2026-06-25T01:00:00Z",
    "venueId": "400222084",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "CZE",
     "score": null,
@@ -1605,7 +1525,7 @@
    "date": "2026-06-25T01:00:00Z",
    "venueId": "400238450",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "RSA",
     "score": null,
@@ -1630,7 +1550,7 @@
    "date": "2026-06-25T20:00:00Z",
    "venueId": "400248622",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "CUW",
     "score": null,
@@ -1655,7 +1575,7 @@
    "date": "2026-06-25T20:00:00Z",
    "venueId": "400257536",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "ECU",
     "score": null,
@@ -1680,7 +1600,7 @@
    "date": "2026-06-25T23:00:00Z",
    "venueId": "400257526",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "JPN",
     "score": null,
@@ -1705,7 +1625,7 @@
    "date": "2026-06-25T23:00:00Z",
    "venueId": "400254717",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "TUN",
     "score": null,
@@ -1730,7 +1650,7 @@
    "date": "2026-06-26T02:00:00Z",
    "venueId": "400017978",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "TUR",
     "score": null,
@@ -1755,7 +1675,7 @@
    "date": "2026-06-26T02:00:00Z",
    "venueId": "400257521",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "PAR",
     "score": null,
@@ -1780,7 +1700,7 @@
    "date": "2026-06-26T19:00:00Z",
    "venueId": "400248623",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "NOR",
     "score": null,
@@ -1805,7 +1725,7 @@
    "date": "2026-06-26T19:00:00Z",
    "venueId": "400242032",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "SEN",
     "score": null,
@@ -1830,7 +1750,7 @@
    "date": "2026-06-27T03:00:00Z",
    "venueId": "400216606",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "EGY",
     "score": null,
@@ -1855,7 +1775,7 @@
    "date": "2026-06-27T03:00:00Z",
    "venueId": "400248370",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "NZL",
     "score": null,
@@ -1880,7 +1800,7 @@
    "date": "2026-06-27T00:00:00Z",
    "venueId": "400249385",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "CPV",
     "score": null,
@@ -1905,7 +1825,7 @@
    "date": "2026-06-27T00:00:00Z",
    "venueId": "400252150",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "URU",
     "score": null,
@@ -1930,7 +1850,7 @@
    "date": "2026-06-27T21:00:00Z",
    "venueId": "400257536",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "PAN",
     "score": null,
@@ -1955,7 +1875,7 @@
    "date": "2026-06-27T21:00:00Z",
    "venueId": "400248622",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "CRO",
     "score": null,
@@ -1980,7 +1900,7 @@
    "date": "2026-06-28T02:00:00Z",
    "venueId": "400254717",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "ALG",
     "score": null,
@@ -2005,7 +1925,7 @@
    "date": "2026-06-28T02:00:00Z",
    "venueId": "400257526",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "JOR",
     "score": null,
@@ -2030,7 +1950,7 @@
    "date": "2026-06-27T23:30:00Z",
    "venueId": "400257525",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "COL",
     "score": null,
@@ -2055,7 +1975,7 @@
    "date": "2026-06-27T23:30:00Z",
    "venueId": "400098290",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "COD",
     "score": null,
@@ -2081,8 +2001,16 @@
    "venueId": "400017978",
    "status": "scheduled",
    "time": null,
-   "home": null,
-   "away": null,
+   "home": {
+    "code": null,
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": null,
+    "score": null,
+    "pen": null
+   },
    "phA": "2A",
    "phB": "2B",
    "winner": null,
@@ -2098,8 +2026,16 @@
    "venueId": "400248623",
    "status": "scheduled",
    "time": null,
-   "home": null,
-   "away": null,
+   "home": {
+    "code": null,
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": null,
+    "score": null,
+    "pen": null
+   },
    "phA": "1E",
    "phB": "3ABCDF",
    "winner": null,
@@ -2115,8 +2051,16 @@
    "venueId": "400238450",
    "status": "scheduled",
    "time": null,
-   "home": null,
-   "away": null,
+   "home": {
+    "code": null,
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": null,
+    "score": null,
+    "pen": null
+   },
    "phA": "1F",
    "phB": "2C",
    "winner": null,
@@ -2132,8 +2076,16 @@
    "venueId": "400249385",
    "status": "scheduled",
    "time": null,
-   "home": null,
-   "away": null,
+   "home": {
+    "code": null,
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": null,
+    "score": null,
+    "pen": null
+   },
    "phA": "1C",
    "phB": "2F",
    "winner": null,
@@ -2149,8 +2101,16 @@
    "venueId": "400257536",
    "status": "scheduled",
    "time": null,
-   "home": null,
-   "away": null,
+   "home": {
+    "code": null,
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": null,
+    "score": null,
+    "pen": null
+   },
    "phA": "1I",
    "phB": "3CDFGH",
    "winner": null,
@@ -2166,8 +2126,16 @@
    "venueId": "400257526",
    "status": "scheduled",
    "time": null,
-   "home": null,
-   "away": null,
+   "home": {
+    "code": null,
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": null,
+    "score": null,
+    "pen": null
+   },
    "phA": "2E",
    "phB": "2I",
    "winner": null,
@@ -2183,8 +2151,16 @@
    "venueId": "400222084",
    "status": "scheduled",
    "time": null,
-   "home": null,
-   "away": null,
+   "home": {
+    "code": null,
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": null,
+    "score": null,
+    "pen": null
+   },
    "phA": "1A",
    "phB": "3CEFHI",
    "winner": null,
@@ -2200,8 +2176,16 @@
    "venueId": "400098290",
    "status": "scheduled",
    "time": null,
-   "home": null,
-   "away": null,
+   "home": {
+    "code": null,
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": null,
+    "score": null,
+    "pen": null
+   },
    "phA": "1L",
    "phB": "3EHIJK",
    "winner": null,
@@ -2217,8 +2201,16 @@
    "venueId": "400257521",
    "status": "scheduled",
    "time": null,
-   "home": null,
-   "away": null,
+   "home": {
+    "code": null,
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": null,
+    "score": null,
+    "pen": null
+   },
    "phA": "1D",
    "phB": "3BEFIJ",
    "winner": null,
@@ -2234,8 +2226,16 @@
    "venueId": "400216606",
    "status": "scheduled",
    "time": null,
-   "home": null,
-   "away": null,
+   "home": {
+    "code": null,
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": null,
+    "score": null,
+    "pen": null
+   },
    "phA": "1G",
    "phB": "3AEHIJ",
    "winner": null,
@@ -2251,8 +2251,16 @@
    "venueId": "400242032",
    "status": "scheduled",
    "time": null,
-   "home": null,
-   "away": null,
+   "home": {
+    "code": null,
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": null,
+    "score": null,
+    "pen": null
+   },
    "phA": "2K",
    "phB": "2L",
    "winner": null,
@@ -2268,8 +2276,16 @@
    "venueId": "400017978",
    "status": "scheduled",
    "time": null,
-   "home": null,
-   "away": null,
+   "home": {
+    "code": null,
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": null,
+    "score": null,
+    "pen": null
+   },
    "phA": "1H",
    "phB": "2J",
    "winner": null,
@@ -2285,8 +2301,16 @@
    "venueId": "400248370",
    "status": "scheduled",
    "time": null,
-   "home": null,
-   "away": null,
+   "home": {
+    "code": null,
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": null,
+    "score": null,
+    "pen": null
+   },
    "phA": "1B",
    "phB": "3EFGIJ",
    "winner": null,
@@ -2302,8 +2326,16 @@
    "venueId": "400257525",
    "status": "scheduled",
    "time": null,
-   "home": null,
-   "away": null,
+   "home": {
+    "code": null,
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": null,
+    "score": null,
+    "pen": null
+   },
    "phA": "1J",
    "phB": "2H",
    "winner": null,
@@ -2319,8 +2351,16 @@
    "venueId": "400254717",
    "status": "scheduled",
    "time": null,
-   "home": null,
-   "away": null,
+   "home": {
+    "code": null,
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": null,
+    "score": null,
+    "pen": null
+   },
    "phA": "1K",
    "phB": "3DEIJL",
    "winner": null,
@@ -2336,8 +2376,16 @@
    "venueId": "400257526",
    "status": "scheduled",
    "time": null,
-   "home": null,
-   "away": null,
+   "home": {
+    "code": null,
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": null,
+    "score": null,
+    "pen": null
+   },
    "phA": "2D",
    "phB": "2G",
    "winner": null,
@@ -2353,8 +2401,16 @@
    "venueId": "400248622",
    "status": "scheduled",
    "time": null,
-   "home": null,
-   "away": null,
+   "home": {
+    "code": null,
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": null,
+    "score": null,
+    "pen": null
+   },
    "phA": "W74",
    "phB": "W77",
    "winner": null,
@@ -2370,8 +2426,16 @@
    "venueId": "400249385",
    "status": "scheduled",
    "time": null,
-   "home": null,
-   "away": null,
+   "home": {
+    "code": null,
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": null,
+    "score": null,
+    "pen": null
+   },
    "phA": "W73",
    "phB": "W75",
    "winner": null,
@@ -2387,8 +2451,16 @@
    "venueId": "400257536",
    "status": "scheduled",
    "time": null,
-   "home": null,
-   "away": null,
+   "home": {
+    "code": null,
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": null,
+    "score": null,
+    "pen": null
+   },
    "phA": "W76",
    "phB": "W78",
    "winner": null,
@@ -2404,8 +2476,16 @@
    "venueId": "400222084",
    "status": "scheduled",
    "time": null,
-   "home": null,
-   "away": null,
+   "home": {
+    "code": null,
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": null,
+    "score": null,
+    "pen": null
+   },
    "phA": "W79",
    "phB": "W80",
    "winner": null,
@@ -2421,8 +2501,16 @@
    "venueId": "400257526",
    "status": "scheduled",
    "time": null,
-   "home": null,
-   "away": null,
+   "home": {
+    "code": null,
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": null,
+    "score": null,
+    "pen": null
+   },
    "phA": "W83",
    "phB": "W84",
    "winner": null,
@@ -2438,8 +2526,16 @@
    "venueId": "400216606",
    "status": "scheduled",
    "time": null,
-   "home": null,
-   "away": null,
+   "home": {
+    "code": null,
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": null,
+    "score": null,
+    "pen": null
+   },
    "phA": "W81",
    "phB": "W82",
    "winner": null,
@@ -2455,8 +2551,16 @@
    "venueId": "400098290",
    "status": "scheduled",
    "time": null,
-   "home": null,
-   "away": null,
+   "home": {
+    "code": null,
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": null,
+    "score": null,
+    "pen": null
+   },
    "phA": "W86",
    "phB": "W88",
    "winner": null,
@@ -2472,8 +2576,16 @@
    "venueId": "400248370",
    "status": "scheduled",
    "time": null,
-   "home": null,
-   "away": null,
+   "home": {
+    "code": null,
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": null,
+    "score": null,
+    "pen": null
+   },
    "phA": "W85",
    "phB": "W87",
    "winner": null,
@@ -2489,8 +2601,16 @@
    "venueId": "400248623",
    "status": "scheduled",
    "time": null,
-   "home": null,
-   "away": null,
+   "home": {
+    "code": null,
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": null,
+    "score": null,
+    "pen": null
+   },
    "phA": "W89",
    "phB": "W90",
    "winner": null,
@@ -2506,8 +2626,16 @@
    "venueId": "400017978",
    "status": "scheduled",
    "time": null,
-   "home": null,
-   "away": null,
+   "home": {
+    "code": null,
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": null,
+    "score": null,
+    "pen": null
+   },
    "phA": "W93",
    "phB": "W94",
    "winner": null,
@@ -2523,8 +2651,16 @@
    "venueId": "400257525",
    "status": "scheduled",
    "time": null,
-   "home": null,
-   "away": null,
+   "home": {
+    "code": null,
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": null,
+    "score": null,
+    "pen": null
+   },
    "phA": "W91",
    "phB": "W92",
    "winner": null,
@@ -2540,8 +2676,16 @@
    "venueId": "400254717",
    "status": "scheduled",
    "time": null,
-   "home": null,
-   "away": null,
+   "home": {
+    "code": null,
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": null,
+    "score": null,
+    "pen": null
+   },
    "phA": "W95",
    "phB": "W96",
    "winner": null,
@@ -2557,8 +2701,16 @@
    "venueId": "400257526",
    "status": "scheduled",
    "time": null,
-   "home": null,
-   "away": null,
+   "home": {
+    "code": null,
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": null,
+    "score": null,
+    "pen": null
+   },
    "phA": "W97",
    "phB": "W98",
    "winner": null,
@@ -2574,8 +2726,16 @@
    "venueId": "400098290",
    "status": "scheduled",
    "time": null,
-   "home": null,
-   "away": null,
+   "home": {
+    "code": null,
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": null,
+    "score": null,
+    "pen": null
+   },
    "phA": "W99",
    "phB": "W100",
    "winner": null,
@@ -2591,8 +2751,16 @@
    "venueId": "400257525",
    "status": "scheduled",
    "time": null,
-   "home": null,
-   "away": null,
+   "home": {
+    "code": null,
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": null,
+    "score": null,
+    "pen": null
+   },
    "phA": "RU101",
    "phB": "RU102",
    "winner": null,
@@ -2608,8 +2776,16 @@
    "venueId": "400257536",
    "status": "scheduled",
    "time": null,
-   "home": null,
-   "away": null,
+   "home": {
+    "code": null,
+    "score": null,
+    "pen": null
+   },
+   "away": {
+    "code": null,
+    "score": null,
+    "pen": null
+   },
    "phA": "W101",
    "phB": "W102",
    "winner": null,
