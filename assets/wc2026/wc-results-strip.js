@@ -1,4 +1,4 @@
-import { clearElement, columnIndex, createElement, numberOrZero, setHidden } from "../js/dom.js";
+import { clearElement, createElement, numberOrZero, setHidden } from "../js/dom.js";
 import { parseCSV } from "../js/csv.js";
 import { getMatches } from "./wc-data.js";
 
@@ -7,7 +7,7 @@ const UPCOMING_LIMIT = 8;
 const PREDICTION_PULSE_COLUMNS = {
   matchId: "match_id",
   teamA: "team_a_picks",
-  draw: "draw_picks",
+  draw: ["draw_picks", "tie_picks"],
   teamB: "team_b_picks",
   total: "total_picks",
 };
@@ -61,7 +61,7 @@ function createMatchRail(title, matches, pulseByMatchId, prevLabel, nextLabel) {
   const track = createElement("div", { className: "wc-strip-track" });
 
   for (const match of matches) {
-    track.appendChild(createMatchCard(match, pulseByMatchId.get(match.id)));
+    track.appendChild(createMatchCard(match, getPulseForMatch(pulseByMatchId, match)));
   }
 
   const prevButton = createArrowButton("prev", prevLabel);
@@ -175,7 +175,7 @@ async function loadPredictionPulse(config) {
 function parsePredictionPulseRows(rows) {
   if (rows.length < 2) return new Map();
   const header = rows[0].map((value) => value.trim().toLowerCase());
-  const columns = columnIndex(header, PREDICTION_PULSE_COLUMNS);
+  const columns = columnIndexWithAliases(header, PREDICTION_PULSE_COLUMNS);
   const pulseByMatchId = new Map();
 
   if (columns.matchId === -1) return pulseByMatchId;
@@ -192,6 +192,26 @@ function parsePredictionPulseRows(rows) {
   }
 
   return pulseByMatchId;
+}
+
+function columnIndexWithAliases(header, columns) {
+  return Object.fromEntries(
+    Object.entries(columns).map(([key, columnNames]) => {
+      const names = Array.isArray(columnNames) ? columnNames : [columnNames];
+      return [key, names.reduce((found, name) => (found >= 0 ? found : header.indexOf(name)), -1)];
+    })
+  );
+}
+
+function getPulseForMatch(pulseByMatchId, match) {
+  return pulseByMatchId.get(match.id) || pulseByMatchId.get(getInternalMatchId(match));
+}
+
+function getInternalMatchId(match) {
+  if (match.stage === "group" && Number.isInteger(match.n)) {
+    return `G${String(match.n).padStart(3, "0")}`;
+  }
+  return "";
 }
 
 function createFlag(side) {
