@@ -248,9 +248,9 @@ function saveRankSnapshot(records, rankChanges) {
 }
 
 function getLeaderboardVersion(records) {
-  const latestUpdated = records.map((record) => record.updated).find(Boolean);
-  if (latestUpdated) return latestUpdated;
-  return records.map((record) => `${record.name}:${record.rank}:${record.total}`).join("|");
+  return records
+    .map((record) => `${record.name}:${record.rank}:${record.total}:${record.updated}`)
+    .join("|");
 }
 
 function getRankSnapshotKey() {
