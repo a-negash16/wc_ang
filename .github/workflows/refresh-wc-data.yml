@@ -2,7 +2,7 @@ name: Refresh World Cup Data
 
 on:
   schedule:
-    - cron: "30 0 * * *"
+    - cron: "30 * * * *"
   workflow_dispatch:
 
 permissions:
