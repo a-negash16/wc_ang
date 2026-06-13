@@ -230,7 +230,7 @@
    "date": "2026-06-13T22:00:00Z",
    "venueId": "400257536",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "BRA",
     "score": null,
@@ -266,22 +266,22 @@
    "group": "B",
    "date": "2026-06-13T19:00:00Z",
    "venueId": "400257521",
-   "status": "scheduled",
-   "time": "0'",
+   "status": "live",
+   "time": "81'",
    "home": {
     "code": "QAT",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "away": {
     "code": "SUI",
-    "score": null,
+    "score": 1,
     "pen": null
    },
    "phA": "B3",
    "phB": "B4",
    "winner": null,
-   "attendance": null,
+   "attendance": "67966",
    "officials": [
     {
      "id": "400191",
