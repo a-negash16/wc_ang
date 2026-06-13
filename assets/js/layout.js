@@ -48,6 +48,20 @@ export function renderLeagueLayout(config) {
       </div>
     </header>
 
+    <section class="section section-dark" id="wc-results">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow eyebrow-light">Live from the tournament</p>
+          <h2 class="section-title section-title-light">World Cup Match Center</h2>
+          <p class="section-sub section-sub-light">
+            Today&apos;s fixtures, live updates, and prediction pulse.
+          </p>
+        </div>
+
+        <div class="wc-strip" id="wc-upcoming-strip"></div>
+      </div>
+    </section>
+
     <section class="section section-light" id="leaderboard">
       <div class="container">
         <div class="section-head">
@@ -81,17 +95,17 @@ export function renderLeagueLayout(config) {
       </div>
     </section>
 
-    <section class="section section-dark" id="wc-results">
+    <section class="section section-dark" id="wc-finals">
       <div class="container">
         <div class="section-head">
-          <p class="eyebrow eyebrow-light">Live from the tournament</p>
-          <h2 class="section-title section-title-light">World Cup Match Center</h2>
+          <p class="eyebrow eyebrow-light">Latest finals</p>
+          <h2 class="section-title section-title-light">Latest Finals</h2>
           <p class="section-sub section-sub-light">
-            Today&apos;s fixtures, live updates, prediction pulse, and latest finals.
+            Completed World Cup matches, newest first.
           </p>
         </div>
 
-        <div class="wc-strip" id="wc-strip"></div>
+        <div class="wc-strip" id="wc-finals-strip"></div>
       </div>
     </section>
 
@@ -108,10 +122,10 @@ export function renderLeagueLayout(config) {
         <div class="rules-grid">
           <article class="rule-card">
             <h3 class="rule-title"><span class="rule-tag rule-tag-number">1</span> Group picks</h3>
-            <p>Pick winner or draw for each group match.</p>
+            <p>Pick winner or tie for each group match.</p>
             <table class="rule-table">
               <tr><th>Winner</th><td>+3</td></tr>
-              <tr><th>Draw</th><td>+5</td></tr>
+              <tr><th>Tie</th><td>+5</td></tr>
               <tr><th>Incorrect</th><td>0</td></tr>
             </table>
           </article>
@@ -184,8 +198,8 @@ export function renderLeagueLayout(config) {
             <p>Group-stage picks: allowed until kickoff. Futures: locked at draft, no edits. Knockout predictions: allowed until the match starts.</p>
           </details>
           <details class="faq-item">
-            <summary>Why does a correct Draw pay more than a correct winner pick?</summary>
-            <p>Draws are statistically harder to call. Rewarding them keeps the bold picks worth taking instead of everyone just picking the favorite.</p>
+            <summary>Why does a correct Tie pay more than a correct winner pick?</summary>
+            <p>Ties are statistically harder to call. Rewarding them keeps the bold picks worth taking instead of everyone just picking the favorite.</p>
           </details>
           <details class="faq-item">
             <summary>Who is eligible for clean sheet points?</summary>

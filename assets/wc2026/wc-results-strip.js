@@ -10,6 +10,11 @@ const PREDICTION_PULSE_COLUMNS = {
   draw: ["draw_picks", "tie_picks"],
   teamB: "team_b_picks",
   total: "total_picks",
+  teamAName: ["team_a", "home_team"],
+  teamBName: ["team_b", "away_team"],
+  teamAManagers: ["team_a_managers", "home_managers"],
+  drawManagers: ["draw_managers", "tie_managers"],
+  teamBManagers: ["team_b_managers", "away_managers"],
 };
 
 export async function renderWcResultsStrip(mountEl, options = {}) {
@@ -20,6 +25,7 @@ export async function renderWcResultsStrip(mountEl, options = {}) {
     getMatches(options),
     loadPredictionPulse(options.config),
   ]);
+  warnForUnmatchedPulseRows(pulseByMatchId, matches);
   const now = new Date();
   const upcomingMatches = getUpcomingMatches(matches, now);
   const finishedMatches = matches
@@ -27,41 +33,74 @@ export async function renderWcResultsStrip(mountEl, options = {}) {
     .sort((a, b) => b.date.localeCompare(a.date))
     .slice(0, FINISHED_LIMIT);
 
-  if (upcomingMatches.length === 0 && finishedMatches.length === 0) {
-    mountEl.appendChild(createElement("p", { className: "wc-empty", text: "No matches available yet." }));
+  const variant = options.variant || "all";
+  if (variant === "upcoming") {
+    renderMatchSet(
+      mountEl,
+      upcomingMatches,
+      pulseByMatchId,
+      "Today / Up next",
+      "No upcoming matches available yet.",
+      "Previous upcoming match",
+      "Next upcoming match",
+      { showManagers: true }
+    );
+    return;
+  }
+
+  if (variant === "finished") {
+    renderMatchSet(
+      mountEl,
+      finishedMatches,
+      pulseByMatchId,
+      "Latest finals",
+      "No completed matches yet.",
+      "Previous World Cup result",
+      "Next World Cup result",
+      { showManagers: false }
+    );
     return;
   }
 
   if (upcomingMatches.length > 0) {
     mountEl.appendChild(
-      createMatchRail("Today / Up next", upcomingMatches, pulseByMatchId, "Previous upcoming match", "Next upcoming match")
+      createMatchRail("Today / Up next", upcomingMatches, pulseByMatchId, "Previous upcoming match", "Next upcoming match", { showManagers: true })
     );
   }
 
   if (finishedMatches.length > 0) {
     mountEl.appendChild(
-      createMatchRail("Latest finals", finishedMatches, pulseByMatchId, "Previous World Cup result", "Next World Cup result")
+      createMatchRail("Latest finals", finishedMatches, pulseByMatchId, "Previous World Cup result", "Next World Cup result", { showManagers: false })
     );
   }
 }
 
+function renderMatchSet(mountEl, matches, pulseByMatchId, title, emptyText, prevLabel, nextLabel, railOptions = {}) {
+  if (matches.length === 0) {
+    mountEl.appendChild(createElement("p", { className: "wc-empty", text: emptyText }));
+    return;
+  }
+
+  mountEl.appendChild(createMatchRail(title, matches, pulseByMatchId, prevLabel, nextLabel, railOptions));
+}
+
 function getUpcomingMatches(matches, now) {
   const activeMatches = matches
-    .filter((match) => match.status === "live" || (match.status === "scheduled" && new Date(match.date) >= now))
+    .filter((match) => match.status !== "finished")
     .sort((a, b) => a.date.localeCompare(b.date));
 
   const todayMatches = activeMatches.filter((match) => isSameLocalDay(new Date(match.date), now));
   return (todayMatches.length > 0 ? todayMatches : activeMatches).slice(0, UPCOMING_LIMIT);
 }
 
-function createMatchRail(title, matches, pulseByMatchId, prevLabel, nextLabel) {
+function createMatchRail(title, matches, pulseByMatchId, prevLabel, nextLabel, railOptions = {}) {
   const shell = createElement("div", { className: "wc-strip-shell" });
   shell.appendChild(createElement("h3", { className: "wc-rail-title", text: title }));
 
   const track = createElement("div", { className: "wc-strip-track" });
 
   for (const match of matches) {
-    track.appendChild(createMatchCard(match, getPulseForMatch(pulseByMatchId, match)));
+    track.appendChild(createMatchCard(match, getPulseForMatch(pulseByMatchId, match), railOptions));
   }
 
   const prevButton = createArrowButton("prev", prevLabel);
@@ -73,7 +112,7 @@ function createMatchRail(title, matches, pulseByMatchId, prevLabel, nextLabel) {
   return shell;
 }
 
-function createMatchCard(match, pulse) {
+function createMatchCard(match, pulse, options = {}) {
   const card = createElement("article", { className: "wc-card" });
   const top = createElement("div", { className: "wc-top" });
 
@@ -105,7 +144,7 @@ function createMatchCard(match, pulse) {
   card.append(top, middle);
 
   if (pulse) {
-    card.appendChild(createPulse(pulse));
+    card.appendChild(createPulse(pulse, match, options));
   }
 
   return card;
@@ -119,11 +158,14 @@ function createTeamRow(side, match) {
 
   const row = createElement("div", { className: rowClasses.join(" ") });
   row.append(createFlag(side), createElement("span", { className: "nm", text: side?.name || "TBD" }));
-  row.appendChild(createElement("span", { className: "score", text: side?.score == null ? "–" : String(side.score) }));
+  row.appendChild(createElement("span", {
+    className: "score",
+    text: match.status === "finished" && side?.score != null ? String(side.score) : "–",
+  }));
   return row;
 }
 
-function createPulse(pulse) {
+function createPulse(pulse, match, options = {}) {
   const total = pulse.total || pulse.teamA + pulse.draw + pulse.teamB;
   if (!total) {
     return createElement("div", { className: "wc-pulse wc-pulse-empty", text: "Prediction pulse pending" });
@@ -135,19 +177,56 @@ function createPulse(pulse) {
 
   bar.append(
     createPulseSegment("home", pulse.teamA, total),
-    createPulseSegment("draw", pulse.draw, total),
+    createPulseSegment("tie", pulse.draw, total),
     createPulseSegment("away", pulse.teamB, total)
   );
 
   const split = createElement("div", { className: "wc-pulse-split" });
   split.append(
     createElement("span", { text: `${Math.round((pulse.teamA / total) * 100)}% home` }),
-    createElement("span", { text: `${Math.round((pulse.draw / total) * 100)}% draw` }),
+    createElement("span", { text: `${Math.round((pulse.draw / total) * 100)}% tie` }),
     createElement("span", { text: `${Math.round((pulse.teamB / total) * 100)}% away` })
   );
 
   pulseEl.append(bar, split);
+  if (options.showManagers) {
+    const managerList = createPulseManagers(pulse, match);
+    if (managerList) {
+      pulseEl.appendChild(managerList);
+    }
+  }
   return pulseEl;
+}
+
+function createPulseManagers(pulse, match) {
+  const groups = [
+    {
+      label: match.home?.name || "Home",
+      managers: pulse.teamAManagers,
+    },
+    {
+      label: "Tie",
+      managers: pulse.drawManagers,
+    },
+    {
+      label: match.away?.name || "Away",
+      managers: pulse.teamBManagers,
+    },
+  ].filter((group) => group.managers);
+
+  if (groups.length === 0) return null;
+
+  const list = createElement("div", { className: "wc-pulse-managers" });
+  for (const group of groups) {
+    const row = createElement("div", { className: "wc-pulse-manager-row" });
+    row.append(
+      createElement("span", { className: "wc-pulse-manager-label", text: group.label }),
+      createElement("span", { className: "wc-pulse-manager-names", text: group.managers })
+    );
+    list.appendChild(row);
+  }
+
+  return list;
 }
 
 function createPulseSegment(kind, value, total) {
@@ -182,16 +261,53 @@ function parsePredictionPulseRows(rows) {
 
   for (const row of rows.slice(1)) {
     const matchId = row[columns.matchId];
-    if (!matchId) continue;
-    pulseByMatchId.set(matchId, {
+    const teamAName = cleanText(row[columns.teamAName]);
+    const teamBName = cleanText(row[columns.teamBName]);
+    if (!matchId && (!teamAName || !teamBName)) continue;
+
+    const pulse = {
       teamA: numberOrZero(row[columns.teamA]),
       draw: numberOrZero(row[columns.draw]),
       teamB: numberOrZero(row[columns.teamB]),
       total: columns.total >= 0 ? numberOrZero(row[columns.total]) : 0,
+      teamAManagers: cleanManagerList(row[columns.teamAManagers]),
+      drawManagers: cleanManagerList(row[columns.drawManagers]),
+      teamBManagers: cleanManagerList(row[columns.teamBManagers]),
+    };
+
+    if (matchId) {
+      pulseByMatchId.set(`id:${matchId}`, pulse);
+    }
+    if (teamAName && teamBName) {
+      pulseByMatchId.set(getTeamPairKey(teamAName, teamBName), pulse);
+    }
+    addPulseSourceRow(pulseByMatchId, {
+      matchId,
+      teamAName,
+      teamBName,
+      idKey: matchId ? `id:${matchId}` : "",
+      pairKey: teamAName && teamBName ? getTeamPairKey(teamAName, teamBName) : "",
     });
   }
 
   return pulseByMatchId;
+}
+
+function addPulseSourceRow(pulseByMatchId, row) {
+  if (!pulseByMatchId.sourceRows) {
+    pulseByMatchId.sourceRows = [];
+  }
+  pulseByMatchId.sourceRows.push(row);
+}
+
+function cleanManagerList(value) {
+  const text = cleanText(value);
+  if (!text || text === "#N/A") return "";
+  return text;
+}
+
+function cleanText(value) {
+  return String(value || "").trim();
 }
 
 function columnIndexWithAliases(header, columns) {
@@ -204,14 +320,44 @@ function columnIndexWithAliases(header, columns) {
 }
 
 function getPulseForMatch(pulseByMatchId, match) {
-  return pulseByMatchId.get(match.id) || pulseByMatchId.get(getInternalMatchId(match));
+  return pulseByMatchId.get(`id:${match.id}`)
+    || pulseByMatchId.get(getTeamPairKey(match.home?.name, match.away?.name));
 }
 
-function getInternalMatchId(match) {
-  if (match.stage === "group" && Number.isInteger(match.n)) {
-    return `G${String(match.n).padStart(3, "0")}`;
+function warnForUnmatchedPulseRows(pulseByMatchId, matches) {
+  if (!pulseByMatchId.sourceRows?.length) return;
+
+  const matchKeys = new Set();
+  for (const match of matches) {
+    matchKeys.add(`id:${match.id}`);
+    matchKeys.add(getTeamPairKey(match.home?.name, match.away?.name));
   }
-  return "";
+
+  const unmatchedRows = pulseByMatchId.sourceRows.filter((row) => {
+    return (!row.idKey || !matchKeys.has(row.idKey)) && (!row.pairKey || !matchKeys.has(row.pairKey));
+  });
+
+  if (unmatchedRows.length > 0) {
+    console.warn(
+      "Prediction pulse rows did not match any World Cup match:",
+      unmatchedRows.map((row) => ({
+        match_id: row.matchId,
+        team_a: row.teamAName,
+        team_b: row.teamBName,
+      }))
+    );
+  }
+}
+
+function getTeamPairKey(teamAName, teamBName) {
+  return `teams:${normalizeTeamName(teamAName)}:${normalizeTeamName(teamBName)}`;
+}
+
+function normalizeTeamName(value) {
+  return String(value || "")
+    .toLowerCase()
+    .replace(/&/g, "and")
+    .replace(/[^a-z0-9]+/g, "");
 }
 
 function createFlag(side) {
@@ -264,12 +410,11 @@ function isSameLocalDay(date, otherDate) {
 
 function getStatusLabel(match) {
   if (match.status === "finished") return "Full time";
-  if (match.status === "live") return match.time || "Live";
   return "Kickoff";
 }
 
 function formatMatchDate(match) {
-  if (match.status === "scheduled" || match.status === "live") {
+  if (match.status !== "finished") {
     return new Intl.DateTimeFormat(undefined, {
       month: "short",
       day: "numeric",

@@ -1,8 +1,8 @@
 import { getSiteConfig, validateSiteConfig } from "./config.js";
 import { requireElement, setHidden, setStatus } from "./dom.js";
-import { renderLeagueLayout } from "./layout.js?v=prediction-pulse-20260613";
-import { loadLeaderboard } from "./leaderboard.js?v=prediction-pulse-20260613";
-import { renderWcResultsStrip } from "../wc2026/wc-results-strip.js?v=prediction-pulse-20260613";
+import { renderLeagueLayout } from "./layout.js?v=pulse-reorder-20260613f";
+import { loadLeaderboard } from "./leaderboard.js?v=pulse-reorder-20260613f";
+import { renderWcResultsStrip } from "../wc2026/wc-results-strip.js?v=pulse-reorder-20260613f";
 
 const WC_RESULTS_REFRESH_MS = 60 * 60 * 1000;
 
@@ -40,14 +40,22 @@ function getRequiredElements() {
 
 function loadWcResultsStrip(config) {
   try {
-    const mountEl = requireElement("wc-strip");
-    renderWcResultsStrip(mountEl, { config }).catch((error) => {
+    const upcomingMountEl = requireElement("wc-upcoming-strip");
+    const finalsMountEl = requireElement("wc-finals-strip");
+
+    renderWcResultsStrip(upcomingMountEl, { config, variant: "upcoming" }).catch((error) => {
       console.error("Could not render World Cup results strip:", error);
+    });
+    renderWcResultsStrip(finalsMountEl, { config, variant: "finished" }).catch((error) => {
+      console.error("Could not render World Cup finals strip:", error);
     });
 
     window.setInterval(() => {
-      renderWcResultsStrip(mountEl, { config, forceRefresh: true }).catch((error) => {
+      renderWcResultsStrip(upcomingMountEl, { config, variant: "upcoming", forceRefresh: true }).catch((error) => {
         console.error("Could not refresh World Cup results strip:", error);
+      });
+      renderWcResultsStrip(finalsMountEl, { config, variant: "finished", forceRefresh: true }).catch((error) => {
+        console.error("Could not refresh World Cup finals strip:", error);
       });
     }, WC_RESULTS_REFRESH_MS);
   } catch (error) {
