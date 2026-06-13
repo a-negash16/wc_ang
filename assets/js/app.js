@@ -1,8 +1,8 @@
 import { getSiteConfig, validateSiteConfig } from "./config.js";
 import { requireElement, setHidden, setStatus } from "./dom.js";
-import { renderLeagueLayout } from "./layout.js?v=match-center-ranks-20260613b";
-import { loadLeaderboard } from "./leaderboard.js?v=match-center-ranks-20260613b";
-import { renderWcResultsStrip } from "../wc2026/wc-results-strip.js?v=match-center-ranks-20260613b";
+import { renderLeagueLayout } from "./layout.js?v=match-center-ranks-20260613c";
+import { loadLeaderboard } from "./leaderboard.js?v=match-center-ranks-20260613c";
+import { renderWcResultsStrip } from "../wc2026/wc-results-strip.js?v=match-center-ranks-20260613c";
 
 const WC_RESULTS_REFRESH_MS = 60 * 60 * 1000;
 

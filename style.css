@@ -244,6 +244,12 @@ a { color: inherit; text-decoration: none; }
   box-shadow: 0 0 0 0 var(--accent-ring);
   animation: pulse 2.2s infinite;
 }
+.hero-status-line {
+  display: block;
+}
+.hero-status-line + .hero-status-line {
+  padding-left: 7ch;
+}
 @keyframes pulse {
   0%   { box-shadow: 0 0 0 0 var(--accent-ring); }
   70%  { box-shadow: 0 0 0 10px transparent; }
@@ -417,6 +423,7 @@ a { color: inherit; text-decoration: none; }
 }
 .rank-change.is-up { color: #087f5b; }
 .rank-change.is-down { color: #c92a2a; }
+.rank-change.is-flat { color: var(--ink-mute); }
 
 /* ============ RULES ============ */
 .rules-grid {

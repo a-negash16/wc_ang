@@ -63,19 +63,28 @@ function renderLeaderboard(records, elements) {
   for (const record of records) {
     elements.boardBody.appendChild(createLeaderboardRow(record, rankChanges.get(record.name)));
   }
-  saveRankSnapshot(records);
+  saveRankSnapshot(records, rankChanges);
 
   setHidden(elements.boardStatus, true);
   setHidden(elements.tableWrap, false);
 
   if (records.length > 0) {
-    elements.heroStatus.textContent = createHeroStatus(records);
+    renderHeroStatus(elements.heroStatus, records);
   }
 
   const leader = records[0];
   if (leader && leader.updated) {
     elements.footerUpdated.textContent = `Last updated: ${leader.updated}`;
   }
+}
+
+function renderHeroStatus(heroStatus, records) {
+  clearElement(heroStatus);
+  const summary = createHeroStatus(records);
+  heroStatus.append(
+    createElement("span", { className: "hero-status-line", text: summary.leaders }),
+    createElement("span", { className: "hero-status-line", text: summary.lastPlace })
+  );
 }
 
 function createHeroStatus(records) {
@@ -86,7 +95,10 @@ function createHeroStatus(records) {
   const leaderVerb = leaders.length === 1 ? "leads" : "lead";
   const lastVerb = lastPlaceManagers.length === 1 ? "is" : "are";
 
-  return `Live · ⭐ ${formatNames(leaders)} ${leaderVerb} with ${formatNumber(leaderPoints)} pts · 🤡 ${formatNames(lastPlaceManagers)} ${lastVerb} last with ${formatNumber(lastPlacePoints)} pts`;
+  return {
+    leaders: `Live · ⭐ ${formatNames(leaders)} ${leaderVerb} with ${formatNumber(leaderPoints)} pts`,
+    lastPlace: `🤡 ${formatNames(lastPlaceManagers)} ${lastVerb} last with ${formatNumber(lastPlacePoints)} pts`,
+  };
 }
 
 function getLeaders(records) {
@@ -131,7 +143,16 @@ function createRankCell(record, rankChange) {
   const cell = createElement("td", { className: "col-rank" });
   cell.appendChild(createElement("span", { className: "rank-medal", text: String(record.rank || "") }));
 
-  if (rankChange && rankChange !== 0) {
+  if (rankChange === 0 || rankChange === undefined) {
+    cell.appendChild(createElement("span", {
+      className: "rank-change is-flat",
+      attrs: {
+        title: "No rank change",
+        "aria-label": "No rank change",
+      },
+      text: "-",
+    }));
+  } else {
     const improved = rankChange < 0;
     const indicator = createElement("span", {
       className: `rank-change ${improved ? "is-up" : "is-down"}`,
@@ -184,9 +205,15 @@ function showBoardError(message, elements) {
 function getRankChanges(records) {
   const previous = readRankSnapshot();
   const changes = new Map();
+  const currentVersion = getLeaderboardVersion(records);
+  const previousRanks = previous?.ranks || previous || {};
+
+  if (previous?.version === currentVersion && previous?.changes) {
+    return new Map(Object.entries(previous.changes));
+  }
 
   for (const record of records) {
-    const previousRank = previous[record.name];
+    const previousRank = previousRanks[record.name];
     if (Number.isInteger(previousRank) && Number.isInteger(record.rank)) {
       changes.set(record.name, record.rank - previousRank);
     }
@@ -203,17 +230,27 @@ function readRankSnapshot() {
   }
 }
 
-function saveRankSnapshot(records) {
+function saveRankSnapshot(records, rankChanges) {
   try {
-    const snapshot = Object.fromEntries(
-      records
-        .filter((record) => record.name && Number.isInteger(record.rank))
-        .map((record) => [record.name, record.rank])
-    );
+    const snapshot = {
+      version: getLeaderboardVersion(records),
+      changes: Object.fromEntries(rankChanges),
+      ranks: Object.fromEntries(
+        records
+          .filter((record) => record.name && Number.isInteger(record.rank))
+          .map((record) => [record.name, record.rank])
+      ),
+    };
     window.localStorage.setItem(getRankSnapshotKey(), JSON.stringify(snapshot));
   } catch (error) {
     // Rank movement is an enhancement; standings should still render if storage is unavailable.
   }
+}
+
+function getLeaderboardVersion(records) {
+  const latestUpdated = records.map((record) => record.updated).find(Boolean);
+  if (latestUpdated) return latestUpdated;
+  return records.map((record) => `${record.name}:${record.rank}:${record.total}`).join("|");
 }
 
 function getRankSnapshotKey() {
