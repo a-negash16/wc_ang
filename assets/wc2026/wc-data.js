@@ -49,6 +49,10 @@ export async function getTitleOdds(options = {}) {
 }
 
 async function loadCoreData(options) {
+  if (options.forceRefresh) {
+    dataPromise = null;
+  }
+
   if (!dataPromise) {
     dataPromise = Promise.all([
       fetchJson(DATA_FILES.matches, options),

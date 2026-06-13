@@ -2,8 +2,9 @@ import { getSiteConfig, validateSiteConfig } from "./config.js";
 import { requireElement, setHidden, setStatus } from "./dom.js";
 import { renderLeagueLayout } from "./layout.js";
 import { loadLeaderboard } from "./leaderboard.js";
-import { loadResults } from "./results.js";
 import { renderWcResultsStrip } from "../wc2026/wc-results-strip.js";
+
+const WC_RESULTS_REFRESH_MS = 60 * 60 * 1000;
 
 bootstrap();
 
@@ -21,7 +22,6 @@ function bootstrap() {
     }
 
     loadLeaderboard(config, elements);
-    loadResults(config, elements);
     loadWcResultsStrip();
   } catch (error) {
     showFatalError(error);
@@ -35,9 +35,6 @@ function getRequiredElements() {
     boardStatus: requireElement("board-status"),
     tableWrap: requireElement("table-wrap"),
     boardBody: requireElement("board-body"),
-    resultsStatus: requireElement("results-status"),
-    resultsGrid: requireElement("results-grid"),
-    resultsEmpty: requireElement("results-empty"),
   };
 }
 
@@ -47,6 +44,12 @@ function loadWcResultsStrip() {
     renderWcResultsStrip(mountEl).catch((error) => {
       console.error("Could not render World Cup results strip:", error);
     });
+
+    window.setInterval(() => {
+      renderWcResultsStrip(mountEl, { forceRefresh: true }).catch((error) => {
+        console.error("Could not refresh World Cup results strip:", error);
+      });
+    }, WC_RESULTS_REFRESH_MS);
   } catch (error) {
     console.error("Could not start World Cup results strip:", error);
   }
@@ -56,8 +59,6 @@ function showConfigurationError(missingConfig, elements) {
   const message = `Missing required config value(s): ${missingConfig.join(", ")}`;
   setStatus(elements.boardStatus, message, true);
   setHidden(elements.tableWrap, true);
-  setHidden(elements.resultsStatus, true);
-  setHidden(elements.resultsGrid, true);
   elements.heroStatus.textContent = "Standings unavailable";
 }
 

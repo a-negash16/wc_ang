@@ -21,7 +21,7 @@ export function renderLeagueLayout(config) {
         </a>
         <ul class="nav-links">
           <li><a href="#leaderboard">Standings</a></li>
-          <li><a href="#results">Results</a></li>
+          <li><a href="#wc-results">Results</a></li>
           <li><a href="#rules">Rules</a></li>
           <li><a href="#faq">FAQ</a></li>
         </ul>
@@ -81,24 +81,6 @@ export function renderLeagueLayout(config) {
       </div>
     </section>
 
-    <section class="section section-dark" id="results">
-      <div class="container">
-        <div class="section-head">
-          <p class="eyebrow eyebrow-light">Activity</p>
-          <h2 class="section-title section-title-light">Recent Results</h2>
-          <p class="section-sub section-sub-light">
-            The latest finished matches, plus how many managers called them right.
-          </p>
-        </div>
-
-        <div class="results-status" id="results-status" role="status">Loading recent results...</div>
-        <div class="results-grid" id="results-grid" hidden></div>
-        <p class="results-empty" id="results-empty" hidden>
-          No matches finished yet. Check back after the first kickoff.
-        </p>
-      </div>
-    </section>
-
     <section class="section section-dark" id="wc-results">
       <div class="container">
         <div class="section-head">
@@ -119,56 +101,67 @@ export function renderLeagueLayout(config) {
           <p class="eyebrow">How it works</p>
           <h2 class="section-title">The rules</h2>
           <p class="section-sub">
-            Five ways to score, one combined total. Commissioner's decisions are
-            final on anything not written here.
+            Five scoring lanes. One total.
           </p>
         </div>
 
         <div class="rules-grid">
           <article class="rule-card">
-            <h3 class="rule-title"><span class="rule-tag">Phase 1</span> Group stage picks</h3>
-            <p>Pick the outcome of every group-stage match: Team A wins, Team B wins, or Draw.</p>
+            <h3 class="rule-title"><span class="rule-tag">Phase 1</span> Group picks</h3>
+            <p>Pick winner or draw for each group match.</p>
             <table class="rule-table">
-              <tr><th>Correct winner pick</th><td>+3</td></tr>
-              <tr><th>Correct draw pick</th><td>+5</td></tr>
+              <tr><th>Winner</th><td>+3</td></tr>
+              <tr><th>Draw</th><td>+5</td></tr>
               <tr><th>Incorrect</th><td>0</td></tr>
             </table>
           </article>
 
           <article class="rule-card">
-            <h3 class="rule-title"><span class="rule-tag">Phase 2</span> Knockout predictions</h3>
-            <p>Starting in the Round of 32, predict four things about every match.</p>
+            <h3 class="rule-title"><span class="rule-tag">Phase 2</span> Knockouts</h3>
+            <p>Predict the winner, two scorers, and match length.</p>
             <table class="rule-table">
               <tr><th>Winner</th><td>+5</td></tr>
-              <tr><th>Goal scorer #1</th><td>+3</td></tr>
-              <tr><th>Goal scorer #2</th><td>+3</td></tr>
-              <tr><th>Length (90 / ET / Pens)</th><td>+2</td></tr>
+              <tr><th>Scorer 1</th><td>+3</td></tr>
+              <tr><th>Scorer 2</th><td>+3</td></tr>
+              <tr><th>Length</th><td>+2</td></tr>
             </table>
-            <p class="rule-foot">Max <strong>13 pts</strong> per match across 31 knockout matches.</p>
+            <p class="rule-foot"><strong>13 max</strong> per match.</p>
           </article>
 
           <article class="rule-card">
-            <h3 class="rule-title"><span class="rule-tag">Phase 3</span> Locked futures</h3>
-            <p>One-shot picks submitted at draft time. No edits afterward.</p>
+            <h3 class="rule-title"><span class="rule-tag">Phase 3</span> Futures</h3>
+            <p>Submit once. Locked after the draft.</p>
             <table class="rule-table">
-              <tr><th>Tournament Winner</th><td>100</td></tr>
-              <tr><th>Each correct Finalist (2 picks)</th><td>50</td></tr>
+              <tr><th>Winner</th><td>100</td></tr>
+              <tr><th>Finalist</th><td>50</td></tr>
               <tr><th>Golden Boot</th><td>150</td></tr>
-              <tr><th>Player of the Tournament</th><td>150</td></tr>
+              <tr><th>Player of Tournament</th><td>150</td></tr>
             </table>
           </article>
 
           <article class="rule-card">
-            <h3 class="rule-title"><span class="rule-tag">Draft</span> Teams &amp; players</h3>
-            <p>Snake draft after the group stage. Each manager owns 4 teams and 4 players, exclusive within the group.</p>
+            <h3 class="rule-title"><span class="rule-tag">Draft</span> Teams</h3>
+            <p>Draft 4 teams. Points stack by round reached.</p>
             <table class="rule-table">
-              <tr><th>Team reaches R16</th><td>+10</td></tr>
-              <tr><th>Team reaches QF</th><td>+20</td></tr>
-              <tr><th>Team reaches SF</th><td>+30</td></tr>
-              <tr><th>Team reaches Final</th><td>+40</td></tr>
-              <tr><th>Team wins Cup</th><td>+50</td></tr>
+              <tr><th>R16</th><td>+10</td></tr>
+              <tr><th>QF</th><td>+20</td></tr>
+              <tr><th>SF</th><td>+30</td></tr>
+              <tr><th>Final</th><td>+40</td></tr>
+              <tr><th>Champion</th><td>+50</td></tr>
             </table>
-            <p class="rule-foot">Players earn per occurrence: goal +5, assist +3, MOTM +7, clean sheet +3 (GK/CB), penalty save +10 (GK).</p>
+          </article>
+
+          <article class="rule-card">
+            <h3 class="rule-title"><span class="rule-tag">Draft</span> Players</h3>
+            <p>Draft 4 players. Every stat counts.</p>
+            <table class="rule-table">
+              <tr><th>Goal</th><td>+5</td></tr>
+              <tr><th>Assist</th><td>+3</td></tr>
+              <tr><th>MOTM</th><td>+7</td></tr>
+              <tr><th>Clean sheet</th><td>+3</td></tr>
+              <tr><th>Penalty save</th><td>+10</td></tr>
+            </table>
+            <p class="rule-foot">Clean sheets: <strong>GK/CB</strong>. Penalty saves: <strong>GK</strong>.</p>
           </article>
         </div>
       </div>

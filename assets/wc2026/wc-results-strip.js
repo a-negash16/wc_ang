@@ -3,11 +3,11 @@ import { getMatches } from "./wc-data.js";
 
 const FINISHED_LIMIT = 12;
 
-export async function renderWcResultsStrip(mountEl) {
+export async function renderWcResultsStrip(mountEl, options = {}) {
   clearElement(mountEl);
   setHidden(mountEl, false);
 
-  const matches = await getMatches();
+  const matches = await getMatches(options);
   const finishedMatches = matches
     .filter((match) => match.status === "finished")
     .sort((a, b) => b.date.localeCompare(a.date))
