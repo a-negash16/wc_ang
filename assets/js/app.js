@@ -1,8 +1,8 @@
 import { getSiteConfig, validateSiteConfig } from "./config.js";
 import { requireElement, setHidden, setStatus } from "./dom.js";
-import { renderLeagueLayout } from "./layout.js";
-import { loadLeaderboard } from "./leaderboard.js";
-import { renderWcResultsStrip } from "../wc2026/wc-results-strip.js";
+import { renderLeagueLayout } from "./layout.js?v=match-center-ranks-20260613b";
+import { loadLeaderboard } from "./leaderboard.js?v=match-center-ranks-20260613b";
+import { renderWcResultsStrip } from "../wc2026/wc-results-strip.js?v=match-center-ranks-20260613b";
 
 const WC_RESULTS_REFRESH_MS = 60 * 60 * 1000;
 
@@ -22,7 +22,7 @@ function bootstrap() {
     }
 
     loadLeaderboard(config, elements);
-    loadWcResultsStrip();
+    loadWcResultsStrip(config);
   } catch (error) {
     showFatalError(error);
   }
@@ -38,15 +38,15 @@ function getRequiredElements() {
   };
 }
 
-function loadWcResultsStrip() {
+function loadWcResultsStrip(config) {
   try {
     const mountEl = requireElement("wc-strip");
-    renderWcResultsStrip(mountEl).catch((error) => {
+    renderWcResultsStrip(mountEl, { config }).catch((error) => {
       console.error("Could not render World Cup results strip:", error);
     });
 
     window.setInterval(() => {
-      renderWcResultsStrip(mountEl, { forceRefresh: true }).catch((error) => {
+      renderWcResultsStrip(mountEl, { config, forceRefresh: true }).catch((error) => {
         console.error("Could not refresh World Cup results strip:", error);
       });
     }, WC_RESULTS_REFRESH_MS);

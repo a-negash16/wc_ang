@@ -59,27 +59,63 @@ export function parseLeaderboardRows(rows) {
 function renderLeaderboard(records, elements) {
   clearElement(elements.boardBody);
 
+  const rankChanges = getRankChanges(records);
   for (const record of records) {
-    elements.boardBody.appendChild(createLeaderboardRow(record));
+    elements.boardBody.appendChild(createLeaderboardRow(record, rankChanges.get(record.name)));
   }
+  saveRankSnapshot(records);
 
   setHidden(elements.boardStatus, true);
   setHidden(elements.tableWrap, false);
 
-  const leader = records[0];
-  if (leader) {
-    elements.heroStatus.textContent = `Live · ${leader.name} leads with ${formatNumber(leader.total)} pts`;
+  if (records.length > 0) {
+    elements.heroStatus.textContent = createHeroStatus(records);
   }
 
+  const leader = records[0];
   if (leader && leader.updated) {
     elements.footerUpdated.textContent = `Last updated: ${leader.updated}`;
   }
 }
 
-function createLeaderboardRow(record) {
+function createHeroStatus(records) {
+  const leaders = getLeaders(records);
+  const lastPlaceManagers = getLastPlaceManagers(records);
+  const leaderPoints = leaders[0]?.total ?? 0;
+  const lastPlacePoints = lastPlaceManagers[0]?.total ?? 0;
+  const leaderVerb = leaders.length === 1 ? "leads" : "lead";
+  const lastVerb = lastPlaceManagers.length === 1 ? "is" : "are";
+
+  return `Live · ⭐ ${formatNames(leaders)} ${leaderVerb} with ${formatNumber(leaderPoints)} pts · 🤡 ${formatNames(lastPlaceManagers)} ${lastVerb} last with ${formatNumber(lastPlacePoints)} pts`;
+}
+
+function getLeaders(records) {
+  const firstRank = records.filter((record) => record.rank === 1);
+  if (firstRank.length > 0) {
+    return firstRank;
+  }
+
+  const topTotal = Math.max(...records.map((record) => record.total));
+  return records.filter((record) => record.total === topTotal);
+}
+
+function getLastPlaceManagers(records) {
+  const lowTotal = Math.min(...records.map((record) => record.total));
+  return records.filter((record) => record.total === lowTotal);
+}
+
+function formatNames(records) {
+  const names = records.map((record) => record.name);
+  if (names.length <= 2) {
+    return names.join(" and ");
+  }
+  return `${names.slice(0, -1).join(", ")}, and ${names[names.length - 1]}`;
+}
+
+function createLeaderboardRow(record, rankChange) {
   const row = createElement("tr", { className: getRankClass(record.rank) });
   row.append(
-    createCell("td", String(record.rank || ""), "col-rank", "rank-medal"),
+    createRankCell(record, rankChange),
     createCell("td", record.name, "col-name"),
     createCell("td", formatNumber(record.total), "col-total"),
     createCell("td", formatNumber(record.group), "col-sub"),
@@ -89,6 +125,30 @@ function createLeaderboardRow(record) {
     createCell("td", formatNumber(record.players), "col-sub")
   );
   return row;
+}
+
+function createRankCell(record, rankChange) {
+  const cell = createElement("td", { className: "col-rank" });
+  cell.appendChild(createElement("span", { className: "rank-medal", text: String(record.rank || "") }));
+
+  if (rankChange && rankChange !== 0) {
+    const improved = rankChange < 0;
+    const indicator = createElement("span", {
+      className: `rank-change ${improved ? "is-up" : "is-down"}`,
+      attrs: {
+        title: improved
+          ? `Moved up ${Math.abs(rankChange)}`
+          : `Moved down ${Math.abs(rankChange)}`,
+        "aria-label": improved
+          ? `Moved up ${Math.abs(rankChange)}`
+          : `Moved down ${Math.abs(rankChange)}`,
+      },
+      text: `${improved ? "▲" : "▼"}${Math.abs(rankChange)}`,
+    });
+    cell.appendChild(indicator);
+  }
+
+  return cell;
 }
 
 function createCell(tagName, text, className, innerClassName = "") {
@@ -119,4 +179,43 @@ function showBoardError(message, elements) {
   setStatus(elements.boardStatus, message, true);
   setHidden(elements.tableWrap, true);
   elements.heroStatus.textContent = "Standings unavailable";
+}
+
+function getRankChanges(records) {
+  const previous = readRankSnapshot();
+  const changes = new Map();
+
+  for (const record of records) {
+    const previousRank = previous[record.name];
+    if (Number.isInteger(previousRank) && Number.isInteger(record.rank)) {
+      changes.set(record.name, record.rank - previousRank);
+    }
+  }
+
+  return changes;
+}
+
+function readRankSnapshot() {
+  try {
+    return JSON.parse(window.localStorage.getItem(getRankSnapshotKey()) || "{}");
+  } catch (error) {
+    return {};
+  }
+}
+
+function saveRankSnapshot(records) {
+  try {
+    const snapshot = Object.fromEntries(
+      records
+        .filter((record) => record.name && Number.isInteger(record.rank))
+        .map((record) => [record.name, record.rank])
+    );
+    window.localStorage.setItem(getRankSnapshotKey(), JSON.stringify(snapshot));
+  } catch (error) {
+    // Rank movement is an enhancement; standings should still render if storage is unavailable.
+  }
+}
+
+function getRankSnapshotKey() {
+  return `wc-ang-ranks:${window.location.pathname}`;
 }

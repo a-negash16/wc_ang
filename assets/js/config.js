@@ -8,6 +8,8 @@ export function getSiteConfig(rawConfig = window.WC_ANG_CONFIG || {}) {
     leaderboardCsvUrl: rawConfig.leaderboardCsvUrl || rawConfig.LEADERBOARD_CSV_URL || "",
     resultsCsvUrl: rawConfig.resultsCsvUrl || rawConfig.RESULTS_CSV_URL || "",
     resultsLimit: Number(rawConfig.resultsLimit || rawConfig.RESULTS_LIMIT || DEFAULT_RESULTS_LIMIT),
+    predictionPulseCsvUrl:
+      rawConfig.predictionPulseCsvUrl || rawConfig.PREDICTION_PULSE_CSV_URL || "",
   };
 
   if (!config.theme && config.groupName) {

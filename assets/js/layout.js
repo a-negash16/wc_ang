@@ -85,9 +85,9 @@ export function renderLeagueLayout(config) {
       <div class="container">
         <div class="section-head">
           <p class="eyebrow eyebrow-light">Live from the tournament</p>
-          <h2 class="section-title section-title-light">World Cup — Recent Results</h2>
+          <h2 class="section-title section-title-light">World Cup Match Center</h2>
           <p class="section-sub section-sub-light">
-            Completed World Cup matches, newest first, with scores and venues.
+            Today&apos;s fixtures, live updates, prediction pulse, and latest finals.
           </p>
         </div>
 
@@ -107,7 +107,7 @@ export function renderLeagueLayout(config) {
 
         <div class="rules-grid">
           <article class="rule-card">
-            <h3 class="rule-title"><span class="rule-tag">Phase 1</span> Group picks</h3>
+            <h3 class="rule-title"><span class="rule-tag rule-tag-number">1</span> Group picks</h3>
             <p>Pick winner or draw for each group match.</p>
             <table class="rule-table">
               <tr><th>Winner</th><td>+3</td></tr>
@@ -117,20 +117,20 @@ export function renderLeagueLayout(config) {
           </article>
 
           <article class="rule-card">
-            <h3 class="rule-title"><span class="rule-tag">Phase 2</span> Knockouts</h3>
-            <p>Predict the winner, two scorers, and match length.</p>
+            <h3 class="rule-title"><span class="rule-tag rule-tag-number">2</span> Knockouts</h3>
+            <p>Predict the winner, two scorers, and match finish.</p>
             <table class="rule-table">
               <tr><th>Winner</th><td>+5</td></tr>
               <tr><th>Scorer 1</th><td>+3</td></tr>
               <tr><th>Scorer 2</th><td>+3</td></tr>
-              <tr><th>Length</th><td>+2</td></tr>
+              <tr><th>90/ET/Pens</th><td>+2</td></tr>
             </table>
             <p class="rule-foot"><strong>13 max</strong> per match.</p>
           </article>
 
           <article class="rule-card">
-            <h3 class="rule-title"><span class="rule-tag">Phase 3</span> Futures</h3>
-            <p>Submit once. Locked after the draft.</p>
+            <h3 class="rule-title"><span class="rule-tag rule-tag-number">3</span> Futures</h3>
+            <p>Submitted right after group stage ends. Locked after the draft.</p>
             <table class="rule-table">
               <tr><th>Winner</th><td>100</td></tr>
               <tr><th>Finalist</th><td>50</td></tr>
@@ -140,8 +140,8 @@ export function renderLeagueLayout(config) {
           </article>
 
           <article class="rule-card">
-            <h3 class="rule-title"><span class="rule-tag">Draft</span> Teams</h3>
-            <p>Draft 4 teams. Points stack by round reached.</p>
+            <h3 class="rule-title"><span class="rule-tag rule-tag-draft">Draft</span> Teams</h3>
+            <p>Draft 4 teams right after group stage ends. Points stack by round reached.</p>
             <table class="rule-table">
               <tr><th>R16</th><td>+10</td></tr>
               <tr><th>QF</th><td>+20</td></tr>
@@ -152,8 +152,8 @@ export function renderLeagueLayout(config) {
           </article>
 
           <article class="rule-card">
-            <h3 class="rule-title"><span class="rule-tag">Draft</span> Players</h3>
-            <p>Draft 4 players. Every stat counts.</p>
+            <h3 class="rule-title"><span class="rule-tag rule-tag-draft">Draft</span> Players</h3>
+            <p>Draft 4 players right after group stage ends. Every stat counts.</p>
             <table class="rule-table">
               <tr><th>Goal</th><td>+5</td></tr>
               <tr><th>Assist</th><td>+3</td></tr>
