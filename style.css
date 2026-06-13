@@ -414,8 +414,9 @@ a { color: inherit; text-decoration: none; }
 .rank-2 .rank-medal { background: #d6d6d6; }
 .rank-3 .rank-medal { background: #d99d6a; color: var(--white); }
 .rank-change {
-  display: inline-block;
-  margin-top: 0.35rem;
+  display: block;
+  width: max-content;
+  margin: 0.35rem auto 0;
   font-family: var(--font-mono);
   font-size: 0.68rem;
   font-weight: 800;
