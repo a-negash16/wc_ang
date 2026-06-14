@@ -155,22 +155,22 @@
    "group": "C",
    "date": "2026-06-14T01:00:00Z",
    "venueId": "400248623",
-   "status": "scheduled",
-   "time": "0'",
+   "status": "finished",
+   "time": "99'",
    "home": {
     "code": "HAI",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "away": {
     "code": "SCO",
-    "score": null,
+    "score": 1,
     "pen": null
    },
    "phA": "C3",
    "phB": "C4",
-   "winner": null,
-   "attendance": null,
+   "winner": "SCO",
+   "attendance": "64146",
    "officials": [
     {
      "id": "375306",
@@ -192,22 +192,22 @@
    "group": "D",
    "date": "2026-06-14T04:00:00Z",
    "venueId": "400248370",
-   "status": "scheduled",
-   "time": null,
+   "status": "live",
+   "time": "48'",
    "home": {
     "code": "AUS",
-    "score": null,
+    "score": 1,
     "pen": null
    },
    "away": {
     "code": "TUR",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "phA": "D3",
    "phB": "D4",
    "winner": null,
-   "attendance": null,
+   "attendance": "52497",
    "officials": [
     {
      "id": "360305",
@@ -229,8 +229,8 @@
    "group": "C",
    "date": "2026-06-13T22:00:00Z",
    "venueId": "400257536",
-   "status": "live",
-   "time": "68'",
+   "status": "finished",
+   "time": "101'",
    "home": {
     "code": "BRA",
     "score": 1,
@@ -244,7 +244,7 @@
    "phA": "C1",
    "phB": "C2",
    "winner": null,
-   "attendance": null,
+   "attendance": "80663",
    "officials": [
     {
      "id": "315008",
