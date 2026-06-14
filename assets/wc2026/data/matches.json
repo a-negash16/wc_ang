@@ -192,11 +192,11 @@
    "group": "D",
    "date": "2026-06-14T04:00:00Z",
    "venueId": "400248370",
-   "status": "live",
-   "time": "48'",
+   "status": "finished",
+   "time": "97'",
    "home": {
     "code": "AUS",
-    "score": 1,
+    "score": 2,
     "pen": null
    },
    "away": {
@@ -206,7 +206,7 @@
    },
    "phA": "D3",
    "phB": "D4",
-   "winner": null,
+   "winner": "AUS",
    "attendance": "52497",
    "officials": [
     {
@@ -615,7 +615,19 @@
    "phB": "I2",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "283448",
+     "country": "AUS",
+     "role": "referee",
+     "name": {
+      "en": "Alireza FAGHANI"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    }
+   ]
   },
   {
    "id": "400021488",
@@ -640,7 +652,30 @@
    "phB": "I4",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "408417",
+     "country": "GAB",
+     "role": "referee",
+     "name": {
+      "en": "Pierre ATCHO"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    },
+    {
+     "id": "392013",
+     "country": "EGY",
+     "role": "fourth official",
+     "name": {
+      "en": "Amin MOHAMED"
+     },
+     "typeName": {
+      "en": "Fourth official"
+     }
+    }
+   ]
   },
   {
    "id": "400021496",
@@ -665,7 +700,19 @@
    "phB": "J2",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "327975",
+     "country": "POL",
+     "role": "referee",
+     "name": {
+      "en": "Szymon MARCINIAK"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    }
+   ]
   },
   {
    "id": "400021498",
@@ -690,7 +737,19 @@
    "phB": "J4",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "408591",
+     "country": "MTN",
+     "role": "referee",
+     "name": {
+      "en": "Dahane BEIDA"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    }
+   ]
   },
   {
    "id": "400021510",
