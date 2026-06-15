@@ -488,22 +488,22 @@
    "group": "H",
    "date": "2026-06-15T16:00:00Z",
    "venueId": "400098290",
-   "status": "scheduled",
-   "time": "0'",
+   "status": "finished",
+   "time": "96'",
    "home": {
     "code": "ESP",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "away": {
     "code": "CPV",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "phA": "H1",
    "phB": "H2",
    "winner": null,
-   "attendance": null,
+   "attendance": "67640",
    "officials": [
     {
      "id": "361034",
@@ -562,16 +562,16 @@
    "group": "G",
    "date": "2026-06-15T19:00:00Z",
    "venueId": "400216606",
-   "status": "scheduled",
-   "time": null,
+   "status": "live",
+   "time": "8'",
    "home": {
     "code": "BEL",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "away": {
     "code": "EGY",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "phA": "G1",
