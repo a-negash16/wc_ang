@@ -452,7 +452,7 @@
    "date": "2026-06-15T22:00:00Z",
    "venueId": "400257525",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "KSA",
     "score": null,
@@ -562,22 +562,22 @@
    "group": "G",
    "date": "2026-06-15T19:00:00Z",
    "venueId": "400216606",
-   "status": "live",
-   "time": "8'",
+   "status": "finished",
+   "time": "96'",
    "home": {
     "code": "BEL",
-    "score": 0,
+    "score": 1,
     "pen": null
    },
    "away": {
     "code": "EGY",
-    "score": 0,
+    "score": 1,
     "pen": null
    },
    "phA": "G1",
    "phB": "G2",
    "winner": null,
-   "attendance": null,
+   "attendance": "66775",
    "officials": [
     {
      "id": "446932",
