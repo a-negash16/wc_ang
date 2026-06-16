@@ -599,22 +599,22 @@
    "group": "I",
    "date": "2026-06-16T19:00:00Z",
    "venueId": "400257536",
-   "status": "scheduled",
-   "time": null,
+   "status": "finished",
+   "time": "100'",
    "home": {
     "code": "FRA",
-    "score": null,
+    "score": 3,
     "pen": null
    },
    "away": {
     "code": "SEN",
-    "score": null,
+    "score": 1,
     "pen": null
    },
    "phA": "I1",
    "phB": "I2",
-   "winner": null,
-   "attendance": null,
+   "winner": "FRA",
+   "attendance": "80545",
    "officials": [
     {
      "id": "283448",
@@ -637,7 +637,7 @@
    "date": "2026-06-16T22:00:00Z",
    "venueId": "400248623",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "IRQ",
     "score": null,
@@ -662,17 +662,6 @@
      },
      "typeName": {
       "en": "Referee"
-     }
-    },
-    {
-     "id": "392013",
-     "country": "EGY",
-     "role": "fourth official",
-     "name": {
-      "en": "Amin MOHAMED"
-     },
-     "typeName": {
-      "en": "Fourth official"
      }
     }
    ]
