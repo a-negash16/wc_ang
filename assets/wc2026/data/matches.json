@@ -451,8 +451,8 @@
    "group": "H",
    "date": "2026-06-15T22:00:00Z",
    "venueId": "400257525",
-   "status": "live",
-   "time": "90'+7'",
+   "status": "finished",
+   "time": "99'",
    "home": {
     "code": "KSA",
     "score": 1,
@@ -525,22 +525,22 @@
    "group": "G",
    "date": "2026-06-16T01:00:00Z",
    "venueId": "400017978",
-   "status": "scheduled",
-   "time": "0'",
+   "status": "finished",
+   "time": "96'",
    "home": {
     "code": "IRN",
-    "score": null,
+    "score": 2,
     "pen": null
    },
    "away": {
     "code": "NZL",
-    "score": null,
+    "score": 2,
     "pen": null
    },
    "phA": "G3",
    "phB": "G4",
    "winner": null,
-   "attendance": null,
+   "attendance": "70108",
    "officials": [
     {
      "id": "374810",
