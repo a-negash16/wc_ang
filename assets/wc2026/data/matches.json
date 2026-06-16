@@ -922,7 +922,19 @@
    "phB": "A2",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "428431",
+     "country": "USA",
+     "role": "referee",
+     "name": {
+      "en": "Tori PENSO"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    }
+   ]
   },
   {
    "id": "400021446",
@@ -947,7 +959,19 @@
    "phB": "B2",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "392268",
+     "country": "POR",
+     "role": "referee",
+     "name": {
+      "en": "Joao PINHEIRO"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    }
+   ]
   },
   {
    "id": "400021450",
@@ -972,7 +996,19 @@
    "phB": "B3",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "416177",
+     "country": "CHI",
+     "role": "referee",
+     "name": {
+      "en": "Cristian GARAY"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    }
+   ]
   },
   {
    "id": "400021442",
@@ -997,7 +1033,19 @@
    "phB": "A3",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "408669",
+     "country": "URU",
+     "role": "referee",
+     "name": {
+      "en": "Gustavo TEJERA"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    }
+   ]
   },
   {
    "id": "400021457",
