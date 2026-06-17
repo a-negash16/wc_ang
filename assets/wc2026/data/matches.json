@@ -29,7 +29,7 @@
      "country": "BRA",
      "role": "referee",
      "name": {
-      "en": "Wilton SAMPAIO"
+      "en": "Wilton Pereira Sampaio"
      },
      "typeName": {
       "en": "Referee"
@@ -103,7 +103,7 @@
      "country": "ARG",
      "role": "referee",
      "name": {
-      "en": "Facundo TELLO"
+      "en": "F. Tello"
      },
      "typeName": {
       "en": "Referee"
@@ -182,6 +182,17 @@
      "typeName": {
       "en": "Referee"
      }
+    },
+    {
+     "id": "373845",
+     "country": "ESP",
+     "role": "fourth official",
+     "name": {
+      "en": "Alejandro HERNANDEZ"
+     },
+     "typeName": {
+      "en": "Fourth official"
+     }
     }
    ]
   },
@@ -214,7 +225,7 @@
      "country": "VEN",
      "role": "referee",
      "name": {
-      "en": "Jesus VALENZUELA"
+      "en": "J. Valenzuela"
      },
      "typeName": {
       "en": "Referee"
@@ -436,7 +447,7 @@
      "country": "ARG",
      "role": "referee",
      "name": {
-      "en": "Yael FALCON PEREZ"
+      "en": "Y. Falcón"
      },
      "typeName": {
       "en": "Referee"
@@ -663,6 +674,17 @@
      "typeName": {
       "en": "Referee"
      }
+    },
+    {
+     "id": "392013",
+     "country": "EGY",
+     "role": "fourth official",
+     "name": {
+      "en": "Amin MOHAMED"
+     },
+     "typeName": {
+      "en": "Fourth official"
+     }
     }
    ]
   },
@@ -710,11 +732,11 @@
    "group": "J",
    "date": "2026-06-17T04:00:00Z",
    "venueId": "400257521",
-   "status": "live",
-   "time": "53'",
+   "status": "finished",
+   "time": "103'",
    "home": {
     "code": "AUT",
-    "score": 1,
+    "score": 3,
     "pen": null
    },
    "away": {
@@ -724,8 +746,8 @@
    },
    "phA": "J3",
    "phB": "J4",
-   "winner": null,
-   "attendance": null,
+   "winner": "AUT",
+   "attendance": "68527",
    "officials": [
     {
      "id": "408591",
@@ -991,7 +1013,7 @@
      "country": "CHI",
      "role": "referee",
      "name": {
-      "en": "Cristian GARAY"
+      "en": "C. Garay"
      },
      "typeName": {
       "en": "Referee"
@@ -1028,7 +1050,7 @@
      "country": "URU",
      "role": "referee",
      "name": {
-      "en": "Gustavo TEJERA"
+      "en": "G. Tejera"
      },
      "typeName": {
       "en": "Referee"
@@ -1059,7 +1081,19 @@
    "phB": "C3",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "373845",
+     "country": "ESP",
+     "role": "referee",
+     "name": {
+      "en": "Alejandro HERNANDEZ"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    }
+   ]
   },
   {
    "id": "400021454",
@@ -1084,7 +1118,30 @@
    "phB": "C2",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "360687",
+     "country": "UZB",
+     "role": "referee",
+     "name": {
+      "en": "Ilgiz TANTASHEV"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    },
+    {
+     "id": "361034",
+     "country": "JOR",
+     "role": "fourth official",
+     "name": {
+      "en": "Adham MAKHADMEH"
+     },
+     "typeName": {
+      "en": "Fourth official"
+     }
+    }
+   ]
   },
   {
    "id": "400021460",
@@ -1109,7 +1166,19 @@
    "phB": "D2",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "408378",
+     "country": "SLV",
+     "role": "referee",
+     "name": {
+      "en": "Ivan BARTON"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    }
+   ]
   },
   {
    "id": "400021462",
@@ -1134,7 +1203,19 @@
    "phB": "D3",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "348147",
+     "country": "GER",
+     "role": "referee",
+     "name": {
+      "en": "Felix ZWAYER"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    }
+   ]
   },
   {
    "id": "400021469",
