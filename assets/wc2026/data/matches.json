@@ -29,10 +29,21 @@
      "country": "BRA",
      "role": "referee",
      "name": {
-      "en": "Wilton Pereira Sampaio"
+      "en": "Wilton SAMPAIO"
      },
      "typeName": {
       "en": "Referee"
+     }
+    },
+    {
+     "id": "416159",
+     "country": "PAR",
+     "role": "fourth official",
+     "name": {
+      "en": "Juan Gabriel BENITEZ"
+     },
+     "typeName": {
+      "en": "Fourth official"
      }
     }
    ]
@@ -103,7 +114,7 @@
      "country": "ARG",
      "role": "referee",
      "name": {
-      "en": "F. Tello"
+      "en": "Facundo TELLO"
      },
      "typeName": {
       "en": "Referee"
@@ -225,7 +236,7 @@
      "country": "VEN",
      "role": "referee",
      "name": {
-      "en": "J. Valenzuela"
+      "en": "Jesus VALENZUELA"
      },
      "typeName": {
       "en": "Referee"
@@ -447,7 +458,7 @@
      "country": "ARG",
      "role": "referee",
      "name": {
-      "en": "Y. Falcón"
+      "en": "Yael FALCON PEREZ"
      },
      "typeName": {
       "en": "Referee"
@@ -1013,7 +1024,7 @@
      "country": "CHI",
      "role": "referee",
      "name": {
-      "en": "C. Garay"
+      "en": "Cristian GARAY"
      },
      "typeName": {
       "en": "Referee"
@@ -1050,7 +1061,7 @@
      "country": "URU",
      "role": "referee",
      "name": {
-      "en": "G. Tejera"
+      "en": "Gustavo TEJERA"
      },
      "typeName": {
       "en": "Referee"
@@ -1240,7 +1251,19 @@
    "phB": "E3",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "416159",
+     "country": "PAR",
+     "role": "referee",
+     "name": {
+      "en": "Juan Gabriel BENITEZ"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    }
+   ]
   },
   {
    "id": "400021465",
@@ -1265,7 +1288,19 @@
    "phB": "E2",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "328495",
+     "country": "CHN",
+     "role": "referee",
+     "name": {
+      "en": "MA Ning"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    }
+   ]
   },
   {
    "id": "400021472",
@@ -1290,7 +1325,19 @@
    "phB": "F3",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "347710",
+     "country": "ENG",
+     "role": "referee",
+     "name": {
+      "en": "Michael OLIVER"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    }
+   ]
   },
   {
    "id": "400021475",
@@ -1315,7 +1362,19 @@
    "phB": "F2",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "314605",
+     "country": "ROU",
+     "role": "referee",
+     "name": {
+      "en": "Istvan KOVACS"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    }
+   ]
   },
   {
    "id": "400021487",
