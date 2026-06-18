@@ -928,8 +928,8 @@
    "group": "A",
    "date": "2026-06-18T16:00:00Z",
    "venueId": "400098290",
-   "status": "live",
-   "time": "69'",
+   "status": "finished",
+   "time": "98'",
    "home": {
     "code": "CZE",
     "score": 1,
@@ -937,7 +937,7 @@
    },
    "away": {
     "code": "RSA",
-    "score": 0,
+    "score": 1,
     "pen": null
    },
    "phA": "A4",
@@ -965,22 +965,22 @@
    "group": "B",
    "date": "2026-06-18T19:00:00Z",
    "venueId": "400017978",
-   "status": "scheduled",
-   "time": null,
+   "status": "live",
+   "time": "80'",
    "home": {
     "code": "SUI",
-    "score": null,
+    "score": 1,
     "pen": null
    },
    "away": {
     "code": "BIH",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "phA": "B4",
    "phB": "B2",
    "winner": null,
-   "attendance": null,
+   "attendance": "70026",
    "officials": [
     {
      "id": "392268",
@@ -1003,7 +1003,7 @@
    "date": "2026-06-18T22:00:00Z",
    "venueId": "400248370",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "CAN",
     "score": null,
