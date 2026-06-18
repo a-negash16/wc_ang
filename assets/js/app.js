@@ -1,8 +1,8 @@
-import { getSiteConfig, validateSiteConfig } from "./config.js";
+import { getSiteConfig, validateSiteConfig } from "./config.js?v=prediction-api-20260618b";
 import { requireElement, setHidden, setStatus } from "./dom.js";
 import { renderLeagueLayout } from "./layout.js?v=pulse-reorder-20260613f";
 import { loadLeaderboard } from "./leaderboard.js?v=pulse-reorder-20260613f";
-import { renderWcResultsStrip } from "../wc2026/wc-results-strip.js?v=pulse-reorder-20260613f";
+import { renderWcResultsStrip } from "../wc2026/wc-results-strip.js?v=prediction-api-20260618b";
 
 const WC_RESULTS_REFRESH_MS = 60 * 60 * 1000;
 

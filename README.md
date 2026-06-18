@@ -8,11 +8,13 @@ Private World Cup 2026 prediction league. This repo hosts the public leaderboard
 - Plain HTML + CSS + vanilla JS modules - no build step
 - Reads leaderboard data from a published Google Sheets CSV
 - Hosted on GitHub Pages
+- Prediction submissions are designed to go through a private API, not public CSVs
 
 ## Project structure
 ```text
 .
 ├── assets/js/            # Shared browser modules
+├── docs/                 # Public implementation notes
 ├── dagi-united/          # League page shell + config
 ├── squad/                # League page shell + config
 ├── tikur-abay/           # League page shell + config
@@ -25,6 +27,10 @@ The league pages are intentionally small. Each page loads its local
 `config.js`, then loads the shared app from `assets/js/app.js`. The shared app
 renders the page, validates required config, fetches Google Sheets CSV data, and
 renders standings/results.
+
+Prediction submissions use an optional `predictionSubmitUrl` config value. Leave
+it blank until a private backend API is deployed. See
+`docs/prediction-submissions.md` for the API contract and security boundary.
 
 ## Add a league page
 1. Copy an existing league folder.
