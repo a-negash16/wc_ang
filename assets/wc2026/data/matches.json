@@ -769,11 +769,11 @@
    "group": "L",
    "date": "2026-06-17T23:00:00Z",
    "venueId": "400242032",
-   "status": "live",
-   "time": "45'+5'",
+   "status": "finished",
+   "time": "102'",
    "home": {
     "code": "GHA",
-    "score": 0,
+    "score": 1,
     "pen": null
    },
    "away": {
@@ -783,8 +783,8 @@
    },
    "phA": "L3",
    "phB": "L4",
-   "winner": null,
-   "attendance": null,
+   "winner": "GHA",
+   "attendance": "42942",
    "officials": [
     {
      "id": "392336",
@@ -880,22 +880,22 @@
    "group": "K",
    "date": "2026-06-18T02:00:00Z",
    "venueId": "400222084",
-   "status": "scheduled",
-   "time": null,
+   "status": "finished",
+   "time": "101'",
    "home": {
     "code": "UZB",
-    "score": null,
+    "score": 1,
     "pen": null
    },
    "away": {
     "code": "COL",
-    "score": null,
+    "score": 3,
     "pen": null
    },
    "phA": "K3",
    "phB": "K4",
-   "winner": null,
-   "attendance": null,
+   "winner": "COL",
+   "attendance": "80824",
    "officials": [
     {
      "id": "360460",
