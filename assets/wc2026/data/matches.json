@@ -928,22 +928,22 @@
    "group": "A",
    "date": "2026-06-18T16:00:00Z",
    "venueId": "400098290",
-   "status": "scheduled",
-   "time": null,
+   "status": "live",
+   "time": "69'",
    "home": {
     "code": "CZE",
-    "score": null,
+    "score": 1,
     "pen": null
    },
    "away": {
     "code": "RSA",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "phA": "A4",
    "phB": "A2",
    "winner": null,
-   "attendance": null,
+   "attendance": "67442",
    "officials": [
     {
      "id": "428431",
