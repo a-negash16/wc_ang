@@ -1114,7 +1114,7 @@
    "date": "2026-06-19T22:00:00Z",
    "venueId": "400248623",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "SCO",
     "score": null,
@@ -1139,17 +1139,6 @@
      },
      "typeName": {
       "en": "Referee"
-     }
-    },
-    {
-     "id": "361034",
-     "country": "JOR",
-     "role": "fourth official",
-     "name": {
-      "en": "Adham MAKHADMEH"
-     },
-     "typeName": {
-      "en": "Fourth official"
      }
     }
    ]
@@ -1199,10 +1188,10 @@
    "date": "2026-06-19T19:00:00Z",
    "venueId": "400216606",
    "status": "live",
-   "time": "10'",
+   "time": "82'",
    "home": {
     "code": "USA",
-    "score": 0,
+    "score": 2,
     "pen": null
    },
    "away": {
@@ -1213,7 +1202,7 @@
    "phA": "D1",
    "phB": "D3",
    "winner": null,
-   "attendance": null,
+   "attendance": "66925",
    "officials": [
     {
      "id": "348147",
