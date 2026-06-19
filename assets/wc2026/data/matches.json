@@ -1198,16 +1198,16 @@
    "group": "D",
    "date": "2026-06-19T19:00:00Z",
    "venueId": "400216606",
-   "status": "scheduled",
-   "time": null,
+   "status": "live",
+   "time": "10'",
    "home": {
     "code": "USA",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "away": {
     "code": "AUS",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "phA": "D1",
