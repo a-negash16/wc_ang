@@ -1039,11 +1039,11 @@
    "group": "A",
    "date": "2026-06-19T01:00:00Z",
    "venueId": "400252150",
-   "status": "live",
-   "time": "47'",
+   "status": "finished",
+   "time": "97'",
    "home": {
     "code": "MEX",
-    "score": 0,
+    "score": 1,
     "pen": null
    },
    "away": {
@@ -1053,8 +1053,8 @@
    },
    "phA": "A1",
    "phB": "A3",
-   "winner": null,
-   "attendance": null,
+   "winner": "MEX",
+   "attendance": "45522",
    "officials": [
     {
      "id": "408669",
@@ -1399,7 +1399,30 @@
    "phB": "H2",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "400227",
+     "country": "NOR",
+     "role": "referee",
+     "name": {
+      "en": "Espen ESKAS"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    },
+    {
+     "id": "428431",
+     "country": "USA",
+     "role": "fourth official",
+     "name": {
+      "en": "Tori PENSO"
+     },
+     "typeName": {
+      "en": "Fourth official"
+     }
+    }
+   ]
   },
   {
    "id": "400021483",
@@ -1424,7 +1447,19 @@
    "phB": "H3",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "383222",
+     "country": "BRA",
+     "role": "referee",
+     "name": {
+      "en": "Raphael CLAUS"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    }
+   ]
   },
   {
    "id": "400021477",
@@ -1449,7 +1484,19 @@
    "phB": "G3",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "383174",
+     "country": "ARG",
+     "role": "referee",
+     "name": {
+      "en": "Dario HERRERA"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    }
+   ]
   },
   {
    "id": "400021480",
@@ -1474,7 +1521,19 @@
    "phB": "G2",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "383421",
+     "country": "UAE",
+     "role": "referee",
+     "name": {
+      "en": "Omar ALALI"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    }
+   ]
   },
   {
    "id": "400021491",
@@ -2436,7 +2495,7 @@
    "status": "scheduled",
    "time": null,
    "home": {
-    "code": null,
+    "code": "MEX",
     "score": null,
     "pen": null
    },
