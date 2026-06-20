@@ -500,6 +500,17 @@
      "typeName": {
       "en": "Referee"
      }
+    },
+    {
+     "id": "372930",
+     "country": "CAN",
+     "role": "fourth official",
+     "name": {
+      "en": "Drew FISCHER"
+     },
+     "typeName": {
+      "en": "Fourth official"
+     }
     }
    ]
   },
@@ -1140,6 +1151,17 @@
      "typeName": {
       "en": "Referee"
      }
+    },
+    {
+     "id": "361034",
+     "country": "JOR",
+     "role": "fourth official",
+     "name": {
+      "en": "Adham MAKHADMEH"
+     },
+     "typeName": {
+      "en": "Fourth official"
+     }
     }
    ]
   },
@@ -1150,8 +1172,8 @@
    "group": "D",
    "date": "2026-06-20T03:00:00Z",
    "venueId": "400257521",
-   "status": "live",
-   "time": "75'",
+   "status": "finished",
+   "time": "99'",
    "home": {
     "code": "TUR",
     "score": 0,
@@ -1164,7 +1186,7 @@
    },
    "phA": "D4",
    "phB": "D2",
-   "winner": null,
+   "winner": "PAR",
    "attendance": "68827",
    "officials": [
     {
@@ -1547,7 +1569,19 @@
    "phB": "I2",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "361561",
+     "country": "BRA",
+     "role": "referee",
+     "name": {
+      "en": "Wilton SAMPAIO"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    }
+   ]
   },
   {
    "id": "400021492",
@@ -1572,7 +1606,19 @@
    "phB": "I3",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "372930",
+     "country": "CAN",
+     "role": "referee",
+     "name": {
+      "en": "Drew FISCHER"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    }
+   ]
   },
   {
    "id": "400021494",
@@ -1597,7 +1643,30 @@
    "phB": "J3",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "392013",
+     "country": "EGY",
+     "role": "referee",
+     "name": {
+      "en": "Amin MOHAMED"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    },
+    {
+     "id": "373845",
+     "country": "ESP",
+     "role": "fourth official",
+     "name": {
+      "en": "Alejandro HERNANDEZ"
+     },
+     "typeName": {
+      "en": "Fourth official"
+     }
+    }
+   ]
   },
   {
    "id": "400021499",
@@ -1622,7 +1691,19 @@
    "phB": "J2",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "315008",
+     "country": "SVN",
+     "role": "referee",
+     "name": {
+      "en": "Slavko VINCIC"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    }
+   ]
   },
   {
    "id": "400021506",
@@ -2534,7 +2615,7 @@
    "status": "scheduled",
    "time": null,
    "home": {
-    "code": null,
+    "code": "USA",
     "score": null,
     "pen": null
    },
