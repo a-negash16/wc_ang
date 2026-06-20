@@ -1247,7 +1247,7 @@
    "date": "2026-06-20T20:00:00Z",
    "venueId": "400242032",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "GER",
     "score": null,
@@ -1320,16 +1320,16 @@
    "group": "F",
    "date": "2026-06-20T17:00:00Z",
    "venueId": "400249385",
-   "status": "scheduled",
-   "time": "0'",
+   "status": "live",
+   "time": "86'",
    "home": {
     "code": "NED",
-    "score": null,
+    "score": 4,
     "pen": null
    },
    "away": {
     "code": "SWE",
-    "score": null,
+    "score": 1,
     "pen": null
    },
    "phA": "F1",
