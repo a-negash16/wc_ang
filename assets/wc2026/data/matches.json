@@ -1246,16 +1246,16 @@
    "group": "E",
    "date": "2026-06-20T20:00:00Z",
    "venueId": "400242032",
-   "status": "scheduled",
-   "time": "0'",
+   "status": "live",
+   "time": "41'",
    "home": {
     "code": "GER",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "away": {
     "code": "CIV",
-    "score": null,
+    "score": 1,
     "pen": null
    },
    "phA": "E1",
@@ -1320,11 +1320,11 @@
    "group": "F",
    "date": "2026-06-20T17:00:00Z",
    "venueId": "400249385",
-   "status": "live",
-   "time": "86'",
+   "status": "finished",
+   "time": "96'",
    "home": {
     "code": "NED",
-    "score": 4,
+    "score": 5,
     "pen": null
    },
    "away": {
@@ -1334,8 +1334,8 @@
    },
    "phA": "F1",
    "phB": "F3",
-   "winner": null,
-   "attendance": null,
+   "winner": "NED",
+   "attendance": "68777",
    "officials": [
     {
      "id": "347710",
