@@ -1442,16 +1442,16 @@
    "group": "H",
    "date": "2026-06-21T16:00:00Z",
    "venueId": "400098290",
-   "status": "scheduled",
-   "time": null,
+   "status": "live",
+   "time": "11'",
    "home": {
     "code": "ESP",
-    "score": null,
+    "score": 1,
     "pen": null
    },
    "away": {
     "code": "KSA",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "phA": "H1",
