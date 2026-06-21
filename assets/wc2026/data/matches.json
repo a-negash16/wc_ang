@@ -1395,7 +1395,7 @@
    "date": "2026-06-21T22:00:00Z",
    "venueId": "400257525",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "URU",
     "score": null,
@@ -1420,17 +1420,6 @@
      },
      "typeName": {
       "en": "Referee"
-     }
-    },
-    {
-     "id": "428431",
-     "country": "USA",
-     "role": "fourth official",
-     "name": {
-      "en": "Tori PENSO"
-     },
-     "typeName": {
-      "en": "Fourth official"
      }
     }
    ]
@@ -1479,8 +1468,8 @@
    "group": "G",
    "date": "2026-06-21T19:00:00Z",
    "venueId": "400017978",
-   "status": "live",
-   "time": null,
+   "status": "finished",
+   "time": "96'",
    "home": {
     "code": "BEL",
     "score": 0,
@@ -1494,7 +1483,7 @@
    "phA": "G1",
    "phB": "G3",
    "winner": null,
-   "attendance": null,
+   "attendance": "70317",
    "officials": [
     {
      "id": "383174",
