@@ -1283,22 +1283,22 @@
    "group": "E",
    "date": "2026-06-21T00:00:00Z",
    "venueId": "400254717",
-   "status": "scheduled",
-   "time": "0'",
+   "status": "live",
+   "time": "80'",
    "home": {
     "code": "ECU",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "away": {
     "code": "CUW",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "phA": "E4",
    "phB": "E2",
    "winner": null,
-   "attendance": null,
+   "attendance": "68598",
    "officials": [
     {
      "id": "328495",
