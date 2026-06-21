@@ -1283,8 +1283,8 @@
    "group": "E",
    "date": "2026-06-21T00:00:00Z",
    "venueId": "400254717",
-   "status": "live",
-   "time": "80'",
+   "status": "finished",
+   "time": "96'",
    "home": {
     "code": "ECU",
     "score": 0,
@@ -1357,22 +1357,22 @@
    "group": "F",
    "date": "2026-06-21T04:00:00Z",
    "venueId": "400238450",
-   "status": "scheduled",
-   "time": null,
+   "status": "finished",
+   "time": "97'",
    "home": {
     "code": "TUN",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "away": {
     "code": "JPN",
-    "score": null,
+    "score": 4,
     "pen": null
    },
    "phA": "F4",
    "phB": "F2",
-   "winner": null,
-   "attendance": null,
+   "winner": "JPN",
+   "attendance": "51243",
    "officials": [
     {
      "id": "314605",
@@ -1728,7 +1728,30 @@
    "phB": "L3",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "400191",
+     "country": "HON",
+     "role": "referee",
+     "name": {
+      "en": "Said MARTINEZ"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    },
+    {
+     "id": "328495",
+     "country": "CHN",
+     "role": "fourth official",
+     "name": {
+      "en": "MA Ning"
+     },
+     "typeName": {
+      "en": "Fourth official"
+     }
+    }
+   ]
   },
   {
    "id": "400021511",
@@ -1753,7 +1776,19 @@
    "phB": "L2",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "408417",
+     "country": "GAB",
+     "role": "referee",
+     "name": {
+      "en": "Pierre ATCHO"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    }
+   ]
   },
   {
    "id": "400021503",
@@ -1778,7 +1813,19 @@
    "phB": "K3",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "416524",
+     "country": "MAR",
+     "role": "referee",
+     "name": {
+      "en": "Jalal JAYED"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    }
+   ]
   },
   {
    "id": "400021501",
@@ -1803,7 +1850,19 @@
    "phB": "K2",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "415965",
+     "country": "ITA",
+     "role": "referee",
+     "name": {
+      "en": "Maurizio MARIANI"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    }
+   ]
   },
   {
    "id": "400021455",
@@ -2440,7 +2499,7 @@
    "status": "scheduled",
    "time": null,
    "home": {
-    "code": null,
+    "code": "GER",
     "score": null,
     "pen": null
    },
