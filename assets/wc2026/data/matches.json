@@ -1442,11 +1442,11 @@
    "group": "H",
    "date": "2026-06-21T16:00:00Z",
    "venueId": "400098290",
-   "status": "live",
-   "time": "90'+2'",
+   "status": "finished",
+   "time": "99'",
    "home": {
     "code": "ESP",
-    "score": 5,
+    "score": 4,
     "pen": null
    },
    "away": {
@@ -1456,7 +1456,7 @@
    },
    "phA": "H1",
    "phB": "H3",
-   "winner": null,
+   "winner": "ESP",
    "attendance": "68239",
    "officials": [
     {
@@ -1479,16 +1479,16 @@
    "group": "G",
    "date": "2026-06-21T19:00:00Z",
    "venueId": "400017978",
-   "status": "scheduled",
-   "time": "0'",
+   "status": "live",
+   "time": null,
    "home": {
     "code": "BEL",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "away": {
     "code": "IRN",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "phA": "G1",
