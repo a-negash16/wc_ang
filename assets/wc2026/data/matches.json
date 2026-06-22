@@ -1627,16 +1627,16 @@
    "group": "J",
    "date": "2026-06-22T17:00:00Z",
    "venueId": "400257526",
-   "status": "scheduled",
-   "time": null,
+   "status": "live",
+   "time": "45'+6'",
    "home": {
     "code": "ARG",
-    "score": null,
+    "score": 1,
     "pen": null
    },
    "away": {
     "code": "AUT",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "phA": "J1",
@@ -1653,17 +1653,6 @@
      },
      "typeName": {
       "en": "Referee"
-     }
-    },
-    {
-     "id": "373845",
-     "country": "ESP",
-     "role": "fourth official",
-     "name": {
-      "en": "Alejandro HERNANDEZ"
-     },
-     "typeName": {
-      "en": "Fourth official"
      }
     }
    ]
