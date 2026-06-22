@@ -1421,6 +1421,17 @@
      "typeName": {
       "en": "Referee"
      }
+    },
+    {
+     "id": "428431",
+     "country": "USA",
+     "role": "fourth official",
+     "name": {
+      "en": "Tori PENSO"
+     },
+     "typeName": {
+      "en": "Fourth official"
+     }
     }
    ]
   },
@@ -1876,7 +1887,30 @@
    "phB": "C1",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "374810",
+     "country": "MEX",
+     "role": "referee",
+     "name": {
+      "en": "Cesar RAMOS"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    },
+    {
+     "id": "400227",
+     "country": "NOR",
+     "role": "fourth official",
+     "name": {
+      "en": "Espen ESKAS"
+     },
+     "typeName": {
+      "en": "Fourth official"
+     }
+    }
+   ]
   },
   {
    "id": "400021452",
@@ -1901,7 +1935,30 @@
    "phB": "C3",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "327159",
+     "country": "NED",
+     "role": "referee",
+     "name": {
+      "en": "Danny MAKKELIE"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    },
+    {
+     "id": "392268",
+     "country": "POR",
+     "role": "fourth official",
+     "name": {
+      "en": "Joao PINHEIRO"
+     },
+     "typeName": {
+      "en": "Fourth official"
+     }
+    }
+   ]
   },
   {
    "id": "400021451",
@@ -1926,7 +1983,19 @@
    "phB": "B1",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "446932",
+     "country": "BRA",
+     "role": "referee",
+     "name": {
+      "en": "Ramon ABATTI"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    }
+   ]
   },
   {
    "id": "400021448",
@@ -1951,7 +2020,19 @@
    "phB": "B3",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "360305",
+     "country": "VEN",
+     "role": "referee",
+     "name": {
+      "en": "Jesus VALENZUELA"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    }
+   ]
   },
   {
    "id": "400021444",
@@ -1976,7 +2057,30 @@
    "phB": "A1",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "434995",
+     "country": "ARG",
+     "role": "referee",
+     "name": {
+      "en": "Yael FALCON PEREZ"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    },
+    {
+     "id": "416177",
+     "country": "CHI",
+     "role": "fourth official",
+     "name": {
+      "en": "Cristian GARAY"
+     },
+     "typeName": {
+      "en": "Fourth official"
+     }
+    }
+   ]
   },
   {
    "id": "400021445",
@@ -2001,7 +2105,19 @@
    "phB": "A3",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "416165",
+     "country": "ARG",
+     "role": "referee",
+     "name": {
+      "en": "Facundo TELLO"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    }
+   ]
   },
   {
    "id": "400021468",
