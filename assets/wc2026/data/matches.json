@@ -1394,8 +1394,8 @@
    "group": "H",
    "date": "2026-06-21T22:00:00Z",
    "venueId": "400257525",
-   "status": "live",
-   "time": "80'",
+   "status": "finished",
+   "time": "99'",
    "home": {
     "code": "URU",
     "score": 2,
@@ -1505,22 +1505,22 @@
    "group": "G",
    "date": "2026-06-22T01:00:00Z",
    "venueId": "400248370",
-   "status": "scheduled",
-   "time": "0'",
+   "status": "finished",
+   "time": "101'",
    "home": {
     "code": "NZL",
-    "score": null,
+    "score": 1,
     "pen": null
    },
    "away": {
     "code": "EGY",
-    "score": null,
+    "score": 3,
     "pen": null
    },
    "phA": "G4",
    "phB": "G2",
-   "winner": null,
-   "attendance": null,
+   "winner": "EGY",
+   "attendance": "52497",
    "officials": [
     {
      "id": "383421",
