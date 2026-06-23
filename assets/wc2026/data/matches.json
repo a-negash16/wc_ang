@@ -426,6 +426,17 @@
      "typeName": {
       "en": "Referee"
      }
+    },
+    {
+     "id": "416317",
+     "country": "MEX",
+     "role": "fourth official",
+     "name": {
+      "en": "Katia GARCIA"
+     },
+     "typeName": {
+      "en": "Fourth official"
+     }
     }
    ]
   },
@@ -855,6 +866,17 @@
      "typeName": {
       "en": "Referee"
      }
+    },
+    {
+     "id": "416317",
+     "country": "MEX",
+     "role": "fourth official",
+     "name": {
+      "en": "Katia GARCIA"
+     },
+     "typeName": {
+      "en": "Fourth official"
+     }
     }
    ]
   },
@@ -1236,6 +1258,17 @@
      "typeName": {
       "en": "Referee"
      }
+    },
+    {
+     "id": "416317",
+     "country": "MEX",
+     "role": "fourth official",
+     "name": {
+      "en": "Katia GARCIA"
+     },
+     "typeName": {
+      "en": "Fourth official"
+     }
     }
    ]
   },
@@ -1553,8 +1586,8 @@
    "group": "I",
    "date": "2026-06-23T00:00:00Z",
    "venueId": "400257536",
-   "status": "live",
-   "time": "65'",
+   "status": "finished",
+   "time": "101'",
    "home": {
     "code": "NOR",
     "score": 3,
@@ -1562,12 +1595,12 @@
    },
    "away": {
     "code": "SEN",
-    "score": 1,
+    "score": 2,
     "pen": null
    },
    "phA": "I4",
    "phB": "I2",
-   "winner": null,
+   "winner": "NOR",
    "attendance": "80663",
    "officials": [
     {
@@ -1605,7 +1638,7 @@
    "phA": "I1",
    "phB": "I3",
    "winner": "FRA",
-   "attendance": null,
+   "attendance": "68324",
    "officials": [
     {
      "id": "372930",
@@ -1654,6 +1687,17 @@
      "typeName": {
       "en": "Referee"
      }
+    },
+    {
+     "id": "373845",
+     "country": "ESP",
+     "role": "fourth official",
+     "name": {
+      "en": "Alejandro HERNANDEZ"
+     },
+     "typeName": {
+      "en": "Fourth official"
+     }
     }
    ]
   },
@@ -1664,22 +1708,22 @@
    "group": "J",
    "date": "2026-06-23T03:00:00Z",
    "venueId": "400257521",
-   "status": "scheduled",
-   "time": null,
+   "status": "finished",
+   "time": "98'",
    "home": {
     "code": "JOR",
-    "score": null,
+    "score": 1,
     "pen": null
    },
    "away": {
     "code": "ALG",
-    "score": null,
+    "score": 2,
     "pen": null
    },
    "phA": "J4",
    "phB": "J2",
-   "winner": null,
-   "attendance": null,
+   "winner": "ALG",
+   "attendance": "68371",
    "officials": [
     {
      "id": "315008",
@@ -1702,7 +1746,7 @@
    "date": "2026-06-23T20:00:00Z",
    "venueId": "400248623",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "ENG",
     "score": null,
@@ -1750,7 +1794,7 @@
    "date": "2026-06-23T23:00:00Z",
    "venueId": "400242032",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "PAN",
     "score": null,
@@ -1787,7 +1831,7 @@
    "date": "2026-06-23T17:00:00Z",
    "venueId": "400249385",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "POR",
     "score": null,
@@ -1824,7 +1868,7 @@
    "date": "2026-06-24T02:00:00Z",
    "venueId": "400252150",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "COL",
     "score": null,
@@ -1861,7 +1905,7 @@
    "date": "2026-06-24T22:00:00Z",
    "venueId": "400257525",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "SCO",
     "score": null,
@@ -1909,7 +1953,7 @@
    "date": "2026-06-24T22:00:00Z",
    "venueId": "400098290",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "MAR",
     "score": null,
@@ -1957,7 +2001,7 @@
    "date": "2026-06-24T19:00:00Z",
    "venueId": "400248370",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "SUI",
     "score": null,
@@ -1994,7 +2038,7 @@
    "date": "2026-06-24T19:00:00Z",
    "venueId": "400216606",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "BIH",
     "score": null,
@@ -2031,7 +2075,7 @@
    "date": "2026-06-25T01:00:00Z",
    "venueId": "400222084",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "CZE",
     "score": null,
@@ -2079,7 +2123,7 @@
    "date": "2026-06-25T01:00:00Z",
    "venueId": "400238450",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "RSA",
     "score": null,
@@ -2116,7 +2160,7 @@
    "date": "2026-06-25T20:00:00Z",
    "venueId": "400248622",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "CUW",
     "score": null,
@@ -2131,7 +2175,19 @@
    "phB": "E3",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "392336",
+     "country": "SWE",
+     "role": "referee",
+     "name": {
+      "en": "Glenn NYBERG"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    }
+   ]
   },
   {
    "id": "400021466",
@@ -2141,7 +2197,7 @@
    "date": "2026-06-25T20:00:00Z",
    "venueId": "400257536",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "ECU",
     "score": null,
@@ -2156,7 +2212,19 @@
    "phB": "E1",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "428431",
+     "country": "USA",
+     "role": "referee",
+     "name": {
+      "en": "Tori PENSO"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    }
+   ]
   },
   {
    "id": "400021471",
@@ -2166,7 +2234,7 @@
    "date": "2026-06-25T23:00:00Z",
    "venueId": "400257526",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "JPN",
     "score": null,
@@ -2181,7 +2249,30 @@
    "phB": "F3",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "408378",
+     "country": "SLV",
+     "role": "referee",
+     "name": {
+      "en": "Ivan BARTON"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    },
+    {
+     "id": "408591",
+     "country": "MTN",
+     "role": "fourth official",
+     "name": {
+      "en": "Dahane BEIDA"
+     },
+     "typeName": {
+      "en": "Fourth official"
+     }
+    }
+   ]
   },
   {
    "id": "400021473",
@@ -2191,7 +2282,7 @@
    "date": "2026-06-25T23:00:00Z",
    "venueId": "400254717",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "TUN",
     "score": null,
@@ -2206,7 +2297,30 @@
    "phB": "F1",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "416317",
+     "country": "MEX",
+     "role": "referee",
+     "name": {
+      "en": "Katia GARCIA"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    },
+    {
+     "id": "416159",
+     "country": "PAR",
+     "role": "fourth official",
+     "name": {
+      "en": "Juan Gabriel BENITEZ"
+     },
+     "typeName": {
+      "en": "Fourth official"
+     }
+    }
+   ]
   },
   {
    "id": "400021459",
@@ -2216,7 +2330,7 @@
    "date": "2026-06-26T02:00:00Z",
    "venueId": "400017978",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "TUR",
     "score": null,
@@ -2231,7 +2345,30 @@
    "phB": "D1",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "375306",
+     "country": "ALG",
+     "role": "referee",
+     "name": {
+      "en": "Mustapha GHORBAL"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    },
+    {
+     "id": "383421",
+     "country": "UAE",
+     "role": "fourth official",
+     "name": {
+      "en": "Omar ALALI"
+     },
+     "typeName": {
+      "en": "Fourth official"
+     }
+    }
+   ]
   },
   {
    "id": "400021461",
@@ -2241,7 +2378,7 @@
    "date": "2026-06-26T02:00:00Z",
    "venueId": "400257521",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "PAR",
     "score": null,
@@ -2256,7 +2393,19 @@
    "phB": "D3",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "314589",
+     "country": "FRA",
+     "role": "referee",
+     "name": {
+      "en": "Clement TURPIN"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    }
+   ]
   },
   {
    "id": "400021489",
@@ -2266,7 +2415,7 @@
    "date": "2026-06-26T19:00:00Z",
    "venueId": "400248623",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "NOR",
     "score": null,
@@ -2291,7 +2440,7 @@
    "date": "2026-06-26T19:00:00Z",
    "venueId": "400242032",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "SEN",
     "score": null,
@@ -2316,7 +2465,7 @@
    "date": "2026-06-27T03:00:00Z",
    "venueId": "400216606",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "EGY",
     "score": null,
@@ -2341,7 +2490,7 @@
    "date": "2026-06-27T03:00:00Z",
    "venueId": "400248370",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "NZL",
     "score": null,
@@ -2366,7 +2515,7 @@
    "date": "2026-06-27T00:00:00Z",
    "venueId": "400249385",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "CPV",
     "score": null,
@@ -2391,7 +2540,7 @@
    "date": "2026-06-27T00:00:00Z",
    "venueId": "400252150",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "URU",
     "score": null,
@@ -2416,7 +2565,7 @@
    "date": "2026-06-27T21:00:00Z",
    "venueId": "400257536",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "PAN",
     "score": null,
@@ -2441,7 +2590,7 @@
    "date": "2026-06-27T21:00:00Z",
    "venueId": "400248622",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "CRO",
     "score": null,
@@ -2466,7 +2615,7 @@
    "date": "2026-06-28T02:00:00Z",
    "venueId": "400254717",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "ALG",
     "score": null,
@@ -2491,7 +2640,7 @@
    "date": "2026-06-28T02:00:00Z",
    "venueId": "400257526",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "JOR",
     "score": null,
@@ -2516,7 +2665,7 @@
    "date": "2026-06-27T23:30:00Z",
    "venueId": "400257525",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "COL",
     "score": null,
@@ -2541,7 +2690,7 @@
    "date": "2026-06-27T23:30:00Z",
    "venueId": "400098290",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "COD",
     "score": null,
@@ -2893,7 +3042,7 @@
    "status": "scheduled",
    "time": null,
    "home": {
-    "code": null,
+    "code": "ARG",
     "score": null,
     "pen": null
    },
