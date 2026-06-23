@@ -1746,7 +1746,7 @@
    "date": "2026-06-23T20:00:00Z",
    "venueId": "400248623",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "ENG",
     "score": null,
@@ -1771,17 +1771,6 @@
      },
      "typeName": {
       "en": "Referee"
-     }
-    },
-    {
-     "id": "328495",
-     "country": "CHN",
-     "role": "fourth official",
-     "name": {
-      "en": "MA Ning"
-     },
-     "typeName": {
-      "en": "Fourth official"
      }
     }
    ]
@@ -1830,22 +1819,22 @@
    "group": "K",
    "date": "2026-06-23T17:00:00Z",
    "venueId": "400249385",
-   "status": "scheduled",
-   "time": "0'",
+   "status": "finished",
+   "time": "96'",
    "home": {
     "code": "POR",
-    "score": null,
+    "score": 5,
     "pen": null
    },
    "away": {
     "code": "UZB",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "phA": "K1",
    "phB": "K3",
-   "winner": null,
-   "attendance": null,
+   "winner": "POR",
+   "attendance": "68777",
    "officials": [
     {
      "id": "416524",
