@@ -1745,8 +1745,8 @@
    "group": "L",
    "date": "2026-06-23T20:00:00Z",
    "venueId": "400248623",
-   "status": "live",
-   "time": "87'",
+   "status": "finished",
+   "time": "97'",
    "home": {
     "code": "ENG",
     "score": 0,
@@ -1782,16 +1782,16 @@
    "group": "L",
    "date": "2026-06-23T23:00:00Z",
    "venueId": "400242032",
-   "status": "scheduled",
-   "time": "0'",
+   "status": "live",
+   "time": "31'",
    "home": {
     "code": "PAN",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "away": {
     "code": "CRO",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "phA": "L4",
