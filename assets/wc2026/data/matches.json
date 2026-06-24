@@ -1782,8 +1782,8 @@
    "group": "L",
    "date": "2026-06-23T23:00:00Z",
    "venueId": "400242032",
-   "status": "live",
-   "time": "31'",
+   "status": "finished",
+   "time": "96'",
    "home": {
     "code": "PAN",
     "score": 0,
@@ -1791,13 +1791,13 @@
    },
    "away": {
     "code": "CRO",
-    "score": 0,
+    "score": 1,
     "pen": null
    },
    "phA": "L4",
    "phB": "L2",
-   "winner": null,
-   "attendance": null,
+   "winner": "CRO",
+   "attendance": "43036",
    "officials": [
     {
      "id": "408417",
@@ -1856,22 +1856,22 @@
    "group": "K",
    "date": "2026-06-24T02:00:00Z",
    "venueId": "400252150",
-   "status": "scheduled",
-   "time": null,
+   "status": "finished",
+   "time": "97'",
    "home": {
     "code": "COL",
-    "score": null,
+    "score": 1,
     "pen": null
    },
    "away": {
     "code": "COD",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "phA": "K4",
    "phB": "K2",
-   "winner": null,
-   "attendance": null,
+   "winner": "COL",
+   "attendance": "45358",
    "officials": [
     {
      "id": "415965",
