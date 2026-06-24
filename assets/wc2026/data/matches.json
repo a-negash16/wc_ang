@@ -1905,7 +1905,7 @@
    "date": "2026-06-24T22:00:00Z",
    "venueId": "400257525",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "SCO",
     "score": null,
@@ -1931,17 +1931,6 @@
      "typeName": {
       "en": "Referee"
      }
-    },
-    {
-     "id": "400227",
-     "country": "NOR",
-     "role": "fourth official",
-     "name": {
-      "en": "Espen ESKAS"
-     },
-     "typeName": {
-      "en": "Fourth official"
-     }
     }
    ]
   },
@@ -1953,7 +1942,7 @@
    "date": "2026-06-24T22:00:00Z",
    "venueId": "400098290",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "MAR",
     "score": null,
@@ -1979,17 +1968,6 @@
      "typeName": {
       "en": "Referee"
      }
-    },
-    {
-     "id": "392268",
-     "country": "POR",
-     "role": "fourth official",
-     "name": {
-      "en": "Joao PINHEIRO"
-     },
-     "typeName": {
-      "en": "Fourth official"
-     }
     }
    ]
   },
@@ -2000,22 +1978,22 @@
    "group": "B",
    "date": "2026-06-24T19:00:00Z",
    "venueId": "400248370",
-   "status": "live",
-   "time": "52'",
+   "status": "finished",
+   "time": "97'",
    "home": {
     "code": "SUI",
-    "score": 1,
+    "score": 2,
     "pen": null
    },
    "away": {
     "code": "CAN",
-    "score": 0,
+    "score": 1,
     "pen": null
    },
    "phA": "B4",
    "phB": "B1",
-   "winner": null,
-   "attendance": null,
+   "winner": "SUI",
+   "attendance": "52497",
    "officials": [
     {
      "id": "446932",
@@ -2037,11 +2015,11 @@
    "group": "B",
    "date": "2026-06-24T19:00:00Z",
    "venueId": "400216606",
-   "status": "live",
-   "time": "49'",
+   "status": "finished",
+   "time": "97'",
    "home": {
     "code": "BIH",
-    "score": 2,
+    "score": 3,
     "pen": null
    },
    "away": {
@@ -2051,8 +2029,8 @@
    },
    "phA": "B2",
    "phB": "B3",
-   "winner": null,
-   "attendance": null,
+   "winner": "BIH",
+   "attendance": "66925",
    "officials": [
     {
      "id": "360305",
@@ -2805,7 +2783,7 @@
     "pen": null
    },
    "away": {
-    "code": null,
+    "code": "CAN",
     "score": null,
     "pen": null
    },
@@ -3100,7 +3078,7 @@
    "status": "scheduled",
    "time": null,
    "home": {
-    "code": null,
+    "code": "SUI",
     "score": null,
     "pen": null
    },
