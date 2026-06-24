@@ -1772,6 +1772,17 @@
      "typeName": {
       "en": "Referee"
      }
+    },
+    {
+     "id": "328495",
+     "country": "CHN",
+     "role": "fourth official",
+     "name": {
+      "en": "MA Ning"
+     },
+     "typeName": {
+      "en": "Fourth official"
+     }
     }
    ]
   },
@@ -2419,7 +2430,30 @@
    "phB": "I1",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "347710",
+     "country": "ENG",
+     "role": "referee",
+     "name": {
+      "en": "Michael OLIVER"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    },
+    {
+     "id": "328495",
+     "country": "CHN",
+     "role": "fourth official",
+     "name": {
+      "en": "MA Ning"
+     },
+     "typeName": {
+      "en": "Fourth official"
+     }
+    }
+   ]
   },
   {
    "id": "400021493",
@@ -2444,7 +2478,19 @@
    "phB": "I3",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "360460",
+     "country": "ENG",
+     "role": "referee",
+     "name": {
+      "en": "Anthony TAYLOR"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    }
+   ]
   },
   {
    "id": "400021479",
@@ -2469,7 +2515,19 @@
    "phB": "G3",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "327975",
+     "country": "POL",
+     "role": "referee",
+     "name": {
+      "en": "Szymon MARCINIAK"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    }
+   ]
   },
   {
    "id": "400021481",
@@ -2494,7 +2552,19 @@
    "phB": "G1",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "361034",
+     "country": "JOR",
+     "role": "referee",
+     "name": {
+      "en": "Adham MAKHADMEH"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    }
+   ]
   },
   {
    "id": "400021485",
@@ -2519,7 +2589,19 @@
    "phB": "H3",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "399029",
+     "country": "FRA",
+     "role": "referee",
+     "name": {
+      "en": "Francois LETEXIER"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    }
+   ]
   },
   {
    "id": "400021484",
@@ -2544,7 +2626,19 @@
    "phB": "H1",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "392406",
+     "country": "USA",
+     "role": "referee",
+     "name": {
+      "en": "Ismail ELFATH"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    }
+   ]
   },
   {
    "id": "400021508",
