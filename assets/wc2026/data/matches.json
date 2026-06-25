@@ -1931,6 +1931,17 @@
      "typeName": {
       "en": "Referee"
      }
+    },
+    {
+     "id": "400227",
+     "country": "NOR",
+     "role": "fourth official",
+     "name": {
+      "en": "Espen ESKAS"
+     },
+     "typeName": {
+      "en": "Fourth official"
+     }
     }
    ]
   },
@@ -1967,6 +1978,17 @@
      },
      "typeName": {
       "en": "Referee"
+     }
+    },
+    {
+     "id": "392268",
+     "country": "POR",
+     "role": "fourth official",
+     "name": {
+      "en": "Joao PINHEIRO"
+     },
+     "typeName": {
+      "en": "Fourth official"
      }
     }
    ]
@@ -2078,6 +2100,17 @@
      },
      "typeName": {
       "en": "Referee"
+     }
+    },
+    {
+     "id": "416177",
+     "country": "CHI",
+     "role": "fourth official",
+     "name": {
+      "en": "Cristian GARAY"
+     },
+     "typeName": {
+      "en": "Fourth official"
      }
     }
    ]
@@ -2630,7 +2663,19 @@
    "phB": "L1",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "361083",
+     "country": "QAT",
+     "role": "referee",
+     "name": {
+      "en": "Abdulrahman ALJASSIM"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    }
+   ]
   },
   {
    "id": "400021509",
@@ -2655,7 +2700,19 @@
    "phB": "L3",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "372930",
+     "country": "CAN",
+     "role": "referee",
+     "name": {
+      "en": "Drew FISCHER"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    }
+   ]
   },
   {
    "id": "400021497",
@@ -2680,7 +2737,30 @@
    "phB": "J3",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "360687",
+     "country": "UZB",
+     "role": "referee",
+     "name": {
+      "en": "Ilgiz TANTASHEV"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    },
+    {
+     "id": "416317",
+     "country": "MEX",
+     "role": "fourth official",
+     "name": {
+      "en": "Katia GARCIA"
+     },
+     "typeName": {
+      "en": "Fourth official"
+     }
+    }
+   ]
   },
   {
    "id": "400021495",
@@ -2705,7 +2785,30 @@
    "phB": "J1",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "314605",
+     "country": "ROU",
+     "role": "referee",
+     "name": {
+      "en": "Istvan KOVACS"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    },
+    {
+     "id": "408591",
+     "country": "MTN",
+     "role": "fourth official",
+     "name": {
+      "en": "Dahane BEIDA"
+     },
+     "typeName": {
+      "en": "Fourth official"
+     }
+    }
+   ]
   },
   {
    "id": "400021505",
@@ -2730,7 +2833,30 @@
    "phB": "K1",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "283448",
+     "country": "AUS",
+     "role": "referee",
+     "name": {
+      "en": "Alireza FAGHANI"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    },
+    {
+     "id": "400191",
+     "country": "HON",
+     "role": "fourth official",
+     "name": {
+      "en": "Said MARTINEZ"
+     },
+     "typeName": {
+      "en": "Fourth official"
+     }
+    }
+   ]
   },
   {
    "id": "400021500",
@@ -2755,7 +2881,30 @@
    "phB": "K3",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "348147",
+     "country": "GER",
+     "role": "referee",
+     "name": {
+      "en": "Felix ZWAYER"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    },
+    {
+     "id": "373845",
+     "country": "ESP",
+     "role": "fourth official",
+     "name": {
+      "en": "Alejandro HERNANDEZ"
+     },
+     "typeName": {
+      "en": "Fourth official"
+     }
+    }
+   ]
   },
   {
    "id": "400021518",
