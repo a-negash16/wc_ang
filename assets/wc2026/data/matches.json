@@ -2159,8 +2159,8 @@
    "group": "E",
    "date": "2026-06-25T20:00:00Z",
    "venueId": "400248622",
-   "status": "live",
-   "time": null,
+   "status": "finished",
+   "time": "97'",
    "home": {
     "code": "CUW",
     "score": 0,
@@ -2168,13 +2168,13 @@
    },
    "away": {
     "code": "CIV",
-    "score": 1,
+    "score": 2,
     "pen": null
    },
    "phA": "E2",
    "phB": "E3",
-   "winner": null,
-   "attendance": null,
+   "winner": "CIV",
+   "attendance": "68324",
    "officials": [
     {
      "id": "392336",
@@ -2196,11 +2196,11 @@
    "group": "E",
    "date": "2026-06-25T20:00:00Z",
    "venueId": "400257536",
-   "status": "live",
-   "time": null,
+   "status": "finished",
+   "time": "98'",
    "home": {
     "code": "ECU",
-    "score": 1,
+    "score": 2,
     "pen": null
    },
    "away": {
@@ -2210,8 +2210,8 @@
    },
    "phA": "E4",
    "phB": "E1",
-   "winner": null,
-   "attendance": null,
+   "winner": "ECU",
+   "attendance": "80663",
    "officials": [
     {
      "id": "428431",
@@ -2234,7 +2234,7 @@
    "date": "2026-06-25T23:00:00Z",
    "venueId": "400257526",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "JPN",
     "score": null,
@@ -2260,17 +2260,6 @@
      "typeName": {
       "en": "Referee"
      }
-    },
-    {
-     "id": "408591",
-     "country": "MTN",
-     "role": "fourth official",
-     "name": {
-      "en": "Dahane BEIDA"
-     },
-     "typeName": {
-      "en": "Fourth official"
-     }
     }
    ]
   },
@@ -2282,7 +2271,7 @@
    "date": "2026-06-25T23:00:00Z",
    "venueId": "400254717",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "TUN",
     "score": null,
@@ -2307,17 +2296,6 @@
      },
      "typeName": {
       "en": "Referee"
-     }
-    },
-    {
-     "id": "416159",
-     "country": "PAR",
-     "role": "fourth official",
-     "name": {
-      "en": "Juan Gabriel BENITEZ"
-     },
-     "typeName": {
-      "en": "Fourth official"
      }
     }
    ]
@@ -3041,7 +3019,7 @@
    "status": "scheduled",
    "time": null,
    "home": {
-    "code": null,
+    "code": "CIV",
     "score": null,
     "pen": null
    },
