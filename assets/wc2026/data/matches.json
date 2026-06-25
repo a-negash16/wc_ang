@@ -1904,8 +1904,8 @@
    "group": "C",
    "date": "2026-06-24T22:00:00Z",
    "venueId": "400257525",
-   "status": "live",
-   "time": "68'",
+   "status": "finished",
+   "time": "97'",
    "home": {
     "code": "SCO",
     "score": 0,
@@ -1918,7 +1918,7 @@
    },
    "phA": "C4",
    "phB": "C1",
-   "winner": null,
+   "winner": "BRA",
    "attendance": "64478",
    "officials": [
     {
@@ -1941,11 +1941,11 @@
    "group": "C",
    "date": "2026-06-24T22:00:00Z",
    "venueId": "400098290",
-   "status": "live",
-   "time": "72'",
+   "status": "finished",
+   "time": "99'",
    "home": {
     "code": "MAR",
-    "score": 2,
+    "score": 4,
     "pen": null
    },
    "away": {
@@ -1955,7 +1955,7 @@
    },
    "phA": "C2",
    "phB": "C3",
-   "winner": null,
+   "winner": "MAR",
    "attendance": "68239",
    "officials": [
     {
@@ -2052,22 +2052,22 @@
    "group": "A",
    "date": "2026-06-25T01:00:00Z",
    "venueId": "400222084",
-   "status": "scheduled",
-   "time": "0'",
+   "status": "finished",
+   "time": "97'",
    "home": {
     "code": "CZE",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "away": {
     "code": "MEX",
-    "score": null,
+    "score": 3,
     "pen": null
    },
    "phA": "A4",
    "phB": "A1",
-   "winner": null,
-   "attendance": null,
+   "winner": "MEX",
+   "attendance": "80824",
    "officials": [
     {
      "id": "434995",
@@ -2089,22 +2089,22 @@
    "group": "A",
    "date": "2026-06-25T01:00:00Z",
    "venueId": "400238450",
-   "status": "scheduled",
-   "time": "0'",
+   "status": "finished",
+   "time": "97'",
    "home": {
     "code": "RSA",
-    "score": null,
+    "score": 1,
     "pen": null
    },
    "away": {
     "code": "KOR",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "phA": "A2",
    "phB": "A3",
-   "winner": null,
-   "attendance": null,
+   "winner": "RSA",
+   "attendance": "51243",
    "officials": [
     {
      "id": "416165",
@@ -2767,7 +2767,7 @@
    "status": "scheduled",
    "time": null,
    "home": {
-    "code": null,
+    "code": "RSA",
     "score": null,
     "pen": null
    },
@@ -2822,7 +2822,7 @@
     "pen": null
    },
    "away": {
-    "code": null,
+    "code": "MAR",
     "score": null,
     "pen": null
    },
@@ -2842,7 +2842,7 @@
    "status": "scheduled",
    "time": null,
    "home": {
-    "code": null,
+    "code": "BRA",
     "score": null,
     "pen": null
    },
