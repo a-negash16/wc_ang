@@ -2233,22 +2233,22 @@
    "group": "F",
    "date": "2026-06-25T23:00:00Z",
    "venueId": "400257526",
-   "status": "scheduled",
-   "time": "0'",
+   "status": "finished",
+   "time": "98'",
    "home": {
     "code": "JPN",
-    "score": null,
+    "score": 1,
     "pen": null
    },
    "away": {
     "code": "SWE",
-    "score": null,
+    "score": 1,
     "pen": null
    },
    "phA": "F2",
    "phB": "F3",
    "winner": null,
-   "attendance": null,
+   "attendance": "70137",
    "officials": [
     {
      "id": "408378",
@@ -2270,22 +2270,22 @@
    "group": "F",
    "date": "2026-06-25T23:00:00Z",
    "venueId": "400254717",
-   "status": "scheduled",
-   "time": "0'",
+   "status": "finished",
+   "time": "96'",
    "home": {
     "code": "TUN",
-    "score": null,
+    "score": 1,
     "pen": null
    },
    "away": {
     "code": "NED",
-    "score": null,
+    "score": 3,
     "pen": null
    },
    "phA": "F4",
    "phB": "F1",
-   "winner": null,
-   "attendance": null,
+   "winner": "NED",
+   "attendance": "68391",
    "officials": [
     {
      "id": "416317",
@@ -2308,7 +2308,7 @@
    "date": "2026-06-26T02:00:00Z",
    "venueId": "400017978",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "TUR",
     "score": null,
@@ -2334,17 +2334,6 @@
      "typeName": {
       "en": "Referee"
      }
-    },
-    {
-     "id": "383421",
-     "country": "UAE",
-     "role": "fourth official",
-     "name": {
-      "en": "Omar ALALI"
-     },
-     "typeName": {
-      "en": "Fourth official"
-     }
     }
    ]
   },
@@ -2356,7 +2345,7 @@
    "date": "2026-06-26T02:00:00Z",
    "venueId": "400257521",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "PAR",
     "score": null,
@@ -2944,7 +2933,7 @@
    "status": "scheduled",
    "time": null,
    "home": {
-    "code": null,
+    "code": "NED",
     "score": null,
     "pen": null
    },
@@ -2974,7 +2963,7 @@
     "pen": null
    },
    "away": {
-    "code": null,
+    "code": "JPN",
     "score": null,
     "pen": null
    },
@@ -3099,7 +3088,7 @@
     "pen": null
    },
    "away": {
-    "code": null,
+    "code": "BIH",
     "score": null,
     "pen": null
    },
