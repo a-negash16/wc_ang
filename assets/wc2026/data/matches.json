@@ -2403,8 +2403,8 @@
    "group": "I",
    "date": "2026-06-26T19:00:00Z",
    "venueId": "400248623",
-   "status": "live",
-   "time": "90'+1'",
+   "status": "finished",
+   "time": "96'",
    "home": {
     "code": "NOR",
     "score": 1,
@@ -2412,12 +2412,12 @@
    },
    "away": {
     "code": "FRA",
-    "score": 3,
+    "score": 4,
     "pen": null
    },
    "phA": "I4",
    "phB": "I1",
-   "winner": null,
+   "winner": "FRA",
    "attendance": "64146",
    "officials": [
     {
@@ -2440,8 +2440,8 @@
    "group": "I",
    "date": "2026-06-26T19:00:00Z",
    "venueId": "400242032",
-   "status": "live",
-   "time": "88'",
+   "status": "finished",
+   "time": "97'",
    "home": {
     "code": "SEN",
     "score": 5,
@@ -2454,7 +2454,7 @@
    },
    "phA": "I2",
    "phB": "I3",
-   "winner": null,
+   "winner": "SEN",
    "attendance": "43036",
    "officials": [
     {
@@ -2552,7 +2552,7 @@
    "date": "2026-06-27T00:00:00Z",
    "venueId": "400249385",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "CPV",
     "score": null,
@@ -2589,7 +2589,7 @@
    "date": "2026-06-27T00:00:00Z",
    "venueId": "400252150",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "URU",
     "score": null,
@@ -3017,7 +3017,7 @@
    "status": "scheduled",
    "time": null,
    "home": {
-    "code": null,
+    "code": "FRA",
     "score": null,
     "pen": null
    },
@@ -3047,7 +3047,7 @@
     "pen": null
    },
    "away": {
-    "code": null,
+    "code": "NOR",
     "score": null,
     "pen": null
    },
