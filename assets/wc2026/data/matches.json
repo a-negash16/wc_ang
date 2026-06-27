@@ -2647,16 +2647,16 @@
    "group": "L",
    "date": "2026-06-27T21:00:00Z",
    "venueId": "400257536",
-   "status": "scheduled",
-   "time": null,
+   "status": "live",
+   "time": "58'",
    "home": {
     "code": "PAN",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "away": {
     "code": "ENG",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "phA": "L4",
@@ -2684,16 +2684,16 @@
    "group": "L",
    "date": "2026-06-27T21:00:00Z",
    "venueId": "400248622",
-   "status": "scheduled",
-   "time": null,
+   "status": "live",
+   "time": "55'",
    "home": {
     "code": "CRO",
-    "score": null,
+    "score": 1,
     "pen": null
    },
    "away": {
     "code": "GHA",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "phA": "L2",
@@ -2818,7 +2818,7 @@
    "date": "2026-06-27T23:30:00Z",
    "venueId": "400257525",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "COL",
     "score": null,
@@ -2844,17 +2844,6 @@
      "typeName": {
       "en": "Referee"
      }
-    },
-    {
-     "id": "400191",
-     "country": "HON",
-     "role": "fourth official",
-     "name": {
-      "en": "Said MARTINEZ"
-     },
-     "typeName": {
-      "en": "Fourth official"
-     }
     }
    ]
   },
@@ -2866,7 +2855,7 @@
    "date": "2026-06-27T23:30:00Z",
    "venueId": "400098290",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "COD",
     "score": null,
@@ -2891,17 +2880,6 @@
      },
      "typeName": {
       "en": "Referee"
-     }
-    },
-    {
-     "id": "373845",
-     "country": "ESP",
-     "role": "fourth official",
-     "name": {
-      "en": "Alejandro HERNANDEZ"
-     },
-     "typeName": {
-      "en": "Fourth official"
      }
     }
    ]
