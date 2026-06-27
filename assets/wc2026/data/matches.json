@@ -2344,7 +2344,7 @@
    "phA": "D4",
    "phB": "D1",
    "winner": "TUR",
-   "attendance": null,
+   "attendance": "70492",
    "officials": [
     {
      "id": "375306",
@@ -2355,6 +2355,17 @@
      },
      "typeName": {
       "en": "Referee"
+     }
+    },
+    {
+     "id": "383421",
+     "country": "UAE",
+     "role": "fourth official",
+     "name": {
+      "en": "Omar ALALI"
+     },
+     "typeName": {
+      "en": "Fourth official"
      }
     }
    ]
@@ -2429,6 +2440,17 @@
      },
      "typeName": {
       "en": "Referee"
+     }
+    },
+    {
+     "id": "328495",
+     "country": "CHN",
+     "role": "fourth official",
+     "name": {
+      "en": "MA Ning"
+     },
+     "typeName": {
+      "en": "Fourth official"
      }
     }
    ]
