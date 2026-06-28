@@ -2647,8 +2647,8 @@
    "group": "L",
    "date": "2026-06-27T21:00:00Z",
    "venueId": "400257536",
-   "status": "live",
-   "time": "58'",
+   "status": "finished",
+   "time": "98'",
    "home": {
     "code": "PAN",
     "score": 0,
@@ -2656,13 +2656,13 @@
    },
    "away": {
     "code": "ENG",
-    "score": 0,
+    "score": 2,
     "pen": null
    },
    "phA": "L4",
    "phB": "L1",
-   "winner": null,
-   "attendance": null,
+   "winner": "ENG",
+   "attendance": "80663",
    "officials": [
     {
      "id": "361083",
@@ -2684,22 +2684,22 @@
    "group": "L",
    "date": "2026-06-27T21:00:00Z",
    "venueId": "400248622",
-   "status": "live",
-   "time": "55'",
+   "status": "finished",
+   "time": "98'",
    "home": {
     "code": "CRO",
-    "score": 1,
+    "score": 2,
     "pen": null
    },
    "away": {
     "code": "GHA",
-    "score": 0,
+    "score": 1,
     "pen": null
    },
    "phA": "L2",
    "phB": "L3",
-   "winner": null,
-   "attendance": null,
+   "winner": "CRO",
+   "attendance": "68324",
    "officials": [
     {
      "id": "372930",
@@ -2817,16 +2817,16 @@
    "group": "K",
    "date": "2026-06-27T23:30:00Z",
    "venueId": "400257525",
-   "status": "scheduled",
-   "time": "0'",
+   "status": "live",
+   "time": "44'",
    "home": {
     "code": "COL",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "away": {
     "code": "POR",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "phA": "K4",
@@ -2854,16 +2854,16 @@
    "group": "K",
    "date": "2026-06-27T23:30:00Z",
    "venueId": "400098290",
-   "status": "scheduled",
-   "time": "0'",
+   "status": "live",
+   "time": "44'",
    "home": {
     "code": "COD",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "away": {
     "code": "UZB",
-    "score": null,
+    "score": 1,
     "pen": null
    },
    "phA": "K2",
@@ -3072,7 +3072,7 @@
     "pen": null
    },
    "away": {
-    "code": null,
+    "code": "ECU",
     "score": null,
     "pen": null
    },
@@ -3092,7 +3092,7 @@
    "status": "scheduled",
    "time": null,
    "home": {
-    "code": null,
+    "code": "ENG",
     "score": null,
     "pen": null
    },
@@ -3172,7 +3172,7 @@
     "pen": null
    },
    "away": {
-    "code": null,
+    "code": "CRO",
     "score": null,
     "pen": null
    },
@@ -3272,7 +3272,7 @@
     "pen": null
    },
    "away": {
-    "code": null,
+    "code": "GHA",
     "score": null,
     "pen": null
    },
