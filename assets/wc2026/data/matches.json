@@ -2822,6 +2822,17 @@
      "typeName": {
       "en": "Referee"
      }
+    },
+    {
+     "id": "400191",
+     "country": "HON",
+     "role": "fourth official",
+     "name": {
+      "en": "Said MARTINEZ"
+     },
+     "typeName": {
+      "en": "Fourth official"
+     }
     }
    ]
   },
@@ -2858,6 +2869,17 @@
      },
      "typeName": {
       "en": "Referee"
+     }
+    },
+    {
+     "id": "373845",
+     "country": "ESP",
+     "role": "fourth official",
+     "name": {
+      "en": "Alejandro HERNANDEZ"
+     },
+     "typeName": {
+      "en": "Fourth official"
      }
     }
    ]
@@ -2933,7 +2955,30 @@
    "phB": "3ABCDF",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "416524",
+     "country": "MAR",
+     "role": "referee",
+     "name": {
+      "en": "Jalal JAYED"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    },
+    {
+     "id": "328495",
+     "country": "CHN",
+     "role": "fourth official",
+     "name": {
+      "en": "MA Ning"
+     },
+     "typeName": {
+      "en": "Fourth official"
+     }
+    }
+   ]
   },
   {
    "id": "400021522",
@@ -2958,7 +3003,30 @@
    "phB": "2C",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "361561",
+     "country": "BRA",
+     "role": "referee",
+     "name": {
+      "en": "Wilton SAMPAIO"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    },
+    {
+     "id": "416177",
+     "country": "CHI",
+     "role": "fourth official",
+     "name": {
+      "en": "Cristian GARAY"
+     },
+     "typeName": {
+      "en": "Fourth official"
+     }
+    }
+   ]
   },
   {
    "id": "400021516",
@@ -2983,7 +3051,19 @@
    "phB": "2F",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "415965",
+     "country": "ITA",
+     "role": "referee",
+     "name": {
+      "en": "Maurizio MARIANI"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    }
+   ]
   },
   {
    "id": "400021523",
