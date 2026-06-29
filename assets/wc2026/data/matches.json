@@ -2962,21 +2962,21 @@
    "date": "2026-06-29T20:30:00Z",
    "venueId": "400248623",
    "status": "live",
-   "time": "27'",
+   "time": null,
    "home": {
     "code": "GER",
-    "score": 0,
+    "score": 1,
     "pen": null
    },
    "away": {
     "code": "PAR",
-    "score": 0,
+    "score": 1,
     "pen": null
    },
    "phA": "1E",
    "phB": "3ABCDF",
    "winner": null,
-   "attendance": null,
+   "attendance": "63945",
    "officials": [
     {
      "id": "416524",
