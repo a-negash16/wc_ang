@@ -2961,16 +2961,16 @@
    "group": null,
    "date": "2026-06-29T20:30:00Z",
    "venueId": "400248623",
-   "status": "scheduled",
-   "time": null,
+   "status": "live",
+   "time": "27'",
    "home": {
     "code": "GER",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "away": {
     "code": "PAR",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "phA": "1E",
@@ -2987,17 +2987,6 @@
      },
      "typeName": {
       "en": "Referee"
-     }
-    },
-    {
-     "id": "328495",
-     "country": "CHN",
-     "role": "fourth official",
-     "name": {
-      "en": "MA Ning"
-     },
-     "typeName": {
-      "en": "Fourth official"
      }
     }
    ]
@@ -3057,11 +3046,11 @@
    "group": null,
    "date": "2026-06-29T17:00:00Z",
    "venueId": "400249385",
-   "status": "live",
-   "time": "63'",
+   "status": "finished",
+   "time": "101'",
    "home": {
     "code": "BRA",
-    "score": 1,
+    "score": 2,
     "pen": null
    },
    "away": {
@@ -3071,8 +3060,8 @@
    },
    "phA": "1C",
    "phB": "2F",
-   "winner": null,
-   "attendance": null,
+   "winner": "BRA",
+   "attendance": "68777",
    "officials": [
     {
      "id": "415965",
@@ -3516,7 +3505,7 @@
    "status": "scheduled",
    "time": null,
    "home": {
-    "code": null,
+    "code": "BRA",
     "score": null,
     "pen": null
    },
