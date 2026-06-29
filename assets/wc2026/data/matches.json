@@ -3057,16 +3057,16 @@
    "group": null,
    "date": "2026-06-29T17:00:00Z",
    "venueId": "400249385",
-   "status": "scheduled",
-   "time": "0'",
+   "status": "live",
+   "time": "63'",
    "home": {
     "code": "BRA",
-    "score": null,
+    "score": 1,
     "pen": null
    },
    "away": {
     "code": "JPN",
-    "score": null,
+    "score": 1,
     "pen": null
    },
    "phA": "1C",
