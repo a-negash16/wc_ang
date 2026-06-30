@@ -3142,22 +3142,22 @@
    "group": null,
    "date": "2026-06-30T17:00:00Z",
    "venueId": "400257526",
-   "status": "scheduled",
-   "time": "0'",
+   "status": "finished",
+   "time": "98'",
    "home": {
     "code": "CIV",
-    "score": null,
+    "score": 1,
     "pen": null
    },
    "away": {
     "code": "NOR",
-    "score": null,
+    "score": 2,
     "pen": null
    },
    "phA": "2E",
    "phB": "2I",
-   "winner": null,
-   "attendance": null,
+   "winner": "NOR",
+   "attendance": "69665",
    "officials": [
     {
      "id": "360305",
