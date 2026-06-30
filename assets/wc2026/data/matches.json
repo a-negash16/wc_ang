@@ -3094,16 +3094,16 @@
    "group": null,
    "date": "2026-06-30T21:00:00Z",
    "venueId": "400257536",
-   "status": "scheduled",
-   "time": null,
+   "status": "live",
+   "time": "4'",
    "home": {
     "code": "FRA",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "away": {
     "code": "SWE",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "phA": "1I",
@@ -3120,17 +3120,6 @@
      },
      "typeName": {
       "en": "Referee"
-     }
-    },
-    {
-     "id": "428431",
-     "country": "USA",
-     "role": "fourth official",
-     "name": {
-      "en": "Tori PENSO"
-     },
-     "typeName": {
-      "en": "Fourth official"
      }
     }
    ]
@@ -3604,7 +3593,7 @@
     "pen": null
    },
    "away": {
-    "code": null,
+    "code": "NOR",
     "score": null,
     "pen": null
    },
