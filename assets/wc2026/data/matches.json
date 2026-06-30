@@ -2988,6 +2988,17 @@
      "typeName": {
       "en": "Referee"
      }
+    },
+    {
+     "id": "328495",
+     "country": "CHN",
+     "role": "fourth official",
+     "name": {
+      "en": "MA Ning"
+     },
+     "typeName": {
+      "en": "Fourth official"
+     }
     }
    ]
   },
@@ -2998,22 +3009,22 @@
    "group": null,
    "date": "2026-06-30T01:00:00Z",
    "venueId": "400238450",
-   "status": "live",
-   "time": "25'",
+   "status": "finished",
+   "time": "130'",
    "home": {
     "code": "NED",
-    "score": 0,
+    "score": 1,
     "pen": null
    },
    "away": {
     "code": "MAR",
-    "score": 0,
+    "score": 1,
     "pen": null
    },
    "phA": "1F",
    "phB": "2C",
-   "winner": null,
-   "attendance": null,
+   "winner": "MAR",
+   "attendance": "51243",
    "officials": [
     {
      "id": "361561",
@@ -3024,6 +3035,17 @@
      },
      "typeName": {
       "en": "Referee"
+     }
+    },
+    {
+     "id": "416177",
+     "country": "CHI",
+     "role": "fourth official",
+     "name": {
+      "en": "Cristian GARAY"
+     },
+     "typeName": {
+      "en": "Fourth official"
      }
     }
    ]
@@ -3073,7 +3095,7 @@
    "date": "2026-06-30T21:00:00Z",
    "venueId": "400257536",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "FRA",
     "score": null,
@@ -3121,7 +3143,7 @@
    "date": "2026-06-30T17:00:00Z",
    "venueId": "400257526",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "CIV",
     "score": null,
@@ -3169,7 +3191,7 @@
    "date": "2026-07-01T01:00:00Z",
    "venueId": "400222084",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "MEX",
     "score": null,
@@ -3217,7 +3239,7 @@
    "date": "2026-07-01T16:00:00Z",
    "venueId": "400098290",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "ENG",
     "score": null,
@@ -3232,7 +3254,19 @@
    "phB": "3EHIJK",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "361034",
+     "country": "JOR",
+     "role": "referee",
+     "name": {
+      "en": "Adham MAKHADMEH"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    }
+   ]
   },
   {
    "id": "400021524",
@@ -3242,7 +3276,7 @@
    "date": "2026-07-02T00:00:00Z",
    "venueId": "400257521",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "USA",
     "score": null,
@@ -3257,7 +3291,30 @@
    "phB": "3BEFIJ",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "383222",
+     "country": "BRA",
+     "role": "referee",
+     "name": {
+      "en": "Raphael CLAUS"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    },
+    {
+     "id": "383174",
+     "country": "ARG",
+     "role": "fourth official",
+     "name": {
+      "en": "Dario HERRERA"
+     },
+     "typeName": {
+      "en": "Fourth official"
+     }
+    }
+   ]
   },
   {
    "id": "400021525",
@@ -3267,7 +3324,7 @@
    "date": "2026-07-01T20:00:00Z",
    "venueId": "400216606",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "BEL",
     "score": null,
@@ -3282,7 +3339,19 @@
    "phB": "3AEHIJ",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "400191",
+     "country": "HON",
+     "role": "referee",
+     "name": {
+      "en": "Said MARTINEZ"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    }
+   ]
   },
   {
    "id": "400021526",
@@ -3292,7 +3361,7 @@
    "date": "2026-07-02T23:00:00Z",
    "venueId": "400242032",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "POR",
     "score": null,
@@ -3307,7 +3376,19 @@
    "phB": "2L",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "400227",
+     "country": "NOR",
+     "role": "referee",
+     "name": {
+      "en": "Espen ESKAS"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    }
+   ]
   },
   {
    "id": "400021519",
@@ -3317,7 +3398,7 @@
    "date": "2026-07-02T19:00:00Z",
    "venueId": "400017978",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "ESP",
     "score": null,
@@ -3332,7 +3413,30 @@
    "phB": "2J",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "392336",
+     "country": "SWE",
+     "role": "referee",
+     "name": {
+      "en": "Glenn NYBERG"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    },
+    {
+     "id": "408591",
+     "country": "MTN",
+     "role": "fourth official",
+     "name": {
+      "en": "Dahane BEIDA"
+     },
+     "typeName": {
+      "en": "Fourth official"
+     }
+    }
+   ]
   },
   {
    "id": "400021527",
@@ -3342,7 +3446,7 @@
    "date": "2026-07-03T03:00:00Z",
    "venueId": "400248370",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "SUI",
     "score": null,
@@ -3357,7 +3461,19 @@
    "phB": "3EFGIJ",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "434995",
+     "country": "ARG",
+     "role": "referee",
+     "name": {
+      "en": "Yael FALCON PEREZ"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    }
+   ]
   },
   {
    "id": "400021521",
@@ -3367,7 +3483,7 @@
    "date": "2026-07-03T22:00:00Z",
    "venueId": "400257525",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "ARG",
     "score": null,
@@ -3392,7 +3508,7 @@
    "date": "2026-07-04T01:30:00Z",
    "venueId": "400254717",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "COL",
     "score": null,
@@ -3417,7 +3533,7 @@
    "date": "2026-07-03T18:00:00Z",
    "venueId": "400257526",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "AUS",
     "score": null,
@@ -3467,14 +3583,14 @@
    "date": "2026-07-04T17:00:00Z",
    "venueId": "400249385",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "CAN",
     "score": null,
     "pen": null
    },
    "away": {
-    "code": null,
+    "code": "MAR",
     "score": null,
     "pen": null
    },
