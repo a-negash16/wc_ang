@@ -3143,7 +3143,7 @@
    "date": "2026-06-30T17:00:00Z",
    "venueId": "400257526",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "CIV",
     "score": null,
@@ -3168,17 +3168,6 @@
      },
      "typeName": {
       "en": "Referee"
-     }
-    },
-    {
-     "id": "416159",
-     "country": "PAR",
-     "role": "fourth official",
-     "name": {
-      "en": "Juan Gabriel BENITEZ"
-     },
-     "typeName": {
-      "en": "Fourth official"
      }
     }
    ]
