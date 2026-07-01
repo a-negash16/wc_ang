@@ -3121,6 +3121,17 @@
      "typeName": {
       "en": "Referee"
      }
+    },
+    {
+     "id": "428431",
+     "country": "USA",
+     "role": "fourth official",
+     "name": {
+      "en": "Tori PENSO"
+     },
+     "typeName": {
+      "en": "Fourth official"
+     }
     }
    ]
   },
@@ -3179,22 +3190,22 @@
    "group": null,
    "date": "2026-07-01T02:00:00Z",
    "venueId": "400222084",
-   "status": "scheduled",
-   "time": "0'",
+   "status": "finished",
+   "time": "99'",
    "home": {
     "code": "MEX",
-    "score": null,
+    "score": 2,
     "pen": null
    },
    "away": {
     "code": "ECU",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "phA": "1A",
    "phB": "3CEFHI",
-   "winner": null,
-   "attendance": null,
+   "winner": "MEX",
+   "attendance": "80824",
    "officials": [
     {
      "id": "315008",
@@ -3217,7 +3228,7 @@
    "date": "2026-07-01T16:00:00Z",
    "venueId": "400098290",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "ENG",
     "score": null,
@@ -3254,7 +3265,7 @@
    "date": "2026-07-02T00:00:00Z",
    "venueId": "400257521",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "USA",
     "score": null,
@@ -3302,7 +3313,7 @@
    "date": "2026-07-01T20:00:00Z",
    "venueId": "400216606",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "BEL",
     "score": null,
@@ -3339,7 +3350,7 @@
    "date": "2026-07-02T23:00:00Z",
    "venueId": "400242032",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "POR",
     "score": null,
@@ -3376,7 +3387,7 @@
    "date": "2026-07-02T19:00:00Z",
    "venueId": "400017978",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "ESP",
     "score": null,
@@ -3424,7 +3435,7 @@
    "date": "2026-07-03T03:00:00Z",
    "venueId": "400248370",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "SUI",
     "score": null,
@@ -3461,7 +3472,7 @@
    "date": "2026-07-03T22:00:00Z",
    "venueId": "400257525",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "ARG",
     "score": null,
@@ -3486,7 +3497,7 @@
    "date": "2026-07-04T01:30:00Z",
    "venueId": "400254717",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "COL",
     "score": null,
@@ -3511,7 +3522,7 @@
    "date": "2026-07-03T18:00:00Z",
    "venueId": "400257526",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "AUS",
     "score": null,
@@ -3536,7 +3547,7 @@
    "date": "2026-07-04T21:00:00Z",
    "venueId": "400248622",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "PAR",
     "score": null,
@@ -3561,7 +3572,7 @@
    "date": "2026-07-04T17:00:00Z",
    "venueId": "400249385",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "CAN",
     "score": null,
@@ -3586,7 +3597,7 @@
    "date": "2026-07-05T20:00:00Z",
    "venueId": "400257536",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "BRA",
     "score": null,
@@ -3613,7 +3624,7 @@
    "status": "scheduled",
    "time": null,
    "home": {
-    "code": null,
+    "code": "MEX",
     "score": null,
     "pen": null
    },
