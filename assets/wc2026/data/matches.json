@@ -3094,8 +3094,8 @@
    "group": null,
    "date": "2026-06-30T21:00:00Z",
    "venueId": "400257536",
-   "status": "live",
-   "time": "82'",
+   "status": "finished",
+   "time": "95'",
    "home": {
     "code": "FRA",
     "score": 3,
@@ -3108,7 +3108,7 @@
    },
    "phA": "1I",
    "phB": "3CDFGH",
-   "winner": null,
+   "winner": "FRA",
    "attendance": "80663",
    "officials": [
     {
@@ -3158,6 +3158,17 @@
      "typeName": {
       "en": "Referee"
      }
+    },
+    {
+     "id": "416159",
+     "country": "PAR",
+     "role": "fourth official",
+     "name": {
+      "en": "Juan Gabriel BENITEZ"
+     },
+     "typeName": {
+      "en": "Fourth official"
+     }
     }
    ]
   },
@@ -3166,10 +3177,10 @@
    "n": 79,
    "stage": "r32",
    "group": null,
-   "date": "2026-07-01T01:00:00Z",
+   "date": "2026-07-01T02:00:00Z",
    "venueId": "400222084",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "MEX",
     "score": null,
@@ -3194,17 +3205,6 @@
      },
      "typeName": {
       "en": "Referee"
-     }
-    },
-    {
-     "id": "375306",
-     "country": "ALG",
-     "role": "fourth official",
-     "name": {
-      "en": "Mustapha GHORBAL"
-     },
-     "typeName": {
-      "en": "Fourth official"
      }
     }
    ]
@@ -3543,7 +3543,7 @@
     "pen": null
    },
    "away": {
-    "code": null,
+    "code": "FRA",
     "score": null,
     "pen": null
    },
