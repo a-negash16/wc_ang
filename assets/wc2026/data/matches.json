@@ -3238,16 +3238,16 @@
    "group": null,
    "date": "2026-07-01T16:00:00Z",
    "venueId": "400098290",
-   "status": "scheduled",
-   "time": null,
+   "status": "live",
+   "time": "40'",
    "home": {
     "code": "ENG",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "away": {
     "code": "COD",
-    "score": null,
+    "score": 1,
     "pen": null
    },
    "phA": "1L",
