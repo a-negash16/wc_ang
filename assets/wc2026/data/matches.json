@@ -3275,16 +3275,16 @@
    "group": null,
    "date": "2026-07-02T00:00:00Z",
    "venueId": "400257521",
-   "status": "scheduled",
-   "time": "0'",
+   "status": "live",
+   "time": "59'",
    "home": {
     "code": "USA",
-    "score": null,
+    "score": 1,
     "pen": null
    },
    "away": {
     "code": "BIH",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "phA": "1D",
@@ -3312,11 +3312,11 @@
    "group": null,
    "date": "2026-07-01T20:00:00Z",
    "venueId": "400216606",
-   "status": "live",
-   "time": "120'+3'",
+   "status": "finished",
+   "time": "132'",
    "home": {
     "code": "BEL",
-    "score": 2,
+    "score": 3,
     "pen": null
    },
    "away": {
@@ -3326,7 +3326,7 @@
    },
    "phA": "1G",
    "phB": "3AEHIJ",
-   "winner": null,
+   "winner": "BEL",
    "attendance": "66925",
    "officials": [
     {
@@ -3679,7 +3679,7 @@
     "pen": null
    },
    "away": {
-    "code": null,
+    "code": "BEL",
     "score": null,
     "pen": null
    },
