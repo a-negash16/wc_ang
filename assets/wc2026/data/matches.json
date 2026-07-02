@@ -3398,7 +3398,7 @@
    "date": "2026-07-02T19:00:00Z",
    "venueId": "400017978",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "ESP",
     "score": null,
@@ -3423,17 +3423,6 @@
      },
      "typeName": {
       "en": "Referee"
-     }
-    },
-    {
-     "id": "408591",
-     "country": "MTN",
-     "role": "fourth official",
-     "name": {
-      "en": "Dahane BEIDA"
-     },
-     "typeName": {
-      "en": "Fourth official"
      }
     }
    ]
