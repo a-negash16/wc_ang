@@ -3302,6 +3302,17 @@
      "typeName": {
       "en": "Referee"
      }
+    },
+    {
+     "id": "383174",
+     "country": "ARG",
+     "role": "fourth official",
+     "name": {
+      "en": "Dario HERRERA"
+     },
+     "typeName": {
+      "en": "Fourth official"
+     }
     }
    ]
   },
@@ -3487,7 +3498,30 @@
    "phB": "2H",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "372930",
+     "country": "CAN",
+     "role": "referee",
+     "name": {
+      "en": "Drew FISCHER"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    },
+    {
+     "id": "416317",
+     "country": "MEX",
+     "role": "fourth official",
+     "name": {
+      "en": "Katia GARCIA"
+     },
+     "typeName": {
+      "en": "Fourth official"
+     }
+    }
+   ]
   },
   {
    "id": "400021517",
@@ -3512,7 +3546,30 @@
    "phB": "3DEIJL",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "314589",
+     "country": "FRA",
+     "role": "referee",
+     "name": {
+      "en": "Clement TURPIN"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    },
+    {
+     "id": "373845",
+     "country": "ESP",
+     "role": "fourth official",
+     "name": {
+      "en": "Alejandro HERNANDEZ"
+     },
+     "typeName": {
+      "en": "Fourth official"
+     }
+    }
+   ]
   },
   {
    "id": "400021515",
@@ -3537,7 +3594,19 @@
    "phB": "2G",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "408669",
+     "country": "URU",
+     "role": "referee",
+     "name": {
+      "en": "Gustavo TEJERA"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    }
+   ]
   },
   {
    "id": "400021533",
