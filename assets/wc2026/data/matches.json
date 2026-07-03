@@ -3482,22 +3482,22 @@
    "group": null,
    "date": "2026-07-03T22:00:00Z",
    "venueId": "400257525",
-   "status": "scheduled",
-   "time": "0'",
+   "status": "live",
+   "time": "58'",
    "home": {
     "code": "ARG",
-    "score": null,
+    "score": 1,
     "pen": null
    },
    "away": {
     "code": "CPV",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "phA": "1J",
    "phB": "2H",
    "winner": null,
-   "attendance": null,
+   "attendance": "64478",
    "officials": [
     {
      "id": "372930",
