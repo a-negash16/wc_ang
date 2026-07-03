@@ -3483,7 +3483,7 @@
    "date": "2026-07-03T22:00:00Z",
    "venueId": "400257525",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "ARG",
     "score": null,
@@ -3508,17 +3508,6 @@
      },
      "typeName": {
       "en": "Referee"
-     }
-    },
-    {
-     "id": "416317",
-     "country": "MEX",
-     "role": "fourth official",
-     "name": {
-      "en": "Katia GARCIA"
-     },
-     "typeName": {
-      "en": "Fourth official"
      }
     }
    ]
@@ -3578,8 +3567,8 @@
    "group": null,
    "date": "2026-07-03T18:00:00Z",
    "venueId": "400257526",
-   "status": "live",
-   "time": "89'",
+   "status": "finished",
+   "time": "129'",
    "home": {
     "code": "AUS",
     "score": 1,
@@ -3592,7 +3581,7 @@
    },
    "phA": "2D",
    "phB": "2G",
-   "winner": null,
+   "winner": "EGY",
    "attendance": "70244",
    "officials": [
     {
@@ -3819,7 +3808,7 @@
     "pen": null
    },
    "away": {
-    "code": null,
+    "code": "EGY",
     "score": null,
     "pen": null
    },
