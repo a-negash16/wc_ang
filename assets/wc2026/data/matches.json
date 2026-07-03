@@ -3382,7 +3382,7 @@
      "country": "NOR",
      "role": "referee",
      "name": {
-      "en": "E. Eskås"
+      "en": "Espen ESKAS"
      },
      "typeName": {
       "en": "Referee"
@@ -3424,6 +3424,17 @@
      "typeName": {
       "en": "Referee"
      }
+    },
+    {
+     "id": "408591",
+     "country": "MTN",
+     "role": "fourth official",
+     "name": {
+      "en": "Dahane BEIDA"
+     },
+     "typeName": {
+      "en": "Fourth official"
+     }
     }
    ]
   },
@@ -3434,8 +3445,8 @@
    "group": null,
    "date": "2026-07-03T03:00:00Z",
    "venueId": "400248370",
-   "status": "live",
-   "time": "50'",
+   "status": "finished",
+   "time": "97'",
    "home": {
     "code": "SUI",
     "score": 2,
@@ -3448,15 +3459,15 @@
    },
    "phA": "1B",
    "phB": "3EFGIJ",
-   "winner": null,
-   "attendance": null,
+   "winner": "SUI",
+   "attendance": "52497",
    "officials": [
     {
      "id": "434995",
      "country": "ARG",
      "role": "referee",
      "name": {
-      "en": "Y. Falcón"
+      "en": "Yael FALCON PEREZ"
      },
      "typeName": {
       "en": "Referee"
@@ -3472,7 +3483,7 @@
    "date": "2026-07-03T22:00:00Z",
    "venueId": "400257525",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "ARG",
     "score": null,
@@ -3520,7 +3531,7 @@
    "date": "2026-07-04T01:30:00Z",
    "venueId": "400254717",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "COL",
     "score": null,
@@ -3568,7 +3579,7 @@
    "date": "2026-07-03T18:00:00Z",
    "venueId": "400257526",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "AUS",
     "score": null,
@@ -3605,7 +3616,7 @@
    "date": "2026-07-04T21:00:00Z",
    "venueId": "400248622",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "PAR",
     "score": null,
@@ -3620,7 +3631,30 @@
    "phB": "W77",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "360687",
+     "country": "UZB",
+     "role": "referee",
+     "name": {
+      "en": "Ilgiz TANTASHEV"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    },
+    {
+     "id": "361083",
+     "country": "QAT",
+     "role": "fourth official",
+     "name": {
+      "en": "Abdulrahman ALJASSIM"
+     },
+     "typeName": {
+      "en": "Fourth official"
+     }
+    }
+   ]
   },
   {
    "id": "400021530",
@@ -3630,7 +3664,7 @@
    "date": "2026-07-04T17:00:00Z",
    "venueId": "400249385",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "CAN",
     "score": null,
@@ -3645,7 +3679,30 @@
    "phB": "W75",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "347710",
+     "country": "ENG",
+     "role": "referee",
+     "name": {
+      "en": "Michael OLIVER"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    },
+    {
+     "id": "327159",
+     "country": "NED",
+     "role": "fourth official",
+     "name": {
+      "en": "Danny MAKKELIE"
+     },
+     "typeName": {
+      "en": "Fourth official"
+     }
+    }
+   ]
   },
   {
    "id": "400021532",
@@ -3655,7 +3712,7 @@
    "date": "2026-07-05T20:00:00Z",
    "venueId": "400257536",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "BRA",
     "score": null,
@@ -3680,7 +3737,7 @@
    "date": "2026-07-06T00:00:00Z",
    "venueId": "400222084",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "MEX",
     "score": null,
@@ -3705,7 +3762,7 @@
    "date": "2026-07-06T19:00:00Z",
    "venueId": "400257526",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "POR",
     "score": null,
@@ -3730,7 +3787,7 @@
    "date": "2026-07-07T00:00:00Z",
    "venueId": "400216606",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "USA",
     "score": null,
@@ -3782,7 +3839,7 @@
    "status": "scheduled",
    "time": null,
    "home": {
-    "code": null,
+    "code": "SUI",
     "score": null,
     "pen": null
    },
