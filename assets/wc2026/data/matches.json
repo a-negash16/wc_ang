@@ -3360,29 +3360,29 @@
    "group": null,
    "date": "2026-07-02T23:00:00Z",
    "venueId": "400242032",
-   "status": "live",
-   "time": "30'",
+   "status": "finished",
+   "time": "109'",
    "home": {
     "code": "POR",
-    "score": 0,
+    "score": 2,
     "pen": null
    },
    "away": {
     "code": "CRO",
-    "score": 0,
+    "score": 1,
     "pen": null
    },
    "phA": "2K",
    "phB": "2L",
-   "winner": null,
-   "attendance": null,
+   "winner": "POR",
+   "attendance": "43036",
    "officials": [
     {
      "id": "400227",
      "country": "NOR",
      "role": "referee",
      "name": {
-      "en": "Espen ESKAS"
+      "en": "E. Eskås"
      },
      "typeName": {
       "en": "Referee"
@@ -3434,16 +3434,16 @@
    "group": null,
    "date": "2026-07-03T03:00:00Z",
    "venueId": "400248370",
-   "status": "scheduled",
-   "time": null,
+   "status": "live",
+   "time": "50'",
    "home": {
     "code": "SUI",
-    "score": null,
+    "score": 2,
     "pen": null
    },
    "away": {
     "code": "ALG",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "phA": "1B",
@@ -3456,7 +3456,7 @@
      "country": "ARG",
      "role": "referee",
      "name": {
-      "en": "Yael FALCON PEREZ"
+      "en": "Y. Falcón"
      },
      "typeName": {
       "en": "Referee"
@@ -3707,7 +3707,7 @@
    "status": "scheduled",
    "time": null,
    "home": {
-    "code": null,
+    "code": "POR",
     "score": null,
     "pen": null
    },
