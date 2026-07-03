@@ -3483,7 +3483,7 @@
    "date": "2026-07-03T22:00:00Z",
    "venueId": "400257525",
    "status": "scheduled",
-   "time": "0'",
+   "time": null,
    "home": {
     "code": "ARG",
     "score": null,
@@ -3531,7 +3531,7 @@
    "date": "2026-07-04T01:30:00Z",
    "venueId": "400254717",
    "status": "scheduled",
-   "time": "0'",
+   "time": null,
    "home": {
     "code": "COL",
     "score": null,
@@ -3579,7 +3579,7 @@
    "date": "2026-07-03T18:00:00Z",
    "venueId": "400257526",
    "status": "scheduled",
-   "time": "0'",
+   "time": null,
    "home": {
     "code": "AUS",
     "score": null,
@@ -3616,7 +3616,7 @@
    "date": "2026-07-04T21:00:00Z",
    "venueId": "400248622",
    "status": "scheduled",
-   "time": "0'",
+   "time": null,
    "home": {
     "code": "PAR",
     "score": null,
@@ -3664,7 +3664,7 @@
    "date": "2026-07-04T17:00:00Z",
    "venueId": "400249385",
    "status": "scheduled",
-   "time": "0'",
+   "time": null,
    "home": {
     "code": "CAN",
     "score": null,
@@ -3712,7 +3712,7 @@
    "date": "2026-07-05T20:00:00Z",
    "venueId": "400257536",
    "status": "scheduled",
-   "time": "0'",
+   "time": null,
    "home": {
     "code": "BRA",
     "score": null,
@@ -3737,7 +3737,7 @@
    "date": "2026-07-06T00:00:00Z",
    "venueId": "400222084",
    "status": "scheduled",
-   "time": "0'",
+   "time": null,
    "home": {
     "code": "MEX",
     "score": null,
@@ -3762,7 +3762,7 @@
    "date": "2026-07-06T19:00:00Z",
    "venueId": "400257526",
    "status": "scheduled",
-   "time": "0'",
+   "time": null,
    "home": {
     "code": "POR",
     "score": null,
@@ -3787,7 +3787,7 @@
    "date": "2026-07-07T00:00:00Z",
    "venueId": "400216606",
    "status": "scheduled",
-   "time": "0'",
+   "time": null,
    "home": {
     "code": "USA",
     "score": null,
