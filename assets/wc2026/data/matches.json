@@ -3604,8 +3604,8 @@
    "group": null,
    "date": "2026-07-04T21:00:00Z",
    "venueId": "400248622",
-   "status": "live",
-   "time": "50'",
+   "status": "finished",
+   "time": "101'",
    "home": {
     "code": "PAR",
     "score": 0,
@@ -3613,13 +3613,13 @@
    },
    "away": {
     "code": "FRA",
-    "score": 0,
+    "score": 1,
     "pen": null
    },
    "phA": "W74",
    "phB": "W77",
-   "winner": null,
-   "attendance": null,
+   "winner": "FRA",
+   "attendance": "68324",
    "officials": [
     {
      "id": "360687",
@@ -3877,7 +3877,7 @@
    "status": "scheduled",
    "time": null,
    "home": {
-    "code": null,
+    "code": "FRA",
     "score": null,
     "pen": null
    },
