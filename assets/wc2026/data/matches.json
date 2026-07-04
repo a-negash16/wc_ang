@@ -3605,7 +3605,7 @@
    "date": "2026-07-04T21:00:00Z",
    "venueId": "400248622",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "PAR",
     "score": null,
@@ -3631,17 +3631,6 @@
      "typeName": {
       "en": "Referee"
      }
-    },
-    {
-     "id": "361083",
-     "country": "QAT",
-     "role": "fourth official",
-     "name": {
-      "en": "Abdulrahman ALJASSIM"
-     },
-     "typeName": {
-      "en": "Fourth official"
-     }
     }
    ]
   },
@@ -3652,8 +3641,8 @@
    "group": null,
    "date": "2026-07-04T17:00:00Z",
    "venueId": "400249385",
-   "status": "live",
-   "time": "50'",
+   "status": "finished",
+   "time": "100'",
    "home": {
     "code": "CAN",
     "score": 0,
@@ -3661,13 +3650,13 @@
    },
    "away": {
     "code": "MAR",
-    "score": 0,
+    "score": 3,
     "pen": null
    },
    "phA": "W73",
    "phB": "W75",
-   "winner": null,
-   "attendance": null,
+   "winner": "MAR",
+   "attendance": "68777",
    "officials": [
     {
      "id": "347710",
@@ -3893,7 +3882,7 @@
     "pen": null
    },
    "away": {
-    "code": null,
+    "code": "MAR",
     "score": null,
     "pen": null
    },
