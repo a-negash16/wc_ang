@@ -3509,6 +3509,17 @@
      "typeName": {
       "en": "Referee"
      }
+    },
+    {
+     "id": "416317",
+     "country": "MEX",
+     "role": "fourth official",
+     "name": {
+      "en": "Katia GARCIA"
+     },
+     "typeName": {
+      "en": "Fourth official"
+     }
     }
    ]
   },
@@ -3594,7 +3605,7 @@
    "date": "2026-07-04T21:00:00Z",
    "venueId": "400248622",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "PAR",
     "score": null,
@@ -3642,7 +3653,7 @@
    "date": "2026-07-04T17:00:00Z",
    "venueId": "400249385",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "CAN",
     "score": null,
@@ -3690,7 +3701,7 @@
    "date": "2026-07-05T20:00:00Z",
    "venueId": "400257536",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "BRA",
     "score": null,
@@ -3705,7 +3716,30 @@
    "phB": "W78",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "392406",
+     "country": "USA",
+     "role": "referee",
+     "name": {
+      "en": "Ismail ELFATH"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    },
+    {
+     "id": "400191",
+     "country": "HON",
+     "role": "fourth official",
+     "name": {
+      "en": "Said MARTINEZ"
+     },
+     "typeName": {
+      "en": "Fourth official"
+     }
+    }
+   ]
   },
   {
    "id": "400021531",
@@ -3715,7 +3749,7 @@
    "date": "2026-07-06T00:00:00Z",
    "venueId": "400222084",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "MEX",
     "score": null,
@@ -3730,7 +3764,30 @@
    "phB": "W80",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "283448",
+     "country": "AUS",
+     "role": "referee",
+     "name": {
+      "en": "Alireza FAGHANI"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    },
+    {
+     "id": "416524",
+     "country": "MAR",
+     "role": "fourth official",
+     "name": {
+      "en": "Jalal JAYED"
+     },
+     "typeName": {
+      "en": "Fourth official"
+     }
+    }
+   ]
   },
   {
    "id": "400021529",
@@ -3740,7 +3797,7 @@
    "date": "2026-07-06T19:00:00Z",
    "venueId": "400257526",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "POR",
     "score": null,
@@ -3765,7 +3822,7 @@
    "date": "2026-07-07T00:00:00Z",
    "venueId": "400216606",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "USA",
     "score": null,
@@ -3790,7 +3847,7 @@
    "date": "2026-07-07T16:00:00Z",
    "venueId": "400098290",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "ARG",
     "score": null,
@@ -3815,7 +3872,7 @@
    "date": "2026-07-07T20:00:00Z",
    "venueId": "400248370",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "SUI",
     "score": null,
