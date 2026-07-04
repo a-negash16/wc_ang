@@ -3653,7 +3653,7 @@
    "date": "2026-07-04T17:00:00Z",
    "venueId": "400249385",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "CAN",
     "score": null,
@@ -3678,17 +3678,6 @@
      },
      "typeName": {
       "en": "Referee"
-     }
-    },
-    {
-     "id": "327159",
-     "country": "NED",
-     "role": "fourth official",
-     "name": {
-      "en": "Danny MAKKELIE"
-     },
-     "typeName": {
-      "en": "Fourth official"
      }
     }
    ]
