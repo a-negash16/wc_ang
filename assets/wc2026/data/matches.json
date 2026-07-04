@@ -3482,21 +3482,21 @@
    "group": null,
    "date": "2026-07-03T22:00:00Z",
    "venueId": "400257525",
-   "status": "live",
-   "time": "58'",
+   "status": "finished",
+   "time": "124'",
    "home": {
     "code": "ARG",
-    "score": 1,
+    "score": 3,
     "pen": null
    },
    "away": {
     "code": "CPV",
-    "score": 0,
+    "score": 2,
     "pen": null
    },
    "phA": "1J",
    "phB": "2H",
-   "winner": null,
+   "winner": "ARG",
    "attendance": "64478",
    "officials": [
     {
@@ -3519,22 +3519,22 @@
    "group": null,
    "date": "2026-07-04T01:30:00Z",
    "venueId": "400254717",
-   "status": "scheduled",
-   "time": null,
+   "status": "finished",
+   "time": "98'",
    "home": {
     "code": "COL",
-    "score": null,
+    "score": 1,
     "pen": null
    },
    "away": {
     "code": "GHA",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "phA": "1K",
    "phB": "3DEIJL",
-   "winner": null,
-   "attendance": null,
+   "winner": "COL",
+   "attendance": "69045",
    "officials": [
     {
      "id": "314589",
@@ -3545,17 +3545,6 @@
      },
      "typeName": {
       "en": "Referee"
-     }
-    },
-    {
-     "id": "373845",
-     "country": "ESP",
-     "role": "fourth official",
-     "name": {
-      "en": "Alejandro HERNANDEZ"
-     },
-     "typeName": {
-      "en": "Fourth official"
      }
     }
    ]
@@ -3803,7 +3792,7 @@
    "status": "scheduled",
    "time": null,
    "home": {
-    "code": null,
+    "code": "ARG",
     "score": null,
     "pen": null
    },
@@ -3833,7 +3822,7 @@
     "pen": null
    },
    "away": {
-    "code": null,
+    "code": "COL",
     "score": null,
     "pen": null
    },
