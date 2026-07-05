@@ -3711,22 +3711,22 @@
    "group": null,
    "date": "2026-07-05T20:00:00Z",
    "venueId": "400257536",
-   "status": "live",
-   "time": "31'",
+   "status": "finished",
+   "time": "102'",
    "home": {
     "code": "BRA",
-    "score": 0,
+    "score": 1,
     "pen": null
    },
    "away": {
     "code": "NOR",
-    "score": 0,
+    "score": 2,
     "pen": null
    },
    "phA": "W76",
    "phB": "W78",
-   "winner": null,
-   "attendance": null,
+   "winner": "NOR",
+   "attendance": "80663",
    "officials": [
     {
      "id": "392406",
@@ -3995,7 +3995,7 @@
    "status": "scheduled",
    "time": null,
    "home": {
-    "code": null,
+    "code": "NOR",
     "score": null,
     "pen": null
    },
