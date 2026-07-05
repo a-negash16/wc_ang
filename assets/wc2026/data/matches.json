@@ -3711,16 +3711,16 @@
    "group": null,
    "date": "2026-07-05T20:00:00Z",
    "venueId": "400257536",
-   "status": "scheduled",
-   "time": null,
+   "status": "live",
+   "time": "31'",
    "home": {
     "code": "BRA",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "away": {
     "code": "NOR",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "phA": "W76",
@@ -3737,17 +3737,6 @@
      },
      "typeName": {
       "en": "Referee"
-     }
-    },
-    {
-     "id": "400191",
-     "country": "HON",
-     "role": "fourth official",
-     "name": {
-      "en": "Said MARTINEZ"
-     },
-     "typeName": {
-      "en": "Fourth official"
      }
     }
    ]
