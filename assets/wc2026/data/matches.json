@@ -3807,16 +3807,16 @@
    "group": null,
    "date": "2026-07-06T19:00:00Z",
    "venueId": "400257526",
-   "status": "scheduled",
-   "time": null,
+   "status": "live",
+   "time": "6'",
    "home": {
     "code": "POR",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "away": {
     "code": "ESP",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "phA": "W83",
@@ -3833,17 +3833,6 @@
      },
      "typeName": {
       "en": "Referee"
-     }
-    },
-    {
-     "id": "348147",
-     "country": "GER",
-     "role": "fourth official",
-     "name": {
-      "en": "Felix ZWAYER"
-     },
-     "typeName": {
-      "en": "Fourth official"
      }
     }
    ]
