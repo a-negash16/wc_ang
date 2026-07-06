@@ -3746,24 +3746,24 @@
    "n": 92,
    "stage": "r16",
    "group": null,
-   "date": "2026-07-06T00:00:00Z",
+   "date": "2026-07-06T01:00:00Z",
    "venueId": "400222084",
-   "status": "scheduled",
-   "time": "0'",
+   "status": "finished",
+   "time": "103'",
    "home": {
     "code": "MEX",
-    "score": null,
+    "score": 2,
     "pen": null
    },
    "away": {
     "code": "ENG",
-    "score": null,
+    "score": 3,
     "pen": null
    },
    "phA": "W79",
    "phB": "W80",
-   "winner": null,
-   "attendance": null,
+   "winner": "ENG",
+   "attendance": "80824",
    "officials": [
     {
      "id": "283448",
@@ -3989,7 +3989,7 @@
     "pen": null
    },
    "away": {
-    "code": null,
+    "code": "ENG",
     "score": null,
     "pen": null
    },
