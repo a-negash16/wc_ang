@@ -3738,6 +3738,17 @@
      "typeName": {
       "en": "Referee"
      }
+    },
+    {
+     "id": "400191",
+     "country": "HON",
+     "role": "fourth official",
+     "name": {
+      "en": "Said MARTINEZ"
+     },
+     "typeName": {
+      "en": "Fourth official"
+     }
     }
    ]
   },
@@ -3774,6 +3785,17 @@
      },
      "typeName": {
       "en": "Referee"
+     }
+    },
+    {
+     "id": "416524",
+     "country": "MAR",
+     "role": "fourth official",
+     "name": {
+      "en": "Jalal JAYED"
+     },
+     "typeName": {
+      "en": "Fourth official"
      }
     }
    ]
@@ -3897,7 +3919,30 @@
    "phB": "W88",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "399029",
+     "country": "FRA",
+     "role": "referee",
+     "name": {
+      "en": "Francois LETEXIER"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    },
+    {
+     "id": "400227",
+     "country": "NOR",
+     "role": "fourth official",
+     "name": {
+      "en": "Espen ESKAS"
+     },
+     "typeName": {
+      "en": "Fourth official"
+     }
+    }
+   ]
   },
   {
    "id": "400021535",
@@ -3922,7 +3967,30 @@
    "phB": "W87",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "408378",
+     "country": "SLV",
+     "role": "referee",
+     "name": {
+      "en": "Ivan BARTON"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    },
+    {
+     "id": "416317",
+     "country": "MEX",
+     "role": "fourth official",
+     "name": {
+      "en": "Katia GARCIA"
+     },
+     "typeName": {
+      "en": "Fourth official"
+     }
+    }
+   ]
   },
   {
    "id": "400021536",
