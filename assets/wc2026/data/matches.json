@@ -3807,8 +3807,8 @@
    "group": null,
    "date": "2026-07-06T19:00:00Z",
    "venueId": "400257526",
-   "status": "live",
-   "time": "6'",
+   "status": "finished",
+   "time": "99'",
    "home": {
     "code": "POR",
     "score": 0,
@@ -3816,13 +3816,13 @@
    },
    "away": {
     "code": "ESP",
-    "score": 0,
+    "score": 1,
     "pen": null
    },
    "phA": "W83",
    "phB": "W84",
-   "winner": null,
-   "attendance": null,
+   "winner": "ESP",
+   "attendance": "70649",
    "officials": [
     {
      "id": "360460",
