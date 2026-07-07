@@ -3940,16 +3940,16 @@
    "group": null,
    "date": "2026-07-07T20:00:00Z",
    "venueId": "400248370",
-   "status": "scheduled",
+   "status": "live",
    "time": null,
    "home": {
     "code": "SUI",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "away": {
     "code": "COL",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "phA": "W85",
@@ -3966,17 +3966,6 @@
      },
      "typeName": {
       "en": "Referee"
-     }
-    },
-    {
-     "id": "416317",
-     "country": "MEX",
-     "role": "fourth official",
-     "name": {
-      "en": "Katia GARCIA"
-     },
-     "typeName": {
-      "en": "Fourth official"
      }
     }
    ]
