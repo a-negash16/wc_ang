@@ -3903,22 +3903,22 @@
    "group": null,
    "date": "2026-07-07T16:00:00Z",
    "venueId": "400098290",
-   "status": "scheduled",
-   "time": "0'",
+   "status": "finished",
+   "time": "102'",
    "home": {
     "code": "ARG",
-    "score": null,
+    "score": 3,
     "pen": null
    },
    "away": {
     "code": "EGY",
-    "score": null,
+    "score": 2,
     "pen": null
    },
    "phA": "W86",
    "phB": "W88",
-   "winner": null,
-   "attendance": null,
+   "winner": "ARG",
+   "attendance": "68239",
    "officials": [
     {
      "id": "399029",
@@ -4066,7 +4066,7 @@
    "status": "scheduled",
    "time": null,
    "home": {
-    "code": null,
+    "code": "ARG",
     "score": null,
     "pen": null
    },
