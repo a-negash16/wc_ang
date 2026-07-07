@@ -3904,7 +3904,7 @@
    "date": "2026-07-07T16:00:00Z",
    "venueId": "400098290",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "ARG",
     "score": null,
@@ -3929,17 +3929,6 @@
      },
      "typeName": {
       "en": "Referee"
-     }
-    },
-    {
-     "id": "400227",
-     "country": "NOR",
-     "role": "fourth official",
-     "name": {
-      "en": "Espen ESKAS"
-     },
-     "typeName": {
-      "en": "Fourth official"
      }
     }
    ]
