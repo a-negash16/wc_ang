@@ -3844,8 +3844,8 @@
    "group": null,
    "date": "2026-07-07T00:00:00Z",
    "venueId": "400216606",
-   "status": "live",
-   "time": null,
+   "status": "finished",
+   "time": "95'",
    "home": {
     "code": "USA",
     "score": 1,
@@ -3853,13 +3853,13 @@
    },
    "away": {
     "code": "BEL",
-    "score": 2,
+    "score": 4,
     "pen": null
    },
    "phA": "W81",
    "phB": "W82",
-   "winner": null,
-   "attendance": null,
+   "winner": "BEL",
+   "attendance": "66925",
    "officials": [
     {
      "id": "361034",
@@ -4010,7 +4010,7 @@
     "pen": null
    },
    "away": {
-    "code": null,
+    "code": "BEL",
     "score": null,
     "pen": null
    },
