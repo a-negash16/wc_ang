@@ -4000,10 +4000,10 @@
    "date": "2026-07-09T20:00:00Z",
    "venueId": "400248623",
    "status": "live",
-   "time": "5'",
+   "time": "82'",
    "home": {
     "code": "FRA",
-    "score": 0,
+    "score": 2,
     "pen": null
    },
    "away": {
@@ -4014,7 +4014,7 @@
    "phA": "W89",
    "phB": "W90",
    "winner": null,
-   "attendance": null,
+   "attendance": "63811",
    "officials": [
     {
      "id": "416165",
