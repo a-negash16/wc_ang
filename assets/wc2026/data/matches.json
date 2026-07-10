@@ -4047,22 +4047,22 @@
    "group": null,
    "date": "2026-07-10T19:00:00Z",
    "venueId": "400017978",
-   "status": "scheduled",
-   "time": "0'",
+   "status": "live",
+   "time": "82'",
    "home": {
     "code": "ESP",
-    "score": null,
+    "score": 1,
     "pen": null
    },
    "away": {
     "code": "BEL",
-    "score": null,
+    "score": 1,
     "pen": null
    },
    "phA": "W93",
    "phB": "W94",
    "winner": null,
-   "attendance": null,
+   "attendance": "70492",
    "officials": [
     {
      "id": "347710",
