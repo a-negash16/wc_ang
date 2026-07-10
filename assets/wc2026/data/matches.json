@@ -4026,6 +4026,17 @@
      "typeName": {
       "en": "Referee"
      }
+    },
+    {
+     "id": "383174",
+     "country": "ARG",
+     "role": "fourth official",
+     "name": {
+      "en": "Dario HERRERA"
+     },
+     "typeName": {
+      "en": "Fourth official"
+     }
     }
    ]
   },
@@ -4100,7 +4111,30 @@
    "phB": "W92",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "314589",
+     "country": "FRA",
+     "role": "referee",
+     "name": {
+      "en": "Clement TURPIN"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    },
+    {
+     "id": "373845",
+     "country": "ESP",
+     "role": "fourth official",
+     "name": {
+      "en": "Alejandro HERNANDEZ"
+     },
+     "typeName": {
+      "en": "Fourth official"
+     }
+    }
+   ]
   },
   {
    "id": "400021537",
@@ -4125,7 +4159,30 @@
    "phB": "W96",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "392268",
+     "country": "POR",
+     "role": "referee",
+     "name": {
+      "en": "Joao PINHEIRO"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    },
+    {
+     "id": "372930",
+     "country": "CAN",
+     "role": "fourth official",
+     "name": {
+      "en": "Drew FISCHER"
+     },
+     "typeName": {
+      "en": "Fourth official"
+     }
+    }
+   ]
   },
   {
    "id": "400021541",
