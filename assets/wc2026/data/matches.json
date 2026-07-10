@@ -4048,7 +4048,7 @@
    "date": "2026-07-10T19:00:00Z",
    "venueId": "400017978",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "ESP",
     "score": null,
@@ -4073,17 +4073,6 @@
      },
      "typeName": {
       "en": "Referee"
-     }
-    },
-    {
-     "id": "446932",
-     "country": "BRA",
-     "role": "fourth official",
-     "name": {
-      "en": "Ramon ABATTI"
-     },
-     "typeName": {
-      "en": "Fourth official"
      }
     }
    ]
