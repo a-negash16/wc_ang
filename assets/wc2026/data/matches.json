@@ -4096,15 +4096,15 @@
    "date": "2026-07-11T21:00:00Z",
    "venueId": "400257525",
    "status": "live",
-   "time": "6'",
+   "time": "46'",
    "home": {
     "code": "NOR",
-    "score": 0,
+    "score": 1,
     "pen": null
    },
    "away": {
     "code": "ENG",
-    "score": 0,
+    "score": 1,
     "pen": null
    },
    "phA": "W91",
