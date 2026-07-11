@@ -4096,7 +4096,7 @@
    "date": "2026-07-11T21:00:00Z",
    "venueId": "400257525",
    "status": "scheduled",
-   "time": "0'",
+   "time": null,
    "home": {
     "code": "NOR",
     "score": null,
@@ -4144,7 +4144,7 @@
    "date": "2026-07-12T01:00:00Z",
    "venueId": "400254717",
    "status": "scheduled",
-   "time": "0'",
+   "time": null,
    "home": {
     "code": "ARG",
     "score": null,
@@ -4192,7 +4192,7 @@
    "date": "2026-07-14T19:00:00Z",
    "venueId": "400257526",
    "status": "scheduled",
-   "time": "0'",
+   "time": null,
    "home": {
     "code": "FRA",
     "score": null,
