@@ -4095,8 +4095,8 @@
    "group": null,
    "date": "2026-07-11T21:00:00Z",
    "venueId": "400257525",
-   "status": "live",
-   "time": "93'",
+   "status": "finished",
+   "time": "123'",
    "home": {
     "code": "NOR",
     "score": 1,
@@ -4109,7 +4109,7 @@
    },
    "phA": "W91",
    "phB": "W92",
-   "winner": null,
+   "winner": "ENG",
    "attendance": "64478",
    "officials": [
     {
@@ -4133,7 +4133,7 @@
    "date": "2026-07-12T01:00:00Z",
    "venueId": "400254717",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "ARG",
     "score": null,
@@ -4158,17 +4158,6 @@
      },
      "typeName": {
       "en": "Referee"
-     }
-    },
-    {
-     "id": "372930",
-     "country": "CAN",
-     "role": "fourth official",
-     "name": {
-      "en": "Drew FISCHER"
-     },
-     "typeName": {
-      "en": "Fourth official"
      }
     }
    ]
@@ -4208,7 +4197,7 @@
    "status": "scheduled",
    "time": null,
    "home": {
-    "code": null,
+    "code": "ENG",
     "score": null,
     "pen": null
    },
