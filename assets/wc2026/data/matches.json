@@ -4192,7 +4192,7 @@
    "date": "2026-07-14T19:00:00Z",
    "venueId": "400257526",
    "status": "scheduled",
-   "time": "0'",
+   "time": null,
    "home": {
     "code": "FRA",
     "score": null,
@@ -4217,7 +4217,7 @@
    "date": "2026-07-15T19:00:00Z",
    "venueId": "400098290",
    "status": "scheduled",
-   "time": "0'",
+   "time": null,
    "home": {
     "code": "ENG",
     "score": null,
