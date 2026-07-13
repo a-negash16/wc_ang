@@ -4192,7 +4192,7 @@
    "date": "2026-07-14T19:00:00Z",
    "venueId": "400257526",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "FRA",
     "score": null,
@@ -4207,7 +4207,30 @@
    "phB": "W98",
    "winner": null,
    "attendance": null,
-   "officials": []
+   "officials": [
+    {
+     "id": "408378",
+     "country": "SLV",
+     "role": "referee",
+     "name": {
+      "en": "Ivan BARTON"
+     },
+     "typeName": {
+      "en": "Referee"
+     }
+    },
+    {
+     "id": "392336",
+     "country": "SWE",
+     "role": "fourth official",
+     "name": {
+      "en": "Glenn NYBERG"
+     },
+     "typeName": {
+      "en": "Fourth official"
+     }
+    }
+   ]
   },
   {
    "id": "400021540",
@@ -4217,7 +4240,7 @@
    "date": "2026-07-15T19:00:00Z",
    "venueId": "400098290",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "ENG",
     "score": null,
