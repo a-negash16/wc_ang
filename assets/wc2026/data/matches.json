@@ -4191,16 +4191,16 @@
    "group": null,
    "date": "2026-07-14T19:00:00Z",
    "venueId": "400257526",
-   "status": "scheduled",
-   "time": null,
+   "status": "live",
+   "time": "44'",
    "home": {
     "code": "FRA",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "away": {
     "code": "ESP",
-    "score": null,
+    "score": 1,
     "pen": null
    },
    "phA": "W97",
@@ -4217,17 +4217,6 @@
      },
      "typeName": {
       "en": "Referee"
-     }
-    },
-    {
-     "id": "392336",
-     "country": "SWE",
-     "role": "fourth official",
-     "name": {
-      "en": "Glenn NYBERG"
-     },
-     "typeName": {
-      "en": "Fourth official"
      }
     }
    ]
@@ -4283,7 +4272,7 @@
   {
    "id": "400021542",
    "n": 103,
-   "stage": "third",
+   "stage": "final",
    "group": null,
    "date": "2026-07-18T21:00:00Z",
    "venueId": "400257525",
