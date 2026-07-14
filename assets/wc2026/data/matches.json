@@ -4191,8 +4191,8 @@
    "group": null,
    "date": "2026-07-14T19:00:00Z",
    "venueId": "400257526",
-   "status": "live",
-   "time": "44'",
+   "status": "finished",
+   "time": "98'",
    "home": {
     "code": "FRA",
     "score": 0,
@@ -4200,13 +4200,13 @@
    },
    "away": {
     "code": "ESP",
-    "score": 1,
+    "score": 2,
     "pen": null
    },
    "phA": "W97",
    "phB": "W98",
-   "winner": null,
-   "attendance": null,
+   "winner": "ESP",
+   "attendance": "70176",
    "officials": [
     {
      "id": "408378",
@@ -4279,7 +4279,7 @@
    "status": "scheduled",
    "time": null,
    "home": {
-    "code": null,
+    "code": "FRA",
     "score": null,
     "pen": null
    },
@@ -4304,7 +4304,7 @@
    "status": "scheduled",
    "time": null,
    "home": {
-    "code": null,
+    "code": "ESP",
     "score": null,
     "pen": null
    },
