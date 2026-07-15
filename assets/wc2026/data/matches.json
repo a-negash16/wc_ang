@@ -4218,6 +4218,17 @@
      "typeName": {
       "en": "Referee"
      }
+    },
+    {
+     "id": "392336",
+     "country": "SWE",
+     "role": "fourth official",
+     "name": {
+      "en": "Glenn NYBERG"
+     },
+     "typeName": {
+      "en": "Fourth official"
+     }
     }
    ]
   },
@@ -4229,7 +4240,7 @@
    "date": "2026-07-15T19:00:00Z",
    "venueId": "400098290",
    "status": "scheduled",
-   "time": null,
+   "time": "0'",
    "home": {
     "code": "ENG",
     "score": null,
