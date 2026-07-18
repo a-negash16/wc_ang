@@ -4287,22 +4287,22 @@
    "group": null,
    "date": "2026-07-18T21:00:00Z",
    "venueId": "400257525",
-   "status": "live",
-   "time": null,
+   "status": "finished",
+   "time": "99'",
    "home": {
     "code": "FRA",
-    "score": 0,
+    "score": 4,
     "pen": null
    },
    "away": {
     "code": "ENG",
-    "score": 4,
+    "score": 6,
     "pen": null
    },
    "phA": "RU101",
    "phB": "RU102",
-   "winner": null,
-   "attendance": null,
+   "winner": "ENG",
+   "attendance": "64478",
    "officials": [
     {
      "id": "360305",
