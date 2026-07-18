@@ -4287,16 +4287,16 @@
    "group": null,
    "date": "2026-07-18T21:00:00Z",
    "venueId": "400257525",
-   "status": "scheduled",
-   "time": null,
+   "status": "live",
+   "time": "7'",
    "home": {
     "code": "FRA",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "away": {
     "code": "ENG",
-    "score": null,
+    "score": 1,
     "pen": null
    },
    "phA": "RU101",
@@ -4313,17 +4313,6 @@
      },
      "typeName": {
       "en": "Referee"
-     }
-    },
-    {
-     "id": "416524",
-     "country": "MAR",
-     "role": "fourth official",
-     "name": {
-      "en": "Jalal JAYED"
-     },
-     "typeName": {
-      "en": "Fourth official"
      }
     }
    ]
