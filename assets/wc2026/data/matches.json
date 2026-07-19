@@ -4335,16 +4335,16 @@
    "group": null,
    "date": "2026-07-19T19:00:00Z",
    "venueId": "400257536",
-   "status": "scheduled",
-   "time": null,
+   "status": "live",
+   "time": "27'",
    "home": {
     "code": "ESP",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "away": {
     "code": "ARG",
-    "score": null,
+    "score": 0,
     "pen": null
    },
    "phA": "W101",
@@ -4361,17 +4361,6 @@
      },
      "typeName": {
       "en": "Referee"
-     }
-    },
-    {
-     "id": "361034",
-     "country": "JOR",
-     "role": "fourth official",
-     "name": {
-      "en": "Adham MAKHADMEH"
-     },
-     "typeName": {
-      "en": "Fourth official"
      }
     }
    ]
