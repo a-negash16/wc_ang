@@ -4336,7 +4336,7 @@
    "date": "2026-07-19T19:00:00Z",
    "venueId": "400257536",
    "status": "scheduled",
-   "time": "0'",
+   "time": null,
    "home": {
     "code": "ESP",
     "score": null,
