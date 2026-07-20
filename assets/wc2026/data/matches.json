@@ -4254,7 +4254,7 @@
    "phA": "W99",
    "phB": "W100",
    "winner": "ARG",
-   "attendance": null,
+   "attendance": "68239",
    "officials": [
     {
      "id": "392406",
@@ -4361,6 +4361,17 @@
      },
      "typeName": {
       "en": "Referee"
+     }
+    },
+    {
+     "id": "361034",
+     "country": "JOR",
+     "role": "fourth official",
+     "name": {
+      "en": "Adham MAKHADMEH"
+     },
+     "typeName": {
+      "en": "Fourth official"
      }
     }
    ]
